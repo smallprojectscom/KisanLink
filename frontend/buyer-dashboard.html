@@ -1,0 +1,619 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>KisanLink - Buyer Dashboard</title>
+
+    <link rel="stylesheet"
+          href="css/dashboard.css?v=20260903">
+
+</head>
+
+<body>
+
+<!-- =====================================================
+     SIDEBAR
+     ===================================================== -->
+
+<aside class="sidebar">
+
+    <div class="sidebar-logo">
+
+        <div class="logo-mark">K</div>
+
+        <div class="sidebar-brand-text">
+
+            <strong>KisanLink</strong>
+
+            <small>Buyer Panel</small>
+
+        </div>
+
+    </div>
+
+
+    <nav class="sidebar-nav">
+
+        <a href="buyer-dashboard.html"
+           class="nav-item">
+            <span class="nav-icon">⌂</span>
+            <span>Dashboard</span>
+        </a>
+
+
+        <a href="market.html"
+           class="nav-item">
+            <span class="nav-icon">🛒</span>
+            <span>Buy / Market</span>
+        </a>
+
+
+        <a href="matching.html"
+           class="nav-item">
+            <span class="nav-icon">🎯</span>
+            <span>Smart Matching</span>
+        </a>
+
+
+        <a href="requests.html"
+           class="nav-item">
+            <span class="nav-icon">💬</span>
+            <span>Requests</span>
+        </a>
+
+
+        <a href="price-discovery.html"
+           class="nav-item">
+            <span class="nav-icon">₹</span>
+            <span>Market Prices</span>
+        </a>
+
+
+        <a href="history.html"
+           class="nav-item">
+            <span class="nav-icon">▣</span>
+            <span>History</span>
+        </a>
+
+
+        <a href="settings.html"
+           class="nav-item">
+            <span class="nav-icon">⚙</span>
+            <span>Settings</span>
+        </a>
+
+    </nav>
+
+
+    <a href="auth.html"
+       class="nav-item logout-item"
+       onclick="sessionStorage.clear();">
+
+        <span class="nav-icon">↪</span>
+
+        <span>Logout</span>
+
+    </a>
+
+</aside>
+
+
+<!-- =====================================================
+     MAIN
+     ===================================================== -->
+
+<main class="main-content">
+
+
+    <!-- TOP BAR -->
+
+    <header class="topbar">
+
+        <div>
+
+            <p class="welcome-small"
+               id="buyerGreeting">
+                Welcome
+            </p>
+
+            <h1 id="dashboardTitle">
+                Buyer Dashboard
+            </h1>
+
+        </div>
+
+
+        <div class="top-actions">
+
+            <button
+                class="icon-button"
+                title="Notifications"
+                onclick="showNotifications()">
+
+                🔔
+
+                <span class="notification-dot"></span>
+
+            </button>
+
+
+            <div class="profile-mini">
+
+                <div class="avatar"
+                     id="userAvatar">
+                    B
+                </div>
+
+                <div>
+
+                    <strong id="userName">
+                        Loading...
+                    </strong>
+
+                    <span id="userRole">
+                        Buyer
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =================================================
+         BUYER DASHBOARD
+         ================================================= -->
+
+    <section class="dashboard">
+
+
+        <!-- HERO -->
+
+        <div class="dashboard-hero">
+
+            <div class="hero-content">
+
+                <span class="hero-label">
+                    KISANLINK BUYER MARKET
+                </span>
+
+
+                <h2>
+                    Find the right crops.<br>
+                    Buy directly from farmers.
+                </h2>
+
+
+                <p>
+                    Discover fresh agricultural products,
+                    compare prices and connect directly
+                    with verified farmers.
+                </p>
+
+
+                <button
+                    class="primary-button"
+                    onclick="window.location.href='market.html'">
+
+                    🛒 Browse Market
+
+                </button>
+
+            </div>
+
+
+            <div class="hero-illustration">
+                🛒
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             BUYER STATS
+             ================================================= -->
+
+        <div class="stats-grid">
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon green">
+                    🌾
+                </div>
+
+                <div>
+
+                    <span>
+                        Available Listings
+                    </span>
+
+                    <h3 id="buyerAvailableListings">
+                        0
+                    </h3>
+
+                    <small id="buyerListingsInfo">
+                        Farmer products
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon yellow">
+                    📩
+                </div>
+
+                <div>
+
+                    <span>
+                        My Requests
+                    </span>
+
+                    <h3 id="buyerMyRequests">
+                        0
+                    </h3>
+
+                    <small>
+                        Total requests
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon blue">
+                    ⏳
+                </div>
+
+                <div>
+
+                    <span>
+                        Pending Requests
+                    </span>
+
+                    <h3 id="buyerPendingRequests">
+                        0
+                    </h3>
+
+                    <small id="buyerPendingInfo">
+                        Waiting for response
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="stat-card">
+
+                <div class="stat-icon orange">
+                    🤝
+                </div>
+
+                <div>
+
+                    <span>
+                        Purchases
+                    </span>
+
+                    <h3 id="buyerPurchases">
+                        0
+                    </h3>
+
+                    <small id="buyerPurchaseInfo">
+                        Completed purchases
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             PRODUCTS + REQUESTS
+             ================================================= -->
+
+        <div class="content-grid">
+
+
+            <!-- AVAILABLE PRODUCTS -->
+
+            <div class="panel">
+
+                <div class="panel-header">
+
+                    <div>
+
+                        <h3>
+                            Available Farmer Products
+                        </h3>
+
+                        <p>
+                            Latest products available to buy
+                        </p>
+
+                    </div>
+
+
+                    <a href="market.html">
+                        View market →
+                    </a>
+
+                </div>
+
+
+                <div class="crop-list"
+                     id="buyerProductList">
+
+                    <div style="
+                        padding:30px;
+                        text-align:center;
+                        color:#6d7d72;
+                    ">
+                        Loading products...
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- MY REQUESTS -->
+
+            <div class="panel">
+
+                <div class="panel-header">
+
+                    <div>
+
+                        <h3>
+                            My Requests
+                        </h3>
+
+                        <p>
+                            Your latest purchase requests
+                        </p>
+
+                    </div>
+
+
+                    <a href="requests.html">
+                        View requests →
+                    </a>
+
+                </div>
+
+
+                <div class="request-list"
+                     id="buyerRequestList">
+
+                    <div style="
+                        padding:30px;
+                        text-align:center;
+                        color:#6d7d72;
+                    ">
+                        Loading requests...
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- =================================================
+             PURCHASE SUMMARY + MARKET
+             ================================================= -->
+
+        <div class="content-grid">
+
+
+            <div class="panel">
+
+                <div class="panel-header">
+
+                    <div>
+
+                        <h3>
+                            Recent Purchases
+                        </h3>
+
+                        <p>
+                            Your completed transactions
+                        </p>
+
+                    </div>
+
+
+                    <a href="history.html">
+                        View history →
+                    </a>
+
+                </div>
+
+
+                <div id="buyerPurchaseList">
+
+                    <div style="
+                        padding:30px;
+                        text-align:center;
+                        color:#6d7d72;
+                    ">
+                        Loading transactions...
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="recommendation">
+
+                <span class="recommendation-label">
+                    BUYING OPPORTUNITY
+                </span>
+
+
+                <h3 id="buyerOpportunityTitle">
+                    Finding opportunities...
+                </h3>
+
+
+                <p id="buyerOpportunityText">
+                    Checking current farmer listings.
+                </p>
+
+
+                <button
+                    onclick="window.location.href='matching.html'">
+
+                    Smart Matching →
+
+                </button>
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+</main>
+
+
+<!-- =====================================================
+     SCRIPTS
+     ===================================================== -->
+
+<script>
+
+function showNotifications() {
+
+    alert("No new notifications.");
+
+}
+
+
+function setupBuyerDashboard() {
+
+    const role =
+        (sessionStorage.getItem("kisanlink_role") || "")
+        .toLowerCase();
+
+    const name =
+        sessionStorage.getItem("kisanlink_user_name");
+
+
+    if (role !== "buyer") {
+
+        window.location.href = "auth.html";
+
+        return;
+
+    }
+
+
+    const userName =
+        document.getElementById("userName");
+
+    const avatar =
+        document.getElementById("userAvatar");
+
+
+    if (name) {
+
+        userName.textContent = name;
+
+
+        const words =
+            name.trim().split(/\s+/);
+
+
+        let initials =
+            words[0].charAt(0).toUpperCase();
+
+
+        if (words.length > 1) {
+
+            initials +=
+                words[words.length - 1]
+                .charAt(0)
+                .toUpperCase();
+
+        }
+
+
+        avatar.textContent =
+            initials;
+
+    }
+
+
+    const hour =
+        new Date().getHours();
+
+
+    let greeting;
+
+
+    if (hour >= 5 && hour < 12) {
+
+        greeting = "Good Morning";
+
+    } else if (hour >= 12 && hour < 17) {
+
+        greeting = "Good Afternoon";
+
+    } else if (hour >= 17 && hour < 21) {
+
+        greeting = "Good Evening";
+
+    } else {
+
+        greeting = "Good Night";
+
+    }
+
+
+    document.getElementById(
+        "buyerGreeting"
+    ).textContent =
+        greeting +
+        (name ? ", " + name : "");
+
+}
+
+
+setupBuyerDashboard();
+
+</script>
+
+
+<script src="js/role-guard.js"></script>
+
+<script src="js/dashboard-data.js?v=20260903"></script>
+
+
+</body>
+
+</html>
+

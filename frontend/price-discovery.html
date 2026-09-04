@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KisanLink - Price Discovery</title>
+
+    <link rel="stylesheet" href="./css/price-discovery.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+    <div class="brand">
+        <div class="brand-icon">🌾</div>
+        <div>
+            <strong>KisanLink</strong>
+            <small>Price Discovery</small>
+        </div>
+    </div>
+
+    <a href="farmer-dashboard.html" class="back-btn">
+        ← Dashboard
+    </a>
+
+</header>
+
+
+<main class="container">
+
+    <section class="hero">
+
+        <div>
+            <span class="eyebrow">SMART MARKET INTELLIGENCE</span>
+
+            <h1>
+                Know Your Crop's
+                <span>Fair Price</span>
+            </h1>
+
+            <p>
+                Compare recent listed prices and discover a better
+                selling range before making a deal.
+            </p>
+        </div>
+
+        <div class="hero-icon">
+            📊
+        </div>
+
+    </section>
+
+
+    <section class="search-card">
+
+        <label for="cropSearch">
+            Select or search crop
+        </label>
+
+        <div class="search-row">
+
+            <input
+                id="cropSearch"
+                type="text"
+                placeholder="Example: Wheat, Rice, Potato..."
+            >
+
+            <button type="button" id="searchBtn">
+                🔍 Discover Price
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <section id="loading" class="message hidden">
+        Loading market information...
+    </section>
+
+
+    <section id="errorBox" class="message error hidden"></section>
+
+
+    <section id="emptyBox" class="message hidden">
+        No price information found for this crop.
+        Try another crop.
+    </section>
+
+
+    <section id="priceResult" class="hidden">
+
+        <div class="crop-heading">
+
+            <div>
+                <span>PRICE DISCOVERY FOR</span>
+                <h2 id="resultCrop">Wheat</h2>
+            </div>
+
+            <div id="trendBadge" class="trend-badge">
+                📈 Stable
+            </div>
+
+        </div>
+
+
+        <div class="price-grid">
+
+            <div class="price-card main-price">
+
+                <span>Average Listed Price</span>
+
+                <strong id="averagePrice">
+                    ₹0
+                </strong>
+
+                <small>
+                    per unit
+                </small>
+
+            </div>
+
+
+            <div class="price-card">
+
+                <span>Lowest Price</span>
+
+                <strong id="minimumPrice">
+                    ₹0
+                </strong>
+
+                <small>
+                    recent listing
+                </small>
+
+            </div>
+
+
+            <div class="price-card">
+
+                <span>Highest Price</span>
+
+                <strong id="maximumPrice">
+                    ₹0
+                </strong>
+
+                <small>
+                    recent listing
+                </small>
+
+            </div>
+
+
+            <div class="price-card">
+
+                <span>Available Listings</span>
+
+                <strong id="listingCount">
+                    0
+                </strong>
+
+                <small>
+                    farmer listings
+                </small>
+
+            </div>
+
+        </div>
+
+
+        <div class="recommendation">
+
+            <div class="recommendation-icon">
+                💡
+            </div>
+
+            <div>
+
+                <span>SMART SELLING RECOMMENDATION</span>
+
+                <h3 id="suggestedPrice">
+                    ₹0
+                </h3>
+
+                <p id="recommendationText">
+                    Based on recent listed prices on KisanLink.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="range-card">
+
+            <div class="section-title">
+
+                <div>
+                    <h3>Price Range</h3>
+                    <p>Recent farmer listing distribution</p>
+                </div>
+
+            </div>
+
+            <div class="range-bar">
+
+                <div class="range-fill" id="rangeFill"></div>
+
+            </div>
+
+            <div class="range-labels">
+
+                <span id="rangeMin">₹0</span>
+
+                <span id="rangeAverage">Average ₹0</span>
+
+                <span id="rangeMax">₹0</span>
+
+            </div>
+
+        </div>
+
+
+        <div class="insight-grid">
+
+            <div class="insight-card">
+
+                <div class="insight-icon">📈</div>
+
+                <div>
+                    <span>Market Signal</span>
+                    <strong id="marketSignal">
+                        Stable
+                    </strong>
+                </div>
+
+            </div>
+
+
+            <div class="insight-card">
+
+                <div class="insight-icon">🧑‍🌾</div>
+
+                <div>
+                    <span>Farmer Listings</span>
+                    <strong id="farmerListings">
+                        0
+                    </strong>
+                </div>
+
+            </div>
+
+
+            <div class="insight-card">
+
+                <div class="insight-icon">💰</div>
+
+                <div>
+                    <span>Suggested Range</span>
+                    <strong id="suggestedRange">
+                        ₹0 - ₹0
+                    </strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="info-card">
+
+        <h3>How KisanLink Price Discovery Works</h3>
+
+        <div class="steps">
+
+            <div>
+                <b>01</b>
+                <span>Farmer listings</span>
+                <p>We collect prices from crop listings.</p>
+            </div>
+
+            <div>
+                <b>02</b>
+                <span>Price analysis</span>
+                <p>Minimum, maximum and average prices are calculated.</p>
+            </div>
+
+            <div>
+                <b>03</b>
+                <span>Fair-price suggestion</span>
+                <p>KisanLink suggests a practical selling range.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="./js/price-discovery.js?v=2"></script>
+
+</body>
+</html>
+
+
+

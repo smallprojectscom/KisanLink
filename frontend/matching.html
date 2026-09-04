@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>KisanLink - Smart Matching</title>
+<link rel="stylesheet" href="./css/matching.css">
+</head>
+<body>
+
+<div class="match-page">
+    <a href="buyer-dashboard.html" class="back">← Dashboard</a>
+
+    <div class="hero">
+        <h1>🎯 Smart Buyer Matching</h1>
+        <p>Enter your requirement and KisanLink will find the best farmer matches.</p>
+    </div>
+
+    <div class="requirement-box">
+        <h2>Buyer Requirement</h2>
+
+        <div class="grid">
+            <input id="crop" placeholder="Crop e.g. Wheat">
+            <input id="quantity" type="number" placeholder="Quantity (Quintal)">
+            <input id="location" placeholder="Location / District">
+            <input id="price" type="number" placeholder="Maximum Price ₹/Quintal">
+        </div>
+
+        <button onclick="findMatches()">🔍 Find Best Matches</button>
+    </div>
+
+    <div id="results" class="results hidden">
+        <h2>🏆 KisanLink Matching Results</h2>
+        <p id="summary"></p>
+        <div id="matchList"></div>
+    </div>
+</div>
+
+<script src="./js/matching.js?v=3"></script>
+</body>
+</html>
+

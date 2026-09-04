@@ -1,0 +1,4631 @@
+{
+  "source": "farmer.in",
+  "attribution": "Data sourced from Agmarknet / Government of India via farmer.in",
+  "website": "https://farmer.in",
+  "license": "Open Government Data (OGD) Platform India",
+  "updated": "2026-09-02",
+  "commodities": [
+    {
+      "id": "wheat",
+      "name": "Wheat",
+      "hindi": "गेहूँ",
+      "icon": "🌾",
+      "category": "Cereals",
+      "price": 2600,
+      "min": 2430,
+      "max": 2753,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Uttar Pradesh",
+        "Punjab",
+        "Haryana",
+        "Madhya Pradesh",
+        "Rajasthan"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Mar-Apr)",
+      "msp": 2585,
+      "msp_season": "Rabi 2025-26",
+      "description": "Wheat is India's most important rabi food grain, covering over 30 million hectares and contributing 35% of national food grain output. Punjab and Haryana alone supply over 70% of wheat procured by FCI at MSP, making government procurement the dominant route for farmers in these states.",
+      "varieties": [
+        "HD-2967 (most widely grown nationally)",
+        "PBW-621 (Punjab high-yielder)",
+        "GW-496 (Gujarat)",
+        "K-307 (UP & Bihar)",
+        "HI-8498 (durum/pasta wheat)"
+      ],
+      "uses": [
+        "Chakki atta for chapati & roti (primary use)",
+        "Semolina (sooji/rava) for sweets & upma",
+        "Maida for bread, biscuit & noodle factories",
+        "Wheat bran for cattle & poultry feed",
+        "Industrial starch and glucose syrup"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "rice",
+      "name": "Rice (Paddy)",
+      "hindi": "धान / चावल",
+      "icon": "🍚",
+      "category": "Cereals",
+      "price": 3700,
+      "min": 2497,
+      "max": 6296,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "West Bengal",
+        "Uttar Pradesh",
+        "Punjab",
+        "Andhra Pradesh",
+        "Odisha"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Oct-Nov)",
+      "msp": 2441,
+      "msp_season": "Kharif 2026-27",
+      "description": "Rice is the staple food for over 65% of India's population and the country's largest food grain crop by acreage. India is the world's largest rice exporter - Basmati from Punjab/Haryana and non-Basmati from West Bengal and AP earn over ₹40,000 crore in annual export revenue.",
+      "varieties": [
+        "Swarna/MTU-7029 (most popular kharif)",
+        "Pusa Basmati-1121 (top export grade)",
+        "Samba Masuri/BPT-5204 (South India)",
+        "PR-126 (Punjab - early maturing)",
+        "MTU-1010 (Telangana/AP)"
+      ],
+      "uses": [
+        "Cooked rice - primary staple food",
+        "Poha (flattened rice) and chiwda snacks",
+        "Idli, dosa, appam batter (broken/parboiled)",
+        "Rice bran oil extraction",
+        "Straw for cattle feed and thatch roofing"
+      ],
+      "mkts": 122,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "maize",
+      "name": "Maize (Corn)",
+      "hindi": "मक्का",
+      "icon": "🌽",
+      "category": "Cereals",
+      "price": 2300,
+      "min": 1916,
+      "max": 2616,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Karnataka",
+        "Andhra Pradesh",
+        "Telangana",
+        "Madhya Pradesh",
+        "Bihar"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Sep-Oct)",
+      "msp": 2410,
+      "msp_season": "Kharif 2026-27",
+      "description": "Maize is India's third-largest cereal and the fastest-growing staple, driven by surging demand from poultry feed (60% of domestic use), starch, ethanol and corn oil industries. Karnataka, Andhra Pradesh and Telangana are the leading producing states, with double-cropping increasingly common.",
+      "varieties": [
+        "HQPM-1 (high-quality protein maize)",
+        "DK-9141 (popular hybrid)",
+        "PEHM-2 (Rajasthan/Gujarat)",
+        "Shaktiman-5 (UP/Bihar)",
+        "Pro-368 (South India)"
+      ],
+      "uses": [
+        "Poultry and animal feed (60% of usage)",
+        "Starch, glucose and dextrose manufacturing",
+        "Corn oil production",
+        "Ethanol/biofuel blending",
+        "Makki ki roti and local food uses"
+      ],
+      "mkts": 211,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "jowar",
+      "name": "Jowar (Sorghum)",
+      "hindi": "ज्वार",
+      "icon": "🌾",
+      "category": "Cereals",
+      "price": 2900,
+      "min": 2251,
+      "max": 4800,
+      "unit": "quintal",
+      "change": -100,
+      "trend": "down",
+      "major_states": [
+        "Maharashtra",
+        "Karnataka",
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Andhra Pradesh"
+      ],
+      "season": "Kharif & Rabi",
+      "msp": 4023,
+      "msp_season": "Kharif 2025-26 Hybrid",
+      "description": "Jowar (sorghum) is India's fourth-largest cereal and one of the most drought-tolerant staple crops, requiring 70% less water than rice. Maharashtra grows over 50% of India's rabi jowar and the grain commands premium prices in organic and health food markets due to its gluten-free, high-fibre profile.",
+      "varieties": [
+        "Maldandi 35-1 (Rabi, Maharashtra)",
+        "CSH-16 (Kharif hybrid)",
+        "SPH-1634 (high stover yield)",
+        "Phule Vasudha (Maharashtra)",
+        "ICSV-700 (improved variety)"
+      ],
+      "uses": [
+        "Jowar bhakri (roti) - staple in Maharashtra & Karnataka",
+        "Popped jowar snacks and health foods",
+        "Fodder and silage for cattle (high stover value)",
+        "Starch extraction for industrial use",
+        "Brewing and distillery industries"
+      ],
+      "mkts": 76,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "bajra",
+      "name": "Bajra (Pearl Millet)",
+      "hindi": "बाजरा",
+      "icon": "🌾",
+      "category": "Cereals",
+      "price": 2430,
+      "min": 2070,
+      "max": 3514,
+      "unit": "quintal",
+      "change": 5,
+      "trend": "up",
+      "major_states": [
+        "Rajasthan",
+        "Uttar Pradesh",
+        "Haryana",
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Sep-Oct)",
+      "msp": 2900,
+      "msp_season": "Kharif 2026-27",
+      "description": "Bajra (pearl millet) is the most heat and drought-tolerant of India's major cereals, making it the crop of choice for Rajasthan's arid zones. India produces over 50% of global bajra and it is increasingly exported as a health grain to Europe and the USA, where it commands ₹40-60/kg in specialty stores.",
+      "varieties": [
+        "HHB-67 Improved (Haryana - most popular)",
+        "Pusa Composite 701",
+        "GHB-732 (Gujarat)",
+        "Rajasthan Composite-2",
+        "MPMH-17 (Madhya Pradesh)"
+      ],
+      "uses": [
+        "Bajra roti - staple winter food in Rajasthan/Haryana",
+        "Pearl millet flour for gluten-free health foods",
+        "Livestock and poultry feed",
+        "Fodder crop (bajra chara)",
+        "Export as health grain to Europe and North America"
+      ],
+      "mkts": 105,
+      "updated": "2026-09-01"
+    },
+    {
+      "id": "barley",
+      "name": "Barley",
+      "hindi": "जौ",
+      "icon": "🌾",
+      "category": "Cereals",
+      "price": 2540,
+      "min": 2215,
+      "max": 2760,
+      "unit": "quintal",
+      "change": 40,
+      "trend": "up",
+      "major_states": [
+        "Rajasthan",
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Punjab",
+        "Haryana"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Mar-Apr)",
+      "msp": 2150,
+      "msp_season": "Rabi 2025-26",
+      "description": "Barley is India's oldest cultivated cereal and the primary raw material for malt, beer and whisky manufacturing in India's ₹3 lakh crore alcobev industry. Rajasthan produces over 40% of India's barley, with malting-grade barley fetching a 25-30% premium over feed grade.",
+      "varieties": [
+        "RD-2552 (Rajasthan malt grade)",
+        "BH-902 (Haryana feed grade)",
+        "K-572 (UP)",
+        "Jyoti (two-row malt barley)",
+        "DWRB-91 (winter hardiness)"
+      ],
+      "uses": [
+        "Malting for beer and whisky (biggest industrial use)",
+        "Sattu (roasted flour) in Bihar/Rajasthan",
+        "Livestock and poultry feed",
+        "Jau ki roti and porridge",
+        "Pharmaceutical (beta-glucan health supplements)"
+      ],
+      "mkts": 16,
+      "updated": "2026-09-01"
+    },
+    {
+      "id": "onion",
+      "name": "Onion",
+      "hindi": "प्याज",
+      "icon": "🧅",
+      "category": "Vegetables",
+      "price": 4300,
+      "min": 2400,
+      "max": 5800,
+      "unit": "quintal",
+      "change": -200,
+      "trend": "down",
+      "major_states": [
+        "Maharashtra",
+        "Madhya Pradesh",
+        "Karnataka",
+        "Gujarat",
+        "Rajasthan"
+      ],
+      "season": "Kharif (Jun-Jul sow) & Rabi (Oct-Nov sow)",
+      "description": "Onion is India's most politically sensitive vegetable - price spikes above ₹80/kg have toppled state governments and triggered export bans. India is the world's second-largest onion producer and primary exporter to Southeast Asia, Bangladesh and Sri Lanka, earning ₹4,000-6,000 crore in export revenue in good years.",
+      "varieties": [
+        "Nasik Red (Maharashtra - most exported)",
+        "Bhima Raj (NHRDF hybrid)",
+        "Agrifound Rose (for storage)",
+        "Pusa Red (north India rabi)",
+        "Pune Fursungi (late kharif)"
+      ],
+      "uses": [
+        "Fresh onion - universal cooking ingredient",
+        "Dehydrated onion flakes and powder export (USA, Europe)",
+        "Onion pickle and chutneys",
+        "Export to Bangladesh, Sri Lanka, Malaysia",
+        "Onion seed production (high-value - ₹30,000-70,000/quintal)"
+      ],
+      "mkts": 400,
+      "updated": "2026-08-31"
+    },
+    {
+      "id": "potato",
+      "name": "Potato",
+      "hindi": "आलू",
+      "icon": "🥔",
+      "category": "Vegetables",
+      "price": 1300,
+      "min": 600,
+      "max": 4000,
+      "unit": "quintal",
+      "change": 100,
+      "trend": "up",
+      "major_states": [
+        "Uttar Pradesh",
+        "West Bengal",
+        "Bihar",
+        "Gujarat",
+        "Madhya Pradesh"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Jan-Mar)",
+      "description": "Potato is India's most produced vegetable by tonnage with over 53 million tonnes annually, making India the world's second-largest producer. Agra and Kannauj in UP and Hooghly in West Bengal are the dominant trading hubs, and the chip-grade processing industry (PepsiCo, McCain, ITC) purchases 15-20% of potato production at contracted prices.",
+      "varieties": [
+        "Kufri Jyoti (most widely grown)",
+        "Kufri Pukhraj (UP - early crop)",
+        "Kufri Chandramukhi (processing grade)",
+        "Kufri Bahar (Bihar/WB)",
+        "Kufri Sindhuri (red skin, long shelf life)"
+      ],
+      "uses": [
+        "Fresh table potato (dominant use)",
+        "Potato chips and French fries processing",
+        "Potato starch for textile, paper and food industry",
+        "Potato flour for health food products",
+        "Vodka and ethanol production (experimental)"
+      ],
+      "mkts": 400,
+      "updated": "2026-08-31"
+    },
+    {
+      "id": "tomato",
+      "name": "Tomato",
+      "hindi": "टमाटर",
+      "icon": "🍅",
+      "category": "Vegetables",
+      "price": 2250,
+      "min": 1200,
+      "max": 3250,
+      "unit": "quintal",
+      "change": 250,
+      "trend": "up",
+      "major_states": [
+        "Andhra Pradesh",
+        "Karnataka",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Tamil Nadu"
+      ],
+      "season": "Year-round with peaks Jun-Aug",
+      "description": "Tomato is India's highest-value vegetable crop in total market value and infamous for extreme price volatility - the same field can fetch ₹500/quintal in a glut and ₹8,000/quintal in a shortage within the same year. Andhra Pradesh and Karnataka together contribute 20% of national output; Kolar (Karnataka) and Madanapalle (AP) are India's primary tomato trading hubs.",
+      "varieties": [
+        "Arka Rakshak (IIHR hybrid - blight resistant)",
+        "NS-3478 (popular commercial hybrid)",
+        "CO-3 (Tamil Nadu open-pollinated)",
+        "Pusa Rohini (north India rabi)",
+        "US-440 (processing tomato, Maharashtra)"
+      ],
+      "uses": [
+        "Fresh consumption and cooking (primary)",
+        "Tomato puree, paste and ketchup manufacturing",
+        "Dehydrated tomato flakes and powder export",
+        "Lycopene extraction (nutraceutical)",
+        "Canned whole tomatoes for export"
+      ],
+      "mkts": 400,
+      "updated": "2026-08-31"
+    },
+    {
+      "id": "garlic",
+      "name": "Garlic",
+      "hindi": "लहसुन",
+      "icon": "🧄",
+      "category": "Vegetables",
+      "price": 15000,
+      "min": 6600,
+      "max": 24000,
+      "unit": "quintal",
+      "change": -4000,
+      "trend": "down",
+      "major_states": [
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Gujarat",
+        "Uttar Pradesh",
+        "Maharashtra"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Feb-Apr)",
+      "description": "India is the world's second-largest garlic producer (after China) and Madhya Pradesh's Mandsaur district is the garlic capital of India where the entire regional economy revolves around this single crop. Indian garlic commands strong export prices in Malaysia, Sri Lanka and the UK due to its pungent flavour profile from high allicin content.",
+      "varieties": [
+        "Yamuna Safed-3 (UP, MP popular)",
+        "G-1 (Gujarat bold)",
+        "Agrifound White (North India)",
+        "Bhima Purple (Maharashtra)",
+        "Phule Baswant (Maharashtra high-yield)"
+      ],
+      "uses": [
+        "Fresh garlic for household cooking",
+        "Garlic paste and dehydrated garlic powder export",
+        "Garlic pickle (lahsun ka achar)",
+        "Pharmaceutical - allicin supplements for cardiovascular health",
+        "Pest repellent spray for organic farming"
+      ],
+      "mkts": 203,
+      "updated": "2026-08-31"
+    },
+    {
+      "id": "ginger",
+      "name": "Ginger",
+      "hindi": "अदरक",
+      "icon": "🫚",
+      "category": "Vegetables",
+      "price": 9000,
+      "min": 3000,
+      "max": 18000,
+      "unit": "quintal",
+      "change": 1500,
+      "trend": "up",
+      "major_states": [
+        "Kerala",
+        "Meghalaya",
+        "Arunachal Pradesh",
+        "Sikkim",
+        "Himachal Pradesh"
+      ],
+      "season": "Plant: Mar-May, Harvest: Dec-Feb",
+      "description": "India is the world's largest producer and consumer of ginger, and Meghalaya's Tura ginger has a GI tag for its high gingerol content. The North-East (Meghalaya, Arunachal Pradesh, Sikkim) produces the finest quality dry ginger fetching premium prices from spice exporters in Kochi and Mumbai.",
+      "varieties": [
+        "Nadia (West Bengal high-yield)",
+        "Maran (Kerala)",
+        "Himachal (HP mild flavour)",
+        "Suprabha (Kerala export grade)",
+        "Tura ginger (Meghalaya GI variety)"
+      ],
+      "uses": [
+        "Fresh ginger for household cooking and chai",
+        "Dry ginger (sonth) powder for spice blends",
+        "Ginger oil and oleoresin for flavour industry",
+        "Ginger extract for Ayurvedic medicines",
+        "Export of dry ginger to Japan, USA and Middle East"
+      ],
+      "mkts": 400,
+      "updated": "2026-08-31"
+    },
+    {
+      "id": "chili",
+      "name": "Chili (Mirch)",
+      "hindi": "मिर्च",
+      "icon": "🌶️",
+      "category": "Vegetables",
+      "price": 20000,
+      "min": 7500,
+      "max": 31500,
+      "unit": "quintal",
+      "change": 12800,
+      "trend": "up",
+      "major_states": [
+        "Andhra Pradesh",
+        "Telangana",
+        "Karnataka",
+        "Maharashtra",
+        "Rajasthan"
+      ],
+      "season": "Kharif & Rabi (dry chili: Harvest Nov-Feb)",
+      "description": "India is the world's largest producer, consumer and exporter of chillies (dry and fresh), with Andhra Pradesh's Guntur district the global hub - over 30% of world chilli trade passes through Guntur. Indian chillies command premium prices for their capsaicin content, natural colour and pungency, with exports to the USA, UK and Middle East exceeding ₹4,500 crore annually.",
+      "varieties": [
+        "Guntur Sannam (Andhra - top export grade)",
+        "Byadgi (Karnataka - colour prized)",
+        "Wrinkled/Kashmiri (mild, for red colour)",
+        "Teja S-17 (high pungency export)",
+        "LCA-306 (Andhra - high-yield)"
+      ],
+      "uses": [
+        "Dry red chilli for spice blends (garam masala, curry powder)",
+        "Chilli powder and chilli flakes export",
+        "Capsaicin extraction for pharmaceuticals",
+        "Red food colouring (paprika oleoresin)",
+        "Pickles and sauces (hot sauce manufacture)"
+      ],
+      "mkts": 44,
+      "updated": "2026-08-31"
+    },
+    {
+      "id": "cotton",
+      "name": "Cotton",
+      "hindi": "कपास",
+      "icon": "🪴",
+      "category": "Cash Crops",
+      "price": 8950,
+      "min": 8000,
+      "max": 9400,
+      "unit": "quintal",
+      "change": 650,
+      "trend": "up",
+      "major_states": [
+        "Gujarat",
+        "Maharashtra",
+        "Telangana",
+        "Andhra Pradesh",
+        "Punjab"
+      ],
+      "season": "Kharif (Sow: Apr-Jun, Pick: Oct-Jan)",
+      "msp": 8267,
+      "msp_season": "Kharif 2026-27 Medium Staple",
+      "description": "India is the world's largest cotton producer and the second-largest exporter, with the cotton textile and apparel industry directly employing 45 million people. Bt cotton (Bollgard II) covers 95% of India's cotton area, but the pest resistance battle with pink bollworm is an ongoing challenge that can affect yields and quality sharply.",
+      "varieties": [
+        "Bollgard II hybrids (most of India - 95% area)",
+        "MCU-12 (Tamil Nadu long staple)",
+        "Suraj (Gujarat extra-long staple)",
+        "RCH-2 (Telangana popular)",
+        "LRA-5166 (non-Bt for organic)"
+      ],
+      "uses": [
+        "Cotton lint for textile spinning mills",
+        "Cotton seed oil - major industrial and edible oil",
+        "Cottonseed cake for dairy cattle feed",
+        "Cotton linters for paper and currency notes",
+        "Medical cotton (surgical cotton)"
+      ],
+      "mkts": 13,
+      "updated": "2026-08-26"
+    },
+    {
+      "id": "sugarcane",
+      "name": "Sugarcane",
+      "hindi": "गन्ना",
+      "icon": "🎋",
+      "category": "Cash Crops",
+      "price": 350,
+      "min": 350,
+      "max": 350,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Karnataka",
+        "Tamil Nadu",
+        "Bihar"
+      ],
+      "season": "Plant: Feb-Mar (spring) or Oct-Nov (autumn), Harvest: 10-12 months",
+      "msp": 355,
+      "msp_season": "FRP 2025-26",
+      "description": "Sugarcane is India's second-most important commercial crop and the raw material for India's 700+ sugar mills plus 350+ distilleries producing ethanol for fuel blending. Uttar Pradesh alone accounts for over 40% of national sugarcane area; the FRP (Fair and Remunerative Price) set by the government guarantees a floor price for all cane sold to mills.",
+      "varieties": [
+        "Co-0238 (UP - most widely planted nationally)",
+        "CoJ-64 (Punjab and Haryana)",
+        "Co-86032 (Maharashtra high sucrose)",
+        "CoM-0265 (Madhya Pradesh)",
+        "Co-2001 (Tamil Nadu)"
+      ],
+      "uses": [
+        "Raw and refined sugar production",
+        "Ethanol for fuel blending (20% blending target)",
+        "Jaggery (gur) and khandsari sugar",
+        "Bagasse for power generation (co-generation)",
+        "Molasses for distilleries and cattle feed"
+      ],
+      "mkts": 1,
+      "updated": "2026-06-12"
+    },
+    {
+      "id": "jute",
+      "name": "Jute",
+      "hindi": "जूट",
+      "icon": "🌿",
+      "category": "Cash Crops",
+      "price": 13300,
+      "min": 11300,
+      "max": 13300,
+      "unit": "quintal",
+      "change": 800,
+      "trend": "up",
+      "major_states": [
+        "West Bengal",
+        "Bihar",
+        "Assam",
+        "Odisha",
+        "Meghalaya"
+      ],
+      "season": "Kharif (Sow: Mar-Apr, Harvest: Jul-Sep)",
+      "msp": 5335,
+      "msp_season": "Kharif 2025-26",
+      "description": "Jute is India's premier natural fibre crop and India is the world's largest jute producer (over 60% of global output). West Bengal contributes 80% of India's jute, and with rising global demand for biodegradable packaging as a substitute for plastic, jute prices have strengthened significantly after years of decline.",
+      "varieties": [
+        "JRO-204 (Olitorius tossa jute)",
+        "JRC-321 (Capsularis white jute)",
+        "JRO-524 (high-yield tossa)",
+        "JRO-8432 (drought tolerant)",
+        "Sudan Green (early variety)"
+      ],
+      "uses": [
+        "Jute sacking and hessian bags for grain storage (government mandated)",
+        "Jute textiles and rugs for export",
+        "Biodegradable packaging replacing plastic",
+        "Jute geotextiles for soil erosion control",
+        "Paper and pulp from jute sticks"
+      ],
+      "mkts": 8,
+      "updated": "2026-08-25"
+    },
+    {
+      "id": "soybean",
+      "name": "Soybean",
+      "hindi": "सोयाबीन",
+      "icon": "🫘",
+      "category": "Oilseeds",
+      "price": 5670,
+      "min": 4215,
+      "max": 10500,
+      "unit": "quintal",
+      "change": -230,
+      "trend": "down",
+      "major_states": [
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Rajasthan",
+        "Telangana",
+        "Karnataka"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Sep-Nov)",
+      "msp": 5708,
+      "msp_season": "Kharif 2026-27",
+      "description": "Soybean is India's most important oilseed by value and the primary raw material for the ₹1 lakh crore edible oil and soy meal industry. Madhya Pradesh produces 50% of India's soybean and the crop directly feeds the poultry industry through soy meal, India's most-used poultry protein ingredient.",
+      "varieties": [
+        "JS-335 (Madhya Pradesh - most grown)",
+        "MAUS-61 (Maharashtra)",
+        "NRC-37 (early duration)",
+        "DSb-21 (Rajasthan)",
+        "MAUS-158 (Marathwada wilt resistant)"
+      ],
+      "uses": [
+        "Soy oil extraction (40% of Indian edible oil supply)",
+        "Soy meal/cake for poultry and fish feed",
+        "Soy flour and soy milk",
+        "Soy protein isolate for food manufacturing",
+        "Tofu, tempeh and soy-based health products"
+      ],
+      "mkts": 23,
+      "updated": "2026-08-26"
+    },
+    {
+      "id": "mustard",
+      "name": "Mustard (Rapeseed)",
+      "hindi": "सरसों / राई",
+      "icon": "🌿",
+      "category": "Oilseeds",
+      "price": 7500,
+      "min": 6925,
+      "max": 8100,
+      "unit": "quintal",
+      "change": 69,
+      "trend": "up",
+      "major_states": [
+        "Rajasthan",
+        "Haryana",
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "West Bengal"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Feb-Mar)",
+      "msp": 6200,
+      "msp_season": "Rabi 2025-26",
+      "description": "Mustard is India's second-largest oilseed crop and the primary cooking oil in North and East India, with Rajasthan producing nearly 50% of national output. Indian mustard oil has zero trans-fat and high omega-3 content, driving export demand to the UK, US and Europe's Indian diaspora communities.",
+      "varieties": [
+        "RH-749 (Rajasthan - most popular)",
+        "Pusa Bold (national variety)",
+        "NPJ-121 (early duration)",
+        "DRMR-150-35 (Rajasthan)",
+        "GSC-6 (Gujarat)"
+      ],
+      "uses": [
+        "Sarson tel (mustard oil) - primary cooking oil in North India",
+        "Mustard seeds for tempering (tadka)",
+        "Mustard paste (kasundi) and pickles",
+        "Mustard bran/deoiled cake for cattle feed",
+        "Lubricant and bio-diesel feedstock"
+      ],
+      "mkts": 24,
+      "updated": "2026-08-26"
+    },
+    {
+      "id": "groundnut",
+      "name": "Groundnut",
+      "hindi": "मूँगफली",
+      "icon": "🥜",
+      "category": "Oilseeds",
+      "price": 7000,
+      "min": 5750,
+      "max": 8000,
+      "unit": "quintal",
+      "change": -50,
+      "trend": "down",
+      "major_states": [
+        "Gujarat",
+        "Rajasthan",
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Karnataka"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Oct-Nov)",
+      "msp": 7517,
+      "msp_season": "Kharif 2026-27",
+      "description": "Groundnut is India's largest oilseed by area and Gujarat produces the world-famous 'Saurashtra Bold' groundnut, which commands premium prices in the export confectionery market. India exports 5-7 lakh tonnes annually, primarily to Indonesia, Vietnam and Malaysia, earning over ₹8,000 crore in foreign exchange.",
+      "varieties": [
+        "GG-20 (Gujarat Bold - export grade)",
+        "TAG-24 (Andhra Pradesh)",
+        "TG-37A (ICRISAT improved)",
+        "JL-24 (Maharashtra)",
+        "VRI-8 (Tamil Nadu)"
+      ],
+      "uses": [
+        "Groundnut oil - major cooking oil in Gujarat and South India",
+        "Roasted groundnuts - domestic snack market",
+        "Groundnut butter (peanut butter) export",
+        "Groundnut cake for cattle and poultry feed",
+        "Confectionery ingredient (sweets, chikki)"
+      ],
+      "mkts": 66,
+      "updated": "2026-08-26"
+    },
+    {
+      "id": "sunflower",
+      "name": "Sunflower",
+      "hindi": "सूरजमुखी",
+      "icon": "🌻",
+      "category": "Oilseeds",
+      "price": 9000,
+      "min": 6300,
+      "max": 18650,
+      "unit": "quintal",
+      "change": 988,
+      "trend": "up",
+      "major_states": [
+        "Karnataka",
+        "Andhra Pradesh",
+        "Telangana",
+        "Maharashtra",
+        "Odisha"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Oct-Nov)",
+      "msp": 8343,
+      "msp_season": "Kharif 2026-27",
+      "description": "Sunflower oil is India's second-most imported edible oil after palm oil, meaning domestic production consistently gets strong prices near MSP. Karnataka and Andhra Pradesh are the leading producers, and the crop's short 90-100 day duration makes it a profitable option in irrigated double-cropping systems.",
+      "varieties": [
+        "KBSH-44 (Karnataka hybrid)",
+        "MSFH-17 (Maharashtra)",
+        "PSH-996 (Andhra Pradesh)",
+        "CO-4 (Tamil Nadu)",
+        "Morden (open-pollinated)"
+      ],
+      "uses": [
+        "Sunflower oil - light cooking oil and salad oil",
+        "Sunflower seeds - health snack and birdseed",
+        "Sunflower cake for cattle and poultry feed",
+        "Sunflower heads for decorative floriculture",
+        "Bio-diesel feedstock (experimental in India)"
+      ],
+      "mkts": 73,
+      "updated": "2026-08-26"
+    },
+    {
+      "id": "sesame",
+      "name": "Sesame (Til)",
+      "hindi": "तिल",
+      "icon": "⚪",
+      "category": "Oilseeds",
+      "price": 10850,
+      "min": 9725,
+      "max": 15115,
+      "unit": "quintal",
+      "change": -150,
+      "trend": "down",
+      "major_states": [
+        "West Bengal",
+        "Uttar Pradesh",
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Gujarat"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Sep-Oct)",
+      "msp": 10346,
+      "msp_season": "Kharif 2026-27",
+      "description": "Sesame (til) is one of the world's oldest oilseed crops and India is the largest exporter, shipping to China, Japan, South Korea and the USA. Indian sesame - especially white sesame from Gujarat and West Bengal - commands ₹12,000-20,000/quintal in export markets, making it one of the highest-value oilseed crops per hectare.",
+      "varieties": [
+        "GT-10 (Gujarat white - top export grade)",
+        "RT-351 (Rajasthan)",
+        "TS-3 (West Bengal)",
+        "Krishna (Andhra Pradesh)",
+        "NIC-8313 (Karnataka)"
+      ],
+      "uses": [
+        "Til oil - traditional cooking and ayurvedic massage oil",
+        "Sesame seeds for tahini, hummus, bread topping",
+        "Tilgul (sesame-jaggery sweet) for festivals",
+        "Export to Japan (sushi topping) and Middle East",
+        "Sesame cake for cattle feed"
+      ],
+      "mkts": 17,
+      "updated": "2026-08-26"
+    },
+    {
+      "id": "chana",
+      "name": "Gram (Chana)",
+      "hindi": "चना / छोला",
+      "icon": "🫘",
+      "category": "Pulses",
+      "price": 7200,
+      "min": 5627,
+      "max": 10000,
+      "unit": "quintal",
+      "change": 1100,
+      "trend": "up",
+      "major_states": [
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Maharashtra",
+        "Uttar Pradesh",
+        "Andhra Pradesh"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Feb-Mar)",
+      "msp": 5875,
+      "msp_season": "Rabi 2025-26",
+      "description": "Gram (chana) is India's largest pulse crop by area and production, accounting for nearly 50% of total pulse output. Madhya Pradesh and Rajasthan are the dominant producers, and India's ₹15,000+ crore besan (gram flour) processing industry drives significant additional demand beyond the food grain market.",
+      "varieties": [
+        "JG-11 (Madhya Pradesh - most popular)",
+        "Pusa-1053 (wilt resistant)",
+        "RSG-963 (Rajasthan)",
+        "GNG-1958 (Rajasthan)",
+        "Vijay (desi chana, Maharashtra)"
+      ],
+      "uses": [
+        "Besan (chickpea flour) for pakoras, sweets, bread",
+        "Dalia and whole chana for curries",
+        "Chanajor garam and roasted chana snacks",
+        "Dal (split gram) for dals and soups",
+        "Animal feed from chana straw (bhoosa)"
+      ],
+      "mkts": 98,
+      "updated": "2026-08-26"
+    },
+    {
+      "id": "arhar",
+      "name": "Arhar (Tur/Pigeon Pea)",
+      "hindi": "अरहर / तुअर",
+      "icon": "🫘",
+      "category": "Pulses",
+      "price": 7400,
+      "min": 5641,
+      "max": 11800,
+      "unit": "quintal",
+      "change": 1299,
+      "trend": "up",
+      "major_states": [
+        "Maharashtra",
+        "Karnataka",
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Telangana"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Dec-Feb)",
+      "msp": 8450,
+      "msp_season": "Kharif 2026-27",
+      "description": "Arhar (tur dal) is India's most consumed pulse and an essential protein source for 1.4 billion people. India imports 3-5 lakh tonnes annually from Myanmar, Australia and Canada to meet demand, making domestic production highly sensitive to import policy - import duty changes can swing mandi prices by ₹500-1000/quintal within days.",
+      "varieties": [
+        "BSMR-736 (wilt resistant, Maharashtra)",
+        "Pusa-992 (early duration)",
+        "UPAS-120 (early, UP)",
+        "NDA-1 (Varanasi)",
+        "GT-100 (Gujarat wilt resistant)"
+      ],
+      "uses": [
+        "Tur dal - India's most popular split pulse",
+        "Sambar base in South India",
+        "Papad and besan blending",
+        "Green pods as vegetable (sabji)",
+        "Crop residue for fuel and cattle feed"
+      ],
+      "mkts": 102,
+      "updated": "2026-08-26"
+    },
+    {
+      "id": "moong",
+      "name": "Moong (Green Gram)",
+      "hindi": "मूंग",
+      "icon": "🫘",
+      "category": "Pulses",
+      "price": 6000,
+      "min": 2750,
+      "max": 15500,
+      "unit": "quintal",
+      "change": -126,
+      "trend": "down",
+      "major_states": [
+        "Rajasthan",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Madhya Pradesh"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Sep-Oct)",
+      "msp": 8780,
+      "msp_season": "Kharif 2026-27",
+      "description": "Moong (green gram) is the fastest-maturing major pulse with a 60-75 day crop cycle, making it popular as a summer/zaid short-duration crop between two main kharif/rabi crops. Its high protein content (24%) and easy digestibility make it one of the fastest-growing health food ingredients in urban markets.",
+      "varieties": [
+        "Pusa Vishal (popular north India)",
+        "MH-421 (Haryana)",
+        "IPM-02-03 (wilt resistant)",
+        "K-851 (UP)",
+        "Meha (Maharashtra high-yield)"
+      ],
+      "uses": [
+        "Moong dal (split) for dals and soups",
+        "Sprouts (ankurit moong) - health food",
+        "Moong flour for chillas and papad",
+        "Green pods sold as a vegetable",
+        "Moong dal halwa and traditional sweets"
+      ],
+      "mkts": 400,
+      "updated": "2026-08-26"
+    },
+    {
+      "id": "urad",
+      "name": "Urad (Black Gram)",
+      "hindi": "उड़द",
+      "icon": "🫘",
+      "category": "Pulses",
+      "price": 5942,
+      "min": 3350,
+      "max": 8255,
+      "unit": "quintal",
+      "change": 142,
+      "trend": "up",
+      "major_states": [
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Rajasthan"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Sep-Oct)",
+      "msp": 8200,
+      "msp_season": "Kharif 2026-27",
+      "description": "Urad (black gram) is the primary pulse for South Indian cuisine - every idli and dosa batter requires urad dal - making it one of the most price-sensitive pulses in Tamil Nadu, Karnataka and Andhra Pradesh. India is both the world's largest producer and importer of urad, with Myanmar supplying 8-12 lakh tonnes annually.",
+      "varieties": [
+        "LBG-752 (Andhra Pradesh - most popular)",
+        "Pant U-31 (Uttarakhand)",
+        "IPU-94-1 (early duration)",
+        "TU-94-2 (Tamil Nadu)",
+        "Mash-338 (Punjab)"
+      ],
+      "uses": [
+        "Urad dal (split) for dal tadka and soups",
+        "Idli and dosa batter - essential ingredient",
+        "Papad (urad papad) - large commercial use",
+        "Dal makhani (whole black urad)",
+        "Ayurvedic preparations for joint health"
+      ],
+      "mkts": 101,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "masur",
+      "name": "Masur (Lentil)",
+      "hindi": "मसूर",
+      "icon": "🫘",
+      "category": "Pulses",
+      "price": 6002,
+      "min": 5500,
+      "max": 8500,
+      "unit": "quintal",
+      "change": 2,
+      "trend": "up",
+      "major_states": [
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Bihar",
+        "West Bengal",
+        "Rajasthan"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Feb-Apr)",
+      "msp": 7000,
+      "msp_season": "Rabi 2025-26",
+      "description": "Masur (red lentil) is the most consumed pulse in eastern India and Bangladesh and India's cheapest source of dietary protein at ₹60-80/kg retail. Uttar Pradesh and Madhya Pradesh produce 80% of India's masur, and Canada/Australia compete directly in the Indian market, keeping domestic prices suppressed near MSP.",
+      "varieties": [
+        "HUL-57 (Uttar Pradesh)",
+        "Pusa Vaibhav (early duration)",
+        "L-9-12 (Madhya Pradesh)",
+        "IPL-406 (disease resistant)",
+        "K-75 (Bundelkhand)"
+      ],
+      "uses": [
+        "Masur dal - everyday household dal",
+        "Split red lentil soup and stews",
+        "Masur dal flour for baby food",
+        "Papad blending ingredient",
+        "Imli masur (tamarind lentil) regional dishes"
+      ],
+      "mkts": 43,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "turmeric",
+      "name": "Turmeric",
+      "hindi": "हल्दी",
+      "icon": "🟡",
+      "category": "Spices",
+      "price": 15500,
+      "min": 15500,
+      "max": 15500,
+      "unit": "quintal",
+      "change": 8750,
+      "trend": "up",
+      "major_states": [
+        "Telangana",
+        "Maharashtra",
+        "Odisha",
+        "Karnataka",
+        "Tamil Nadu"
+      ],
+      "season": "Plant: Jun-Jul, Harvest: Jan-Mar (9-10 months)",
+      "description": "India produces 80% of the world's turmeric and is the largest exporter, primarily from Telangana's Nizamabad and Erode in Tamil Nadu (world's largest turmeric market). The curcumin content of Indian turmeric drives a global health supplement market worth ₹8,000 crore annually, with curcumin extract selling at ₹3,000-8,000/kg in international markets.",
+      "varieties": [
+        "Rajendra Sonia (Telangana - high curcumin)",
+        "Salem Turmeric (Erode - export grade)",
+        "Suguna (IISR Karnataka)",
+        "CO-1 (Tamil Nadu high-yield)",
+        "Lakadong Turmeric (Meghalaya GI - 7-12% curcumin, vs 2-4% normal)"
+      ],
+      "uses": [
+        "Turmeric powder - universal spice (haldi)",
+        "Curcumin extract for health supplements (export)",
+        "Natural yellow food colouring (E100)",
+        "Ayurvedic medicines and haldi doodh (golden milk)",
+        "Turmeric oil for cosmetics and anti-inflammatory creams"
+      ],
+      "mkts": 1,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "coriander",
+      "name": "Coriander (Dhaniya)",
+      "hindi": "धनिया",
+      "icon": "🌿",
+      "category": "Spices",
+      "price": 4250,
+      "min": 2425,
+      "max": 8000,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Gujarat",
+        "Andhra Pradesh",
+        "Uttar Pradesh"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Feb-Mar)",
+      "description": "India is the world's largest producer and consumer of coriander (dhania) and Rajasthan's Kota region accounts for 60% of national production. Both the dried seed (as spice) and the fresh leaves (as herb) are separately traded, with dried coriander export to Bangladesh, Malaysia and the USA earning ₹1,200-1,500 crore annually.",
+      "varieties": [
+        "RCr-435 (Rajasthan - most cultivated)",
+        "CS-6 (Gujarat early variety)",
+        "Pant Haritima (leaves type, Uttarakhand)",
+        "CO-3 (Tamil Nadu double-use)",
+        "DH-5 (Kota type, MP)"
+      ],
+      "uses": [
+        "Coriander powder - essential spice blend ingredient",
+        "Fresh coriander leaves (dhania patta) - garnish",
+        "Coriander seed export (whole and split)",
+        "Coriander seed oil for perfumery and flavouring",
+        "Digestive tea and Ayurvedic formulations"
+      ],
+      "mkts": 37,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "cumin",
+      "name": "Cumin (Jeera)",
+      "hindi": "जीरा",
+      "icon": "🌿",
+      "category": "Spices",
+      "price": 7900,
+      "min": 5660,
+      "max": 14345,
+      "unit": "quintal",
+      "change": 550,
+      "trend": "up",
+      "major_states": [
+        "Gujarat",
+        "Rajasthan"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Feb-Mar)",
+      "description": "India produces and exports 70% of the world's cumin (jeera) and Gujarat's Mehsana and Rajasthan's Barmer-Jalore belt are the world's most important cumin-growing regions. Unjha mandi in Gujarat is the world's single largest cumin spot market - Unjha prices set the global benchmark. Cumin is India's second-most valuable spice export after chilli, earning ₹5,000-8,000 crore annually.",
+      "varieties": [
+        "RZ-19 (Rajasthan high-yield)",
+        "GC-2 (Gujarat Unjha type)",
+        "RZ-209 (wilt resistant, Rajasthan)",
+        "Rajendra Jeera-1 (Rajasthan)",
+        "MC-43 (Gujarat early variety)"
+      ],
+      "uses": [
+        "Jeera - universal tempering spice",
+        "Cumin powder for spice blends and masalas",
+        "Export to USA, Japan, Saudi Arabia",
+        "Cumin essential oil for perfumery and pharma",
+        "Digestive and flatulence medicine (Ayurveda)"
+      ],
+      "mkts": 14,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "banana",
+      "name": "Banana",
+      "hindi": "केला",
+      "icon": "🍌",
+      "category": "Fruits",
+      "price": 4000,
+      "min": 2250,
+      "max": 7500,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Maharashtra",
+        "Tamil Nadu",
+        "Gujarat",
+        "Andhra Pradesh",
+        "Karnataka"
+      ],
+      "season": "Year-round (12-15 months from planting)",
+      "description": "India is the world's largest banana producer with over 31 million tonnes annually, and Maharashtra and Tamil Nadu together account for 40% of production. The Grand Naine variety (Cavendish type) dominates the fresh export market to the Middle East, while Nendran from Kerala and Poovan from Tamil Nadu command significant premium prices for their unique flavour and are processed into banana chips - a ₹3,000+ crore snack industry.",
+      "varieties": [
+        "Grand Naine (Cavendish - export grade)",
+        "Nendran (Kerala - chips variety, high value)",
+        "Poovan (Tamil Nadu premium taste)",
+        "Robusta (Maharashtra commercial)",
+        "Red Banana (Lal Kela - premium niche)"
+      ],
+      "uses": [
+        "Fresh eating (world's most consumed fruit)",
+        "Banana chips and wafers (Kerala cottage industry to national brand)",
+        "Export of fresh bananas to UAE and UK",
+        "Raw banana sabji and kofta",
+        "Baby food and weaning puree (first baby food globally)"
+      ],
+      "mkts": 204,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "castor",
+      "name": "Castor",
+      "hindi": "अरंडी",
+      "icon": "🌿",
+      "category": "Oilseeds",
+      "price": 7900,
+      "min": 5660,
+      "max": 14345,
+      "unit": "quintal",
+      "change": 135,
+      "trend": "up",
+      "major_states": [
+        "Gujarat",
+        "Rajasthan",
+        "Andhra Pradesh"
+      ],
+      "season": "Kharif (Sow: Jul-Aug, Harvest: Jan-Feb)",
+      "msp": 6935,
+      "msp_season": "Kharif 2025-26",
+      "description": "Castor oil is a unique industrial oilseed with no edible substitute - its derivatives are used in over 700 industrial applications from aviation lubricants to biodegradable plastics. India controls 85-90% of global castor oil trade (₹6,000+ crore/year) and Gujarat's Saurashtra region is the undisputed global castor capital.",
+      "varieties": [
+        "GCH-7 (Gujarat hybrid - most grown)",
+        "DCH-177 (Andhra Pradesh)",
+        "SI-4 (Rajasthan)",
+        "TMV-6 (Tamil Nadu)",
+        "NPH-1 (national hybrid)"
+      ],
+      "uses": [
+        "Castor oil for lubricants and hydraulic fluids",
+        "Sebacic acid for nylon and plastics manufacturing",
+        "Cosmetics and pharmaceuticals (castor oil USP grade)",
+        "Biodiesel and bio-lubricants",
+        "Castor cake as fertiliser and fish pond conditioner"
+      ],
+      "mkts": 14,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "brinjal",
+      "name": "Brinjal",
+      "hindi": "बैंगन",
+      "icon": "🍆",
+      "category": "Vegetables",
+      "price": 3300,
+      "min": 1400,
+      "max": 5200,
+      "unit": "quintal",
+      "change": -300,
+      "trend": "down",
+      "major_states": [
+        "West Bengal",
+        "Odisha",
+        "Gujarat",
+        "Bihar",
+        "Maharashtra"
+      ],
+      "season": "Year-round (peak harvest: Oct-Feb)",
+      "description": "India is the world's second-largest brinjal producer with West Bengal, Odisha and Bihar growing the most - brinjal bharta and baingan masala are among India's most universally consumed vegetables. The crop grows year-round with multiple harvests and is one of the most reliable income sources for small vegetable farmers in eastern India.",
+      "varieties": [
+        "Pusa Purple Long (most popular)",
+        "BBM-6 (West Bengal)",
+        "Arka Keshav (Karnataka hybrid)",
+        "Swetha (white brinjal, South India)",
+        "BARI Begun-6 (disease resistant)"
+      ],
+      "uses": [
+        "Baingan bharta and curry (universal Indian dish)",
+        "Stuffed brinjal (bharwa baingan)",
+        "Dehydrated brinjal chips (emerging snack)",
+        "Baby food ingredient",
+        "Ayurvedic use for diabetes management"
+      ],
+      "mkts": 163,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "cauliflower",
+      "name": "Cauliflower",
+      "hindi": "फूलगोभी",
+      "icon": "🥬",
+      "category": "Vegetables",
+      "price": 3250,
+      "min": 1800,
+      "max": 5000,
+      "unit": "quintal",
+      "change": -250,
+      "trend": "down",
+      "major_states": [
+        "West Bengal",
+        "Madhya Pradesh",
+        "Bihar",
+        "Gujarat",
+        "Haryana"
+      ],
+      "season": "Rabi (Sow: Sep-Nov, Harvest: Dec-Mar)",
+      "description": "India is the world's second-largest cauliflower producer with West Bengal, Bihar and Madhya Pradesh dominating production. The crop is extremely price-sensitive to temperature - even a 2-3°C variation during curd development affects quality and can flood the market, causing prices to crash from ₹2,500 to ₹300/quintal within a week.",
+      "varieties": [
+        "Pusa Snowball K-1 (north India rabi)",
+        "Pusa Hybrid-2 (early crop)",
+        "Early Kunwari (Bihar autumn crop)",
+        "Nandan (West Bengal)",
+        "DC-56 (South India winter)"
+      ],
+      "uses": [
+        "Fresh vegetable for gobhi sabji and manchurian",
+        "Pickled cauliflower (gobi ka achar)",
+        "Frozen cauliflower export to Europe",
+        "Cauliflower rice (low-carb health substitute)",
+        "Dehydrated cauliflower for processed food"
+      ],
+      "mkts": 122,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "cabbage",
+      "name": "Cabbage",
+      "hindi": "पत्ता गोभी",
+      "icon": "🥬",
+      "category": "Vegetables",
+      "price": 2750,
+      "min": 1000,
+      "max": 3750,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "West Bengal",
+        "Odisha",
+        "Bihar",
+        "Gujarat",
+        "Maharashtra"
+      ],
+      "season": "Rabi (Sow: Sep-Nov, Harvest: Nov-Mar)",
+      "description": "India is the world's third-largest cabbage producer and Odisha and West Bengal supply most of eastern India's requirement year-round. Cabbage is a high-yield, fast-maturing crop (60-90 days) that many small farmers use as an intercrop with potato, making it an important income-stabiliser in the rabi season.",
+      "varieties": [
+        "Golden Acre (most popular nationwide)",
+        "Pusa Drumhead (heavy-head type)",
+        "Pride of India (autumn crop)",
+        "Heisei (South India F1 hybrid)",
+        "QG-6 (early variety)"
+      ],
+      "uses": [
+        "Fresh coleslaw and sabji (universal use)",
+        "Sauerkraut and kimchi fermentation",
+        "Cabbage soup and stew",
+        "Dehydrated cabbage for noodle seasoning",
+        "Juice for Ayurvedic ulcer treatment"
+      ],
+      "mkts": 132,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "peas",
+      "name": "Green Peas",
+      "hindi": "हरी मटर",
+      "icon": "🟢",
+      "category": "Vegetables",
+      "price": 5000,
+      "min": 2300,
+      "max": 15500,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Jharkhand",
+        "Punjab",
+        "Bihar"
+      ],
+      "season": "Rabi (Nov-Feb)",
+      "description": "Green peas are one of India's most widely cultivated winter vegetables and a versatile ingredient used in everything from matar paneer to samosa filling. Uttar Pradesh's Barabanki, Farrukhabad and Kannauj districts produce the best quality peas for fresh market, while Himachal Pradesh and Punjab supply the frozen pea processing industry.",
+      "varieties": [
+        "Arkel (most popular early variety)",
+        "Pusa Prabal (UP high-yield)",
+        "Bonneville (processing/frozen grade)",
+        "Matar Ageta-6 (early crop Bihar)",
+        "KPMR-400 (Himachal Pradesh)"
+      ],
+      "uses": [
+        "Fresh green peas for sabji and curries",
+        "Frozen peas processing (Bonduelle, Heritage)",
+        "Matar paneer and samosa filling",
+        "Matar pulao and biryani",
+        "Split pea dal and flour"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "okra",
+      "name": "Okra (Ladyfinger)",
+      "hindi": "भिंडी",
+      "icon": "🌿",
+      "category": "Vegetables",
+      "price": 2500,
+      "min": 1200,
+      "max": 4500,
+      "unit": "quintal",
+      "change": -22,
+      "trend": "down",
+      "major_states": [
+        "West Bengal",
+        "Gujarat",
+        "Bihar",
+        "Odisha",
+        "Andhra Pradesh"
+      ],
+      "season": "Kharif & Summer (Sow: Feb-Jun, Harvest: May-Nov)",
+      "description": "Okra (bhindi) is India's most widely grown vegetable crop with production spread across virtually every state. India is the world's second-largest producer and the crop is a key income earner for small farmers due to its high market frequency - it is picked every 2-3 days and sold fresh at local mandis, generating more transaction revenue per hectare than many other vegetables.",
+      "varieties": [
+        "Parbhani Kranti (most popular - disease resistant)",
+        "Arka Anamika (IIHR - prolific bearer)",
+        "Varsha Uphar (UP)",
+        "VRO-6 (Varanasi)",
+        "P-8 (Maharashtra F1 hybrid)"
+      ],
+      "uses": [
+        "Fresh bhindi sabji (most consumed green vegetable)",
+        "Stuffed bhindi (bharwa bhindi)",
+        "Okra soup (South India sambar)",
+        "Dehydrated okra flakes for export",
+        "Mucilage (okra slime) for paper and textile sizing"
+      ]
+    },
+    {
+      "id": "cucumber",
+      "name": "Cucumber",
+      "hindi": "खीरा",
+      "icon": "🥒",
+      "category": "Vegetables",
+      "price": 1500,
+      "min": 15,
+      "max": 1500,
+      "unit": "quintal",
+      "change": 200,
+      "trend": "up",
+      "major_states": [
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Haryana"
+      ],
+      "season": "Summer & Kharif",
+      "description": "Cucumber is among India's top 10 most traded vegetables and is consumed fresh as a salad vegetable across all regions. The crop has two main growing seasons - summer (with irrigation) and kharif - and yields very quickly (40-50 days), making it a short-term cash crop for vegetable farmers during lean months.",
+      "varieties": [
+        "Poinsett (most popular open-pollinated)",
+        "PCH-90 (hybrid, Karnataka)",
+        "Straight-8 (salad type)",
+        "Hira-272 (Bihar/UP)",
+        "Multistar (high-yield hybrid)"
+      ],
+      "uses": [
+        "Fresh salad and raita",
+        "Pickled cucumber (kheera ka achar)",
+        "Cucumber juice and skin care (cosmetic industry)",
+        "Dehydrated cucumber powder",
+        "Cooling beverage ingredient (jal jeera drinks)"
+      ],
+      "mkts": 3,
+      "updated": "2026-08-26"
+    },
+    {
+      "id": "carrot",
+      "name": "Carrot",
+      "hindi": "गाजर",
+      "icon": "🥕",
+      "category": "Vegetables",
+      "price": 5500,
+      "min": 2000,
+      "max": 7500,
+      "unit": "quintal",
+      "change": -400,
+      "trend": "down",
+      "major_states": [
+        "Haryana",
+        "Punjab",
+        "Uttar Pradesh",
+        "Karnataka",
+        "West Bengal"
+      ],
+      "season": "Rabi (Oct-Feb)",
+      "description": "India is the world's third-largest carrot producer and Haryana's Shahabad and Punjab's Hoshiarpur are the primary supply centres for North India's demand. The red Indian carrot (gajar) - deeper red and sweeter than European orange carrots - is used exclusively for the iconic gajar ka halwa winter dessert and commands a premium in the winter season.",
+      "varieties": [
+        "Pusa Kesar (red Indian type)",
+        "Nantes (orange European type)",
+        "Pusa Yamdagni (UP, Bihar)",
+        "Hisar Gairic (Haryana)",
+        "DAMC-35 (hybrid F1)"
+      ],
+      "uses": [
+        "Fresh eating and gajar ka halwa (winter dessert)",
+        "Carrot juice and health drinks",
+        "Baby carrot processing for export",
+        "Dehydrated carrot flakes for instant food",
+        "Carrot seed oil for cosmetics and pharmaceuticals"
+      ],
+      "mkts": 163,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "radish",
+      "name": "Radish",
+      "hindi": "मूली",
+      "icon": "🌿",
+      "category": "Vegetables",
+      "price": 1200,
+      "min": 500,
+      "max": 2200,
+      "unit": "quintal",
+      "change": -10,
+      "trend": "down",
+      "major_states": [
+        "West Bengal",
+        "Bihar",
+        "Haryana",
+        "Punjab",
+        "Uttar Pradesh"
+      ],
+      "season": "Rabi (Sow: Sep-Nov, Harvest: Nov-Feb)",
+      "description": "Radish is India's fastest-maturing vegetable (25-30 days from sowing) and a staple winter crop for small farmers who grow it as a quick cash crop between main vegetables. The mooli of Patiala (Punjab) and Nasik (Maharashtra) are particularly prized; India also grows Asian giant radishes (daikon type) for the Korean kimchi export market.",
+      "varieties": [
+        "Japanese White (most popular)",
+        "Pusa Desi (Indian red type)",
+        "Pusa Chetki (summer variety)",
+        "RRL White (Punjab)",
+        "Mino Early (Daikon/Asian type for export)"
+      ],
+      "uses": [
+        "Fresh mooli and radish salads",
+        "Mooli paratha (Punjab winter staple)",
+        "Pickle (mooli ka achar)",
+        "Radish leaves (mooli ka saag)",
+        "Daikon export to South Korea and Japan for kimchi"
+      ]
+    },
+    {
+      "id": "bottle-gourd",
+      "name": "Bottle Gourd",
+      "hindi": "लौकी",
+      "icon": "🥒",
+      "category": "Vegetables",
+      "price": 2350,
+      "min": 1000,
+      "max": 5600,
+      "unit": "quintal",
+      "change": 350,
+      "trend": "up",
+      "major_states": [
+        "Uttar Pradesh",
+        "Bihar",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Haryana"
+      ],
+      "season": "Summer & Kharif",
+      "description": "Bottle gourd (lauki/ghia/doodhi) is India's most widely cultivated summer gourd and one of the most affordable vegetables - its watery, easily digestible flesh makes it a year-round health food recommended for diabetics, weight management and post-illness recovery. UP and Bihar together account for nearly 50% of India's bottle gourd area.",
+      "varieties": [
+        "Pusa Naveen (hybrid, most popular)",
+        "Arka Bahar (IIHR)",
+        "Cal Long (cylindrical type, Gujarat)",
+        "BSS-131 (Bihar short season)",
+        "Pusa Santpuria (round type)"
+      ],
+      "uses": [
+        "Lauki sabji and kofta (daily vegetable)",
+        "Lauki halwa and kheer (sweet)",
+        "Fresh juice for diabetes management",
+        "Dried lauki for murukku and sun-dried snacks",
+        "Lauki seed oil (cosmetic use)"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "bitter-gourd",
+      "name": "Bitter Gourd",
+      "hindi": "करेला",
+      "icon": "🥒",
+      "category": "Vegetables",
+      "price": 4250,
+      "min": 1600,
+      "max": 6500,
+      "unit": "quintal",
+      "change": 50,
+      "trend": "up",
+      "major_states": [
+        "West Bengal",
+        "Uttar Pradesh",
+        "Karnataka",
+        "Kerala",
+        "Maharashtra"
+      ],
+      "season": "Summer & Kharif (Sow: Feb-Jun, Harvest: Apr-Oct)",
+      "description": "Bitter gourd (karela) is India's most medicinally important vegetable and commands a significant premium in the pharmaceutical and nutraceutical market - its bitter compounds (momordicin, charantin) are clinically studied for blood sugar management, driving exports to the UK, USA and Canada's South Asian diaspora at ₹150-300/kg retail.",
+      "varieties": [
+        "Pusa Hybrid-2 (most planted)",
+        "Priya (Kerala long type)",
+        "Arka Harit (IIHR)",
+        "VK-1 Priya (South India)",
+        "Parbhani Selection-1 (Maharashtra)"
+      ],
+      "uses": [
+        "Karela sabji - daily blood-sugar management vegetable",
+        "Karela juice (health tonic market - large urban demand)",
+        "Bitter gourd extract capsules (nutraceutical export)",
+        "Dried karela powder for Ayurvedic medicines",
+        "Karela pickle export to South Asian diaspora"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "pumpkin",
+      "name": "Pumpkin",
+      "hindi": "कद्दू",
+      "icon": "🎃",
+      "category": "Vegetables",
+      "price": 1800,
+      "min": 1000,
+      "max": 2750,
+      "unit": "quintal",
+      "change": -50,
+      "trend": "down",
+      "major_states": [
+        "Uttar Pradesh",
+        "Odisha",
+        "West Bengal",
+        "Bihar",
+        "Assam"
+      ],
+      "season": "Summer & Kharif (Sow: Feb-Jun, Harvest: Jun-Nov)",
+      "description": "Pumpkin is India's most productive cucurbit with yields of 20-30 tonnes/hectare and near-zero input requirements - it grows freely on any soil and waste water, making it an important food security crop in tribal and hill regions. The seed is a valuable byproduct with global export demand: pumpkin seeds sell at ₹150-250/kg in health food markets.",
+      "varieties": [
+        "Pusa Viswas (popular hybrid)",
+        "Arka Suryamukhi (IIHR)",
+        "Ambili (Kerala local)",
+        "CO-1 (Tamil Nadu)",
+        "Kashi Harit (Varanasi region)"
+      ],
+      "uses": [
+        "Petha sweet (Agra petha - famous confection from ash gourd/kaddu)",
+        "Kaddu ki sabji (daily vegetable)",
+        "Pumpkin seed export to Germany and USA (health food)",
+        "Pumpkin seed oil (nutraceutical)",
+        "Livestock fodder from pumpkin vines"
+      ],
+      "mkts": 363,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "spinach",
+      "name": "Spinach",
+      "hindi": "पालक",
+      "icon": "🥬",
+      "category": "Vegetables",
+      "price": 1860,
+      "min": 400,
+      "max": 3700,
+      "unit": "quintal",
+      "change": 260,
+      "trend": "up",
+      "major_states": [
+        "West Bengal",
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Punjab"
+      ],
+      "season": "Rabi & Year-round (main: Sep-Feb)",
+      "description": "Spinach is India's most nutritionally dense leafy vegetable and palak paneer is one of India's most ordered restaurant dishes, creating consistent demand throughout the winter season. India's baby spinach export to the UAE, UK and USA is growing at 15% annually, with Pune and Nasik supplying most of the export-grade produce.",
+      "varieties": [
+        "All-Green (most popular F1)",
+        "Pusa Jyoti (national variety)",
+        "Virginia Savoy (for export - crinkled leaf)",
+        "Punjab Green (Punjab rabi)",
+        "CO-1 (South India year-round)"
+      ],
+      "uses": [
+        "Palak paneer and palak dals (primary restaurant dish)",
+        "Fresh baby spinach salads and export",
+        "Palak paratha and smoothies",
+        "Spinach powder for food colouring (natural green)",
+        "Ayurvedic use for anaemia treatment (iron content)"
+      ],
+      "mkts": 59,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "capsicum",
+      "name": "Capsicum",
+      "hindi": "शिमला मिर्च",
+      "icon": "🫑",
+      "category": "Vegetables",
+      "price": 4600,
+      "min": 2000,
+      "max": 6750,
+      "unit": "quintal",
+      "change": -150,
+      "trend": "down",
+      "major_states": [
+        "Karnataka",
+        "Maharashtra",
+        "Himachal Pradesh",
+        "Haryana",
+        "West Bengal"
+      ],
+      "season": "Year-round; peak Kharif & Rabi",
+      "description": "Capsicum (shimla mirch) is India's highest-value open-field vegetable crop, with Karnataka's Hassan and Kolar districts and Maharashtra's Nasik commanding ₹4,000-8,000/quintal for premium coloured varieties exported to the UAE and UK. Polyhouse cultivation of red, yellow and orange capsicum in Himachal Pradesh and Rajasthan earns ₹5-10 lakh/acre/year for progressive farmers.",
+      "varieties": [
+        "California Wonder (green - most grown)",
+        "Yellow Wonder (export yellow type)",
+        "Red Knight (red bell, polyhouse)",
+        "Bharat (F1 hybrid, Maharashtra)",
+        "Hero (high-density polyhouse variety)"
+      ],
+      "uses": [
+        "Fresh cooking vegetable (shimla mirch sabji)",
+        "Export of coloured capsicum to UAE and Europe",
+        "Pizza and salad topping",
+        "Pickled capsicum and chilli sauce",
+        "Paprika and capsicum oleoresin for food colouring"
+      ],
+      "mkts": 198,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "green-chili",
+      "name": "Green Chilli",
+      "hindi": "हरी मिर्च",
+      "icon": "🌶️",
+      "category": "Vegetables",
+      "price": 4000,
+      "min": 2000,
+      "max": 6250,
+      "unit": "quintal",
+      "change": -250,
+      "trend": "down",
+      "major_states": [
+        "Andhra Pradesh",
+        "Telangana",
+        "Karnataka",
+        "West Bengal",
+        "Maharashtra"
+      ],
+      "season": "Year-round; peak harvest Jun-Aug & Dec-Feb",
+      "description": "Green chilli is the world's most consumed spice ingredient and India produces over 90% of its own requirement plus exports significant quantities to the South Asian diaspora globally. Andhra Pradesh's Warangal and Khammam districts are the primary green chilli trading hubs, with direct exports to the USA, UK and UAE.",
+      "varieties": [
+        "Pusa Jwala (most popular nationally)",
+        "NP-46A (Andhra Pradesh high pungency)",
+        "Pant C-1 (mild Shimla type)",
+        "Bhavnagri (Gujarat large mild type)",
+        "K-2 (Karnataka commercial)"
+      ],
+      "uses": [
+        "Fresh chilli for cooking across all Indian cuisines",
+        "Green chilli pickle (hari mirch ka achar)",
+        "Chilli sauce and sambal manufacturing",
+        "Export to South Asian diaspora markets",
+        "Capsaicin extraction for pain-relief creams"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "sweet-potato",
+      "name": "Sweet Potato",
+      "hindi": "शकरकंद",
+      "icon": "🍠",
+      "category": "Vegetables",
+      "price": 1750,
+      "min": 600,
+      "max": 4750,
+      "unit": "quintal",
+      "change": -50,
+      "trend": "down",
+      "major_states": [
+        "Odisha",
+        "Uttar Pradesh",
+        "West Bengal",
+        "Bihar",
+        "Jharkhand"
+      ],
+      "season": "Kharif (Sow: Jun-Aug, Harvest: Oct-Dec)",
+      "description": "Sweet potato is Odisha's most important secondary food crop and a critical food security vegetable for tribal communities in eastern India who consume it as a staple during lean months. India's sweet potato industry is growing rapidly with rising awareness of its prebiotic fibre, beta-carotene and anthocyanin content in urban health food markets.",
+      "varieties": [
+        "ST-14 (Odisha most grown)",
+        "Pusa Safed (white flesh, UP)",
+        "CTCRI-H-6 (Kerala orange flesh)",
+        "S-1 (Bihar dual purpose)",
+        "Bhu Sona (high beta-carotene, orange flesh)"
+      ],
+      "uses": [
+        "Boiled and roasted sweet potato (tribal staple)",
+        "Shakarkandi chaat (winter street food)",
+        "Sweet potato flour for chips and snacks",
+        "Baby food and weaning cereals (natural sweetness)",
+        "Beta-carotene and starch extraction for food industry"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "colocasia",
+      "name": "Colocasia (Arbi)",
+      "hindi": "अरबी",
+      "icon": "🌿",
+      "category": "Vegetables",
+      "price": 2200,
+      "min": 1200,
+      "max": 3800,
+      "unit": "quintal",
+      "change": 35,
+      "trend": "up",
+      "major_states": [
+        "Uttar Pradesh",
+        "Bihar",
+        "West Bengal",
+        "Kerala",
+        "Gujarat"
+      ],
+      "season": "Kharif (Sow: Apr-Jun, Harvest: Oct-Jan)",
+      "description": "Colocasia (arbi/taro) is one of India's oldest cultivated vegetables dating back 7,000 years and is a staple of coastal and tribal India. Kerala's chembu, UP's arbi and Maharashtra's alu are different regional variants with distinct taste profiles, and the corm, leaves and stem are all traded separately in local markets.",
+      "varieties": [
+        "Sree Kiran (Kerala - high yield)",
+        "NDC-1 (UP arbi)",
+        "Pankaj (North India)",
+        "C-9 (Odisha)",
+        "Sree Rashmi (South India dual-purpose)"
+      ],
+      "uses": [
+        "Arbi/taro curry and dry sabji",
+        "Colocasia chips and fryums (popular snack)",
+        "Colocasia leaves (patra - Gujarat Jain dish)",
+        "Taro flour for health food",
+        "Ayurvedic use as a tonic vegetable"
+      ]
+    },
+    {
+      "id": "drumstick",
+      "name": "Drumstick (Moringa)",
+      "hindi": "सहजन",
+      "icon": "🌿",
+      "category": "Vegetables",
+      "price": 3600,
+      "min": 2300,
+      "max": 5750,
+      "unit": "quintal",
+      "change": -150,
+      "trend": "down",
+      "major_states": [
+        "Andhra Pradesh",
+        "Karnataka",
+        "Tamil Nadu",
+        "Telangana",
+        "Maharashtra"
+      ],
+      "season": "Year-round (main harvest: Feb-Apr & Oct-Dec)",
+      "description": "Drumstick (moringa) is the most nutritionally rich food tree in the world - the leaves contain 7× more vitamin C than oranges and 4× more calcium than milk - and India is both the world's largest moringa producer and exporter. Tamil Nadu's Dharmapuri and Karnataka's Bellary supply 80% of India's drumstick output, and moringa leaf powder export (₹600-1,200/kg) to USA, Europe and Japan is one of India's fastest-growing agri-exports.",
+      "varieties": [
+        "PKM-1 (Tamil Nadu - most grown, high-yielding)",
+        "PKM-2 (perennial long pods)",
+        "Jaffna (Sri Lanka type - short season)",
+        "Bhagya (Karnataka)",
+        "ODC-3 (Odisha drought tolerant)"
+      ],
+      "uses": [
+        "Fresh pods for sambar, curry and stir-fry",
+        "Moringa leaves as nutritious vegetable (sajna patta)",
+        "Moringa leaf powder export (superfood supplement)",
+        "Moringa seed oil (ben oil) for cosmetics",
+        "Moringa tea and health beverages"
+      ],
+      "mkts": 218,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "beetroot",
+      "name": "Beetroot",
+      "hindi": "चुकंदर",
+      "icon": "🟣",
+      "category": "Vegetables",
+      "price": 4600,
+      "min": 2500,
+      "max": 6400,
+      "unit": "quintal",
+      "change": -150,
+      "trend": "down",
+      "major_states": [
+        "Maharashtra",
+        "Karnataka",
+        "West Bengal",
+        "Uttar Pradesh",
+        "Haryana"
+      ],
+      "season": "Rabi (Sow: Sep-Nov, Harvest: Dec-Mar)",
+      "description": "Beetroot is experiencing a surge in demand driven by urban health and fitness trends - beetroot shots, smoothies and nitrate supplements have made it a premium ingredient at ₹40-80/kg retail. Maharashtra and Karnataka produce most of India's beetroot, with the crop increasingly grown under protected cultivation for consistent supply to juice bars and health food companies.",
+      "varieties": [
+        "Detroit Dark Red (most popular)",
+        "Pusa Jamuni (IARI variety)",
+        "Crimson Globe (Maharashtra)",
+        "Ruby Queen (South India F1)",
+        "Crosby Egyptian (early maturity)"
+      ],
+      "uses": [
+        "Beetroot halwa and salads (traditional use)",
+        "Cold-pressed beetroot juice (health/fitness)",
+        "Beetroot powder for natural red food colouring",
+        "Pickle and chutney",
+        "Dietary nitrate supplement for sports nutrition"
+      ],
+      "mkts": 217,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "french-beans",
+      "name": "French Beans",
+      "hindi": "फ्रेंच बीन्स",
+      "icon": "🫛",
+      "category": "Vegetables",
+      "price": 4650,
+      "min": 2800,
+      "max": 8900,
+      "unit": "quintal",
+      "change": -100,
+      "trend": "down",
+      "major_states": [
+        "Karnataka",
+        "Maharashtra",
+        "Himachal Pradesh",
+        "West Bengal",
+        "Tamil Nadu"
+      ],
+      "season": "Rabi & Kharif",
+      "description": "French beans are India's primary export vegetable, with Mahabaleshwar (Maharashtra), Ooty (Tamil Nadu) and Nainital (Uttarakhand) being the leading production centres that supply all-India hotels, restaurants and the UAE/UK export market. The crop is price-elastic - bumper production in Karnataka or Maharashtra can collapse prices to ₹500-800/quintal.",
+      "varieties": [
+        "Contender (most popular), Arka Suvidha (IIHR)",
+        "Pusa Parvati (North India)",
+        "Falguni (cold tolerant, hills)",
+        "Sonali (Maharashtra F1 hybrid)",
+        "SVM-1 (South India)"
+      ],
+      "uses": [
+        "Fresh vegetable for salads, stir-fry and curries",
+        "Frozen French beans export to UAE, Saudi Arabia, UK",
+        "Canned beans for retail",
+        "Bean salad and pasta mix ingredients",
+        "Dehydrated beans for instant soup mixes"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "mango",
+      "name": "Mango",
+      "hindi": "आम",
+      "icon": "🥭",
+      "category": "Fruits",
+      "price": 8000,
+      "min": 5000,
+      "max": 11000,
+      "unit": "quintal",
+      "change": 500,
+      "trend": "up",
+      "major_states": [
+        "Uttar Pradesh",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Bihar",
+        "Gujarat"
+      ],
+      "season": "Summer (main harvest: Apr-Jun)",
+      "description": "India produces 45% of the world's mangoes and the fruit is India's national fruit, with over 1,000 named varieties. Alphonso (Hapus) from Ratnagiri gets ₹15,000-35,000/quintal while common varieties trade at ₹2,000-4,000/quintal, demonstrating the enormous quality premium. India exports 45,000-55,000 tonnes of mango annually to UAE, UK and Bangladesh.",
+      "varieties": [
+        "Alphonso/Hapus (Ratnagiri - highest value)",
+        "Dashehri (UP - most produced)",
+        "Langra (Varanasi - premium north India)",
+        "Kesar (Gir GI tag, Gujarat export)",
+        "Totapuri (AP/Karnataka - pulp processing)"
+      ],
+      "uses": [
+        "Fresh mango consumption (primary use)",
+        "Aamras and mango pulp export",
+        "Mango pickle (aam ka achar - India's largest pickle segment)",
+        "Aamchur (dried mango powder) for cooking",
+        "Mango juice, drinks and ice cream manufacturing"
+      ],
+      "mkts": 132,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "grapes",
+      "name": "Grapes",
+      "hindi": "अंगूर",
+      "icon": "🍇",
+      "category": "Fruits",
+      "price": 10500,
+      "min": 7000,
+      "max": 15000,
+      "unit": "quintal",
+      "change": -500,
+      "trend": "down",
+      "major_states": [
+        "Maharashtra",
+        "Karnataka",
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Punjab"
+      ],
+      "season": "Feb-Apr",
+      "description": "Nashik in Maharashtra accounts for 80% of India's table grape production and is India's premier grape-growing region with a climate comparable to European wine regions. India exports 25,000-35,000 tonnes of seedless grapes (Thompson Seedless, Sonaka) to the Netherlands, UK and Russia annually, earning ₹500-700 crore in foreign exchange.",
+      "varieties": [
+        "Thomson Seedless (primary export variety)",
+        "Sonaka/Manik Chaman (premium export)",
+        "Flame Seedless (red export type)",
+        "Anab-e-Shahi (Andhra Pradesh table grape)",
+        "Muscat Hamburg (Nashik local red)"
+      ],
+      "uses": [
+        "Fresh table grapes (primary domestic use)",
+        "Seedless raisin (kishmish) drying",
+        "Export of fresh grapes to Europe and Russia",
+        "Grape juice and wine manufacturing (emerging)",
+        "Raisin export to Middle East"
+      ],
+      "mkts": 42,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "pomegranate",
+      "name": "Pomegranate",
+      "hindi": "अनार",
+      "icon": "🔴",
+      "category": "Fruits",
+      "price": 9500,
+      "min": 5000,
+      "max": 16000,
+      "unit": "quintal",
+      "change": -500,
+      "trend": "down",
+      "major_states": [
+        "Maharashtra",
+        "Karnataka",
+        "Gujarat",
+        "Andhra Pradesh",
+        "Rajasthan"
+      ],
+      "season": "Year-round (main: Feb-Apr & Sep-Nov)",
+      "description": "India is the world's largest pomegranate producer and the Bhagwa variety from Solapur (Maharashtra) has become India's premium export pomegranate, fetching ₹12,000-20,000/quintal in Holland, Bangladesh and UAE markets. Maharashtra's Nashik-Solapur belt grows 80% of India's pomegranate and the crop's year-round income-generating potential makes it the most profitable orchard crop per hectare.",
+      "varieties": [
+        "Bhagwa (Solapur - national standard, top export)",
+        "Sinduri (Karnataka deep red)",
+        "Ganesh (Gujarat most planted)",
+        "Kesar (hybrid high-yield)",
+        "Ruby (new ICAR variety)"
+      ],
+      "uses": [
+        "Fresh arils for consumption and export",
+        "Pomegranate juice and cold-pressed juice export",
+        "Anardana (dried pomegranate seeds) for cooking",
+        "Pharmaceutical - punicic acid and antioxidant extract",
+        "Wine and fermented pomegranate drink"
+      ],
+      "mkts": 127,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "hindi": "सेब",
+      "icon": "🍎",
+      "category": "Fruits",
+      "price": 9000,
+      "min": 4600,
+      "max": 22000,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Jammu & Kashmir",
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Arunachal Pradesh"
+      ],
+      "season": "Aug-Nov",
+      "description": "Jammu & Kashmir produces 75% of India's apple and the Himalayan apple industry is a ₹10,000+ crore economy supporting 3 million farming households. Himachal Pradesh's Shimla apple has a GI tag and a dedicated fan following in Punjab and Delhi for its sweet-tart taste; however, growing competition from cheaper imported Chinese and New Zealand apples is a persistent concern.",
+      "varieties": [
+        "Royal Delicious (J&K - most grown)",
+        "Red Delicious (Shimla premium)",
+        "Golden Delicious (HP export grade)",
+        "Gala (Kinnaur HP)",
+        "McIntosh (processing variety)"
+      ],
+      "uses": [
+        "Fresh eating (primary use)",
+        "Apple juice and cider manufacturing",
+        "Dried apple slices and chips for export",
+        "Apple-based nutraceutical extracts",
+        "Mahua/apple wine (HP cottage industry)"
+      ],
+      "mkts": 184,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "orange",
+      "name": "Orange",
+      "hindi": "संतरा",
+      "icon": "🍊",
+      "category": "Fruits",
+      "price": 12500,
+      "min": 4500,
+      "max": 16000,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Maharashtra",
+        "Madhya Pradesh",
+        "Punjab",
+        "Rajasthan",
+        "Assam"
+      ],
+      "season": "Winter (Nov-Feb)",
+      "description": "Nagpur orange from Maharashtra has a prestigious GI tag as one of the world's best mandarin oranges - its distinctive seedless, juicy character drives premium retail pricing of ₹80-150/kg in metro markets. Maharashtra's Vidarbha region (Nagpur, Amravati, Wardha) and Assam's Meghalaya border districts are the primary producing zones.",
+      "varieties": [
+        "Nagpur Mandarin (GI variety - national standard)",
+        "Khasi Mandarin (Meghalaya/Assam)",
+        "Coorg Mandarin (Karnataka)",
+        "Kinnow (Punjab hybrid with high juice)",
+        "Valencia (table orange, small area)"
+      ],
+      "uses": [
+        "Fresh eating and gifting (primary use)",
+        "Orange juice and squash manufacturing",
+        "Nagpur orange export to UAE and UK",
+        "Orange peel oil for perfumery and food flavouring",
+        "Marmalade and candied peel export"
+      ],
+      "mkts": 31,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "guava",
+      "name": "Guava",
+      "hindi": "अमरूद",
+      "icon": "🟢",
+      "category": "Fruits",
+      "price": 5000,
+      "min": 2500,
+      "max": 7750,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Bihar",
+        "Maharashtra",
+        "Andhra Pradesh"
+      ],
+      "season": "Two seasons: Oct-Feb (winter) & Jul-Sep (rainy)",
+      "description": "Allahabad Safeda and Lucknow-49 guavas from Uttar Pradesh are India's most famous varieties, with the Allahabad Safeda holding a GI tag and commanding ₹50-100/kg retail. India is the world's largest guava producer and the fruit's extremely high vitamin C content (228 mg/100g - 4× orange) drives consistent demand from juice and vitamin-C supplement manufacturers.",
+      "varieties": [
+        "Allahabad Safeda (GI tag - classic white flesh)",
+        "Lucknow-49 (Pant Prabhat)",
+        "Sardar (L-49, UP most grown)",
+        "Apple Guava (red flesh, Maharashtra)",
+        "Arka Mridula (IIHR high yield)"
+      ],
+      "uses": [
+        "Fresh eating and juice extraction",
+        "Guava paste and jelly (goiabada) for export",
+        "Vitamin C supplement manufacturing",
+        "Dehydrated guava powder for food fortification",
+        "Guava cheese (amrood ki barfi)"
+      ],
+      "mkts": 176,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "papaya",
+      "name": "Papaya",
+      "hindi": "पपीता",
+      "icon": "🟠",
+      "category": "Fruits",
+      "price": 3500,
+      "min": 2000,
+      "max": 4800,
+      "unit": "quintal",
+      "change": 100,
+      "trend": "up",
+      "major_states": [
+        "Andhra Pradesh",
+        "Gujarat",
+        "Karnataka",
+        "Madhya Pradesh",
+        "Maharashtra"
+      ],
+      "season": "Year-round (9-12 months to first harvest)",
+      "description": "India is the world's largest papaya producer with 5+ million tonnes annually, and Gujarat and Andhra Pradesh have become the dominant commercial producers of hybrid papaya. Papain enzyme extracted from raw papaya is a significant industrial product used in meat tenderisers, brewery clarification and pharmaceutical digestive enzymes, fetching ₹1,500-3,000/kg.",
+      "varieties": [
+        "Red Lady (most popular F1 hybrid)",
+        "CO-7 (Tamil Nadu - papain-rich)",
+        "Pusa Dwarf (compact, terrace planting)",
+        "Taiwan Red Lady (Gujarat commercial)",
+        "Coorg Honey Dew (Karnataka)"
+      ],
+      "uses": [
+        "Fresh eating and fruit salads",
+        "Raw papaya curry and salad (North-East India)",
+        "Papain enzyme extraction (industrial and pharmaceutical)",
+        "Papaya jam, juice and nectar",
+        "Beauty and skin care - papain-based face packs"
+      ],
+      "mkts": 233,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "watermelon",
+      "name": "Watermelon",
+      "hindi": "तरबूज",
+      "icon": "🍉",
+      "category": "Fruits",
+      "price": 1200,
+      "min": 600,
+      "max": 2400,
+      "unit": "quintal",
+      "change": 24,
+      "trend": "up",
+      "major_states": [
+        "Uttar Pradesh",
+        "Karnataka",
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Maharashtra"
+      ],
+      "season": "Summer (Mar-Jun)",
+      "description": "India is the world's third-largest watermelon producer and the crop is a critical summer cash crop for farmers in the sandy riverbeds of UP, Karnataka and Andhra Pradesh, where it is grown on oozing sandy soil alongside river banks. Yellowing and tri-colour flesh varieties command 30-50% higher prices in urban markets and are a growing trend among commercial growers.",
+      "varieties": [
+        "Sugar Baby (most popular round variety)",
+        "Pusa Bedana (seedless hybrid)",
+        "Arka Jyoti (IIHR high-yield)",
+        "Durgapura Meetha (Rajasthan)",
+        "Yellow Crimson (yellow flesh, premium)"
+      ],
+      "uses": [
+        "Fresh eating (primary - summer cooling fruit)",
+        "Watermelon juice and sherbet",
+        "Watermelon seed (magaz) as a snack and Ayurvedic medicine",
+        "Watermelon rind curry (North India waste-free cooking)",
+        "Watermelon seed oil (cosmetic use)"
+      ]
+    },
+    {
+      "id": "muskmelon",
+      "name": "Muskmelon",
+      "hindi": "खरबूजा",
+      "icon": "🍈",
+      "category": "Fruits",
+      "price": 1600,
+      "min": 800,
+      "max": 3000,
+      "unit": "quintal",
+      "change": 25,
+      "trend": "up",
+      "major_states": [
+        "Uttar Pradesh",
+        "Punjab",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Rajasthan"
+      ],
+      "season": "Summer",
+      "description": "Muskmelon (kharbooja) is among India's most fragrant summer fruits and a traditional heat-quenching fruit in Rajasthan and UP. India grows both the orange-fleshed 'Pusa Madhuras' type and green-fleshed 'Durgapura' type, and the seeds (magaj) are traded as a separate premium commodity used in Mughal-origin creamy gravies and Unani medicine.",
+      "varieties": [
+        "Pusa Madhuras (most popular IARI variety)",
+        "Durgapura Madhu (Rajasthan green flesh)",
+        "MH-10 (Haryana commercial)",
+        "Punjab Sunhari (Punjab yellow flesh)",
+        "Hara Madhu (Bihar long shelf-life)"
+      ],
+      "uses": [
+        "Fresh eating and juice (summer cooling fruit)",
+        "Muskmelon seeds (magaj/chharmagaz) for Mughal gravies",
+        "Seed oil extraction for Unani medicines",
+        "Dehydrated muskmelon powder for health drinks",
+        "Traditional cooling drinks (thandai ingredient)"
+      ]
+    },
+    {
+      "id": "pineapple",
+      "name": "Pineapple",
+      "hindi": "अनानास",
+      "icon": "🍍",
+      "category": "Fruits",
+      "price": 5750,
+      "min": 2800,
+      "max": 8100,
+      "unit": "quintal",
+      "change": 750,
+      "trend": "up",
+      "major_states": [
+        "West Bengal",
+        "Assam",
+        "Karnataka",
+        "Kerala",
+        "Tripura"
+      ],
+      "season": "Year-round (peak arrivals: Mar-Jun)",
+      "description": "India's pineapple belt spans West Bengal, Assam, Tripura and Kerala, and the North-East produces 90% of India's pineapple. Assam's Kew variety and West Bengal's Queen variety are prized for sweetness, while the state of Tripura has built India's first pineapple-based wine and vinegar industry. Mega Food Parks in North-East India are driving pineapple processing (juice, pulp, candy) as a way to prevent post-harvest losses.",
+      "varieties": [
+        "Kew (West Bengal/Assam - largest fruit)",
+        "Queen (sweetest, WB premium)",
+        "Mauritius (Kerala/Karnataka)",
+        "Giant Kew (NE India commercial)",
+        "MD-2 (imported variety trial, promising)"
+      ],
+      "uses": [
+        "Fresh eating and juice",
+        "Pineapple canning for export",
+        "Pineapple vinegar and wine (Tripura cottage industry)",
+        "Pineapple leaves for 'piña' textile fibre",
+        "Bromelain enzyme extraction (pharmaceutical use)"
+      ],
+      "mkts": 52,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "litchi",
+      "name": "Litchi",
+      "hindi": "लीची",
+      "icon": "🔴",
+      "category": "Fruits",
+      "price": 18750,
+      "min": 18750,
+      "max": 18750,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Bihar",
+        "West Bengal",
+        "Jharkhand",
+        "Assam",
+        "Uttar Pradesh"
+      ],
+      "season": "May-Jun",
+      "description": "Bihar's Muzaffarpur is the global capital of the Shahi litchi, which has a GI tag and is prized in the Middle East and Europe for its unique floral-sweet flavour profile. India exports 3,000-5,000 tonnes of fresh litchi annually at ₹300-500/kg retail, making it one of India's premium fruit exports despite a very narrow 3-4 week harvest window.",
+      "varieties": [
+        "Shahi (Bihar - GI tag, top quality)",
+        "China (West Bengal - high yield)",
+        "Bedana (Bihar seedless premium)",
+        "Purbi (Jharkhand)",
+        "Late Bedana (extended season variety)"
+      ],
+      "uses": [
+        "Fresh eating (narrow May-Jun window)",
+        "Litchi juice and squash manufacturing",
+        "Canned litchi in syrup for export",
+        "Dried litchi (longan-style) for export",
+        "Litchi wine and vinegar (West Bengal micro-industry)"
+      ],
+      "mkts": 1,
+      "updated": "2026-08-29"
+    },
+    {
+      "id": "sapota",
+      "name": "Sapota (Chiku)",
+      "hindi": "चीकू",
+      "icon": "🟤",
+      "category": "Fruits",
+      "price": 4500,
+      "min": 3250,
+      "max": 6000,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Karnataka",
+        "Maharashtra",
+        "Gujarat",
+        "Tamil Nadu",
+        "Andhra Pradesh"
+      ],
+      "season": "Year-round (two crops: Mar-May & Aug-Oct)",
+      "description": "Sapota (chiku) is India's 5th-largest fruit crop and nearly 70% of India's production comes from Gujarat's Anand, Valsad and Navsari districts. The fruit has one of the highest natural sugar contents among Indian fruits (14-20°Brix) and is a primary ingredient in sapota ice cream and sapota-flavoured milk drinks manufactured across Gujarat and Maharashtra.",
+      "varieties": [
+        "Kalipatti (Gujarat - most grown, export grade)",
+        "Cricket Ball (South India - large round)",
+        "DSH-2 (Karnataka high-yield)",
+        "PKM-1 (Tamil Nadu)",
+        "Piliyar (TNAU hybrid)"
+      ],
+      "uses": [
+        "Fresh eating (very sweet, dessert fruit)",
+        "Sapota pulp for ice cream and milkshakes",
+        "Dried chiku slices for export to UK and Canada",
+        "Seed oil for edible and industrial use",
+        "Bark extract for traditional fever treatment"
+      ],
+      "mkts": 47,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "coconut",
+      "name": "Coconut",
+      "hindi": "नारियल",
+      "icon": "🥥",
+      "category": "Fruits",
+      "price": 5500,
+      "min": 3000,
+      "max": 6900,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Kerala",
+        "Tamil Nadu",
+        "Karnataka",
+        "Andhra Pradesh",
+        "Odisha"
+      ],
+      "season": "Year-round perennial (peak: Nov-Jan)",
+      "description": "India is the world's third-largest coconut producer and Kerala, Tamil Nadu and Karnataka together account for 90% of production. Coconut is a 'kalpavriksha' (wish-fulfilling tree) because every part is commercially traded: water, oil, shell, husk, toddy, coir fibre - making it India's most versatile plantation crop with 10-15 different revenue streams per tree.",
+      "varieties": [
+        "West Coast Tall (most planted)",
+        "East Coast Tall (Tamil Nadu)",
+        "Chowghat Orange Dwarf (COD - hybrid parent)",
+        "D×T Hybrid VHC-1 (TNAU early bearing)",
+        "Laccadive Micro (Lakshadweep local)"
+      ],
+      "uses": [
+        "Coconut oil (hair and cooking oil)",
+        "Copra for edible oil extraction",
+        "Coconut water (packaged beverage industry)",
+        "Coir fibre for rope, mat and geotextile",
+        "Coconut shell charcoal and activated carbon"
+      ],
+      "mkts": 293,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "lemon",
+      "name": "Lemon",
+      "hindi": "नींबू",
+      "icon": "🍋",
+      "category": "Fruits",
+      "price": 10000,
+      "min": 4000,
+      "max": 19200,
+      "unit": "quintal",
+      "change": -1000,
+      "trend": "down",
+      "major_states": [
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Gujarat",
+        "Rajasthan",
+        "Tamil Nadu"
+      ],
+      "season": "Year-round (peak: Mar-Jun & Nov-Jan)",
+      "description": "India is the world's second-largest lemon and lime producer and the Kagzi lime (thin-skinned, high-juice variety) from Andhra Pradesh, Gujarat and Rajasthan is the most valued commercial type. Lemon prices are extremely volatile - they can range from ₹1,500 to ₹8,000/quintal within the same year depending on whether summer demand spikes coincide with the lean harvest period.",
+      "varieties": [
+        "Kagzi Lime (most common, high-juice)",
+        "Eureka Lemon (North India, less popular)",
+        "Vikram (Andhra Pradesh high-yield)",
+        "PKM-1 (Tamil Nadu)",
+        "Sai Sarbati (Maharashtra)"
+      ],
+      "uses": [
+        "Fresh lemon in cooking and beverages",
+        "Lemon juice concentrate for beverages",
+        "Citric acid extraction for food industry",
+        "Lemon essential oil for perfumery and cosmetics",
+        "Pickle and preserved lemon export to Middle East"
+      ],
+      "mkts": 260,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "fenugreek",
+      "name": "Fenugreek (Methi)",
+      "hindi": "मेथी",
+      "icon": "🌿",
+      "category": "Spices",
+      "price": 5000,
+      "min": 900,
+      "max": 7500,
+      "unit": "quintal",
+      "change": 112,
+      "trend": "up",
+      "major_states": [
+        "Rajasthan",
+        "Gujarat",
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Haryana"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Jan-Mar)",
+      "description": "India is the world's largest methi producer and Rajasthan alone accounts for 80% of India's fenugreek cultivation, with Sikar and Nagaur being the key production districts. Fenugreek seeds contain diosgenin - a precursor for steroidal drugs - making it a pharmaceutical crop increasingly grown on contract for hormone and anti-diabetic drug manufacturing.",
+      "varieties": [
+        "Rajendra Kranti (Rajasthan high-yield)",
+        "Pusa Early Bunching (leaf type)",
+        "HM-10 (Haryana)",
+        "UM-4 (Gujarat)",
+        "Kasuri Methi (Punjab - small leaf premium type)"
+      ],
+      "uses": [
+        "Methi powder for spice blends and curries",
+        "Fresh methi leaves (saag) - vegetable",
+        "Kasuri methi (dried leaves) - premium garnish spice",
+        "Diosgenin extraction for steroidal drug manufacturing",
+        "Galactagogue supplement for nursing mothers"
+      ],
+      "mkts": 36,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "fennel",
+      "name": "Fennel (Saunf)",
+      "hindi": "सौंफ",
+      "icon": "🌿",
+      "category": "Spices",
+      "price": 12000,
+      "min": 8000,
+      "max": 18000,
+      "unit": "quintal",
+      "change": -112,
+      "trend": "down",
+      "major_states": [
+        "Gujarat",
+        "Rajasthan",
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Haryana"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Feb-Mar)",
+      "description": "Gujarat's Unjha is the world's largest saunf (fennel) market, trading both as a mouth freshener after meals and as a primary spice. India's saunf candy and fennel-based digestive products are a ₹2,000+ crore market, and export of raw fennel seed to the USA, Malaysia and the UAE earns significant foreign exchange.",
+      "varieties": [
+        "Gujarat Fennel-1 (most popular)",
+        "RF-125 (Rajasthan adapted)",
+        "NDF-2 (NRCSS Karnataka)",
+        "HF-23 (Haryana)",
+        "OF-17 (Odisha)"
+      ],
+      "uses": [
+        "Saunf mouth freshener after meals",
+        "Fennel powder for spice blends (sauf)",
+        "Fennel tea for digestion and infant colic",
+        "Essential oil (anethole) for flavouring and pharma",
+        "Candy and mukhwas (digestive sweet) manufacturing"
+      ]
+    },
+    {
+      "id": "ajwain",
+      "name": "Ajwain (Carom)",
+      "hindi": "अजवाइन",
+      "icon": "🌿",
+      "category": "Spices",
+      "price": 14000,
+      "min": 9000,
+      "max": 22000,
+      "unit": "quintal",
+      "change": -94,
+      "trend": "down",
+      "major_states": [
+        "Rajasthan",
+        "Gujarat",
+        "Madhya Pradesh",
+        "Andhra Pradesh"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Feb-Mar)",
+      "description": "Ajwain (carom seeds) is India's most pungent spice and has virtually no global competition - India produces 90% of the world's ajwain. The seed's thymol content is extracted as a pharmaceutical ingredient used in antiseptic preparations, cough drops and oral hygiene products globally.",
+      "varieties": [
+        "AA-93 (Rajasthan high-yield)",
+        "RA-1 (Gujarat)",
+        "Ajmer Selection (Rajasthan)",
+        "AT-15 (NRCSS improved)",
+        "Local Rajasthan (small-scale)"
+      ],
+      "uses": [
+        "Carom seeds for tempering puri, paratha and pickle",
+        "Ajwain water (omwala pani) as digestive remedy",
+        "Thymol extraction for pharmaceutical antiseptics",
+        "Cough and bronchitis medicine (Ayurveda)",
+        "Insect repellent (thymol vapour)"
+      ]
+    },
+    {
+      "id": "black-pepper",
+      "name": "Black Pepper",
+      "hindi": "काली मिर्च",
+      "icon": "⚫",
+      "category": "Spices",
+      "price": 8300,
+      "min": 5900,
+      "max": 56900,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Kerala",
+        "Karnataka",
+        "Tamil Nadu",
+        "Andhra Pradesh"
+      ],
+      "season": "Winter harvest",
+      "description": "India's Malabar black pepper was the original 'Black Gold' that drove European exploration of India and the spice trade. Kerala's Idukki district produces the finest quality pepper with 6-9% piperine content. India is the world's 3rd-largest producer but the 1st-largest consumer, relying on Vietnamese and Indonesian imports to meet domestic demand.",
+      "varieties": [
+        "Panniyur-1 (Kerala high-yield)",
+        "Karimunda (Kerala traditional - best quality)",
+        "Sreekara (IISR high-yield)",
+        "Subhakara (disease tolerant)",
+        "PLD-2 (Andhra Pradesh)"
+      ],
+      "uses": [
+        "Black pepper powder - universal spice",
+        "White pepper (peeled black pepper) for export",
+        "Piperine extraction for pharmaceutical bioavailability enhancers",
+        "Pepper oil for perfumery and flavouring",
+        "Pickled green peppercorns (gourmet export)"
+      ],
+      "mkts": 101,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "cardamom",
+      "name": "Cardamom",
+      "hindi": "इलायची",
+      "icon": "🟢",
+      "category": "Spices",
+      "price": 297500,
+      "min": 297500,
+      "max": 297500,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Kerala",
+        "Karnataka",
+        "Tamil Nadu",
+        "Sikkim"
+      ],
+      "season": "Aug-Mar",
+      "description": "India's small cardamom (Elettaria cardamomum) from Kerala's Cardamom Hills has a GI tag and is traded at Bodinayakanur (Tamil Nadu) - Asia's largest cardamom auction. Indian cardamom commands premium prices from the Middle East (Gulf countries use it in qahwa/Arabic coffee) and contributes ₹3,000-4,000 crore in annual export earnings despite competition from Guatemalan cardamom.",
+      "varieties": [
+        "Njallani (Green Gold - Kerala dominant variety)",
+        "IISR Suvasini (high-yield)",
+        "IISR Vijetha (drought tolerant)",
+        "PV-1 (progressive cultivar)",
+        "CCS-1 (Coorg cultivar)"
+      ],
+      "uses": [
+        "Elaichi - universal Indian dessert and chai spice",
+        "Arabic coffee (qahwa) flavouring - Gulf export",
+        "Cardamom oil for perfumery and pharmaceutical flavouring",
+        "Ayurvedic digestive and respiratory formulations",
+        "Elaichi-flavoured tobacco and paan"
+      ],
+      "mkts": 1,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "clove",
+      "name": "Clove",
+      "hindi": "लौंग",
+      "icon": "🟤",
+      "category": "Spices",
+      "price": 95000,
+      "min": 70000,
+      "max": 130000,
+      "unit": "quintal",
+      "change": 1452,
+      "trend": "up",
+      "major_states": [
+        "Kerala",
+        "Karnataka",
+        "Tamil Nadu"
+      ],
+      "season": "Winter",
+      "description": "Indian clove, grown in Kerala and the Andaman & Nicobar Islands, commands ₹900-1,300/kg wholesale - among the highest-priced spices in the world per kg. India imports significant quantities from Indonesia (world's largest producer) to meet domestic demand, and eugenol extracted from clove oil is the primary dental anaesthetic ingredient used globally in dentistry.",
+      "varieties": [
+        "Zanzibar type (Kerala dominant)",
+        "Penang type (Andaman local)",
+        "IISR Sahakari (improved IISR clone)",
+        "Kerala local selections",
+        "Andaman Selection (Andaman Islands)"
+      ],
+      "uses": [
+        "Clove powder for garam masala and biryani",
+        "Eugenol extraction for dental anaesthetic",
+        "Clove oil for toothache and oral hygiene products",
+        "Cigarette flavouring (kretek clove cigarettes)",
+        "Clove in pickles, mulled wine and chai"
+      ]
+    },
+    {
+      "id": "nutmeg",
+      "name": "Nutmeg (Jaiphal)",
+      "hindi": "जायफल",
+      "icon": "🟤",
+      "category": "Spices",
+      "price": 45000,
+      "min": 30000,
+      "max": 65000,
+      "unit": "quintal",
+      "change": 651,
+      "trend": "up",
+      "major_states": [
+        "Kerala",
+        "Karnataka",
+        "Tamil Nadu"
+      ],
+      "season": "Year-round perennial (main harvest: Aug-Oct)",
+      "description": "Kerala produces 95% of India's nutmeg and the mace (outer covering of the nutmeg seed) is often more valuable than the nut itself, fetching ₹80,000-1,50,000/quintal. Both nutmeg and mace are primarily exported to the USA, Netherlands and Singapore for pharmaceutical, food flavouring and perfumery industries.",
+      "varieties": [
+        "IISR Viswasree (Kerala high-yield)",
+        "A11-1 (Andaman)",
+        "A11-2 (Andaman selection)",
+        "Kerala local (female trees selected)",
+        "Banda type (introduced clone)"
+      ],
+      "uses": [
+        "Nutmeg powder for garam masala and desserts",
+        "Mace (javitri) for biryanis and meat dishes",
+        "Nutmeg essential oil for pharmaceuticals and perfumery",
+        "Myristicin extraction (industrial)",
+        "Nutmeg butter (cocoa butter substitute for confectionery)"
+      ]
+    },
+    {
+      "id": "tamarind",
+      "name": "Tamarind",
+      "hindi": "इमली",
+      "icon": "🟤",
+      "category": "Spices",
+      "price": 12500,
+      "min": 8000,
+      "max": 16000,
+      "unit": "quintal",
+      "change": -1000,
+      "trend": "down",
+      "major_states": [
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Maharashtra",
+        "Chhattisgarh"
+      ],
+      "season": "Winter",
+      "description": "India is the world's largest tamarind producer with Tamil Nadu, Andhra Pradesh and Karnataka together supplying global demand. Tamarind is the souring agent in virtually every South Indian dish (sambar, rasam, chutneys) and tamarind concentrate is a significant food-processing export, with the global tamarind products market valued at over ₹5,000 crore annually.",
+      "varieties": [
+        "Urigam Local (Tamil Nadu select)",
+        "Prathisthan (Maharashtra large pod)",
+        "NTR-1 (Andhra Pradesh sweet type)",
+        "IIHR Selection (Karnataka)",
+        "Greenish-yellow (seedless type for pulp)"
+      ],
+      "uses": [
+        "Imli (tamarind) for South Indian cooking (sambar, rasam, chutneys)",
+        "Tamarind concentrate and paste export",
+        "Sweet-sour candy and tamarind toffee",
+        "Tamarind pulp for sauces and marinades",
+        "Xylose extraction from tamarind seed kernel (pharmaceutical and food)"
+      ],
+      "mkts": 29,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "dry-ginger",
+      "name": "Dry Ginger (Sonth)",
+      "hindi": "सोंठ",
+      "icon": "🫚",
+      "category": "Spices",
+      "price": 13500,
+      "min": 5500,
+      "max": 20000,
+      "unit": "quintal",
+      "change": -500,
+      "trend": "down",
+      "major_states": [
+        "Kerala",
+        "Karnataka",
+        "Meghalaya",
+        "Sikkim"
+      ],
+      "season": "Post-harvest",
+      "description": "Dry ginger (sonth) commands 3-5× the price of fresh ginger per kg due to its more intense gingerol and shogaol content and longer shelf life. Kerala's Wayanad and Meghalaya's Ri Bhoi district produce premium dry ginger exported to Japan and the USA for pharmaceutical-grade ginger extracts used in nausea treatment and anti-inflammatory supplements.",
+      "varieties": [
+        "Kerala local (dried from Nadia or Maran fresh types)",
+        "Meghalaya highland (Tura type)",
+        "Rio de Janeiro (South India)",
+        "Varada (Karnataka dry ginger type)",
+        "IISR Rejatha (IISR high-dry-matter)"
+      ],
+      "uses": [
+        "Sonth powder for masalas and Ayurvedic formulations",
+        "Ginger extract for pharmaceutical anti-nausea drugs",
+        "Ginger oil and oleoresin for food flavouring industry",
+        "Export to Japan, USA for nutraceuticals",
+        "Dry ginger tea for respiratory ailments"
+      ],
+      "mkts": 317,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "lobia",
+      "name": "Cowpea (Lobia)",
+      "hindi": "लोबिया",
+      "icon": "🫘",
+      "category": "Pulses",
+      "price": 4250,
+      "min": 2800,
+      "max": 7000,
+      "unit": "quintal",
+      "change": -350,
+      "trend": "down",
+      "major_states": [
+        "Uttar Pradesh",
+        "Rajasthan",
+        "Maharashtra",
+        "Karnataka",
+        "Tamil Nadu"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Sep-Oct)",
+      "description": "Cowpea (lobia) is one of India's most drought-tolerant and nitrogen-fixing legumes, capable of thriving in poor sandy soils of Rajasthan and Gujarat where other pulses fail. Both the dry seed and the green pods (as a vegetable) are commercially traded, and the leaves are an important leafy vegetable in tribal regions.",
+      "varieties": [
+        "Lobia-1 (Uttar Pradesh)",
+        "Pusa Komal (vegetable type)",
+        "GC-3 (Gujarat)",
+        "IPCo-3 (dual purpose)",
+        "V-16 (Rajasthan grain type)"
+      ],
+      "uses": [
+        "Lobia dal and curries",
+        "Green pods as a vegetable (sabji)",
+        "Leaves as a leafy vegetable in tribal areas",
+        "Green fodder and silage for cattle",
+        "Nitrogen fixation (soil improvement as green manure)"
+      ],
+      "mkts": 115,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "kulthi",
+      "name": "Horse Gram (Kulthi)",
+      "hindi": "कुलथी",
+      "icon": "🫘",
+      "category": "Pulses",
+      "price": 6100,
+      "min": 5490,
+      "max": 8768,
+      "unit": "quintal",
+      "change": 50,
+      "trend": "up",
+      "major_states": [
+        "Karnataka",
+        "Andhra Pradesh",
+        "Odisha",
+        "Chhattisgarh",
+        "Tamil Nadu"
+      ],
+      "season": "Kharif (Sow: Jun-Aug, Harvest: Oct-Dec)",
+      "description": "Horse gram is the most protein-rich dryland pulse at 22-25% protein content and has been cultivated in India for over 4,000 years. It is the primary pulse crop of tribal farmers in Karnataka, Andhra Pradesh and Odisha grown on marginal lands without irrigation, and rising demand from Ayurvedic kidney-stone treatment products is pushing prices higher.",
+      "varieties": [
+        "HPK-4 (Karnataka)",
+        "PHG-9 (Andhra Pradesh)",
+        "Birsa Kulthi-1 (Jharkhand)",
+        "VZM-2 (tribal variety)",
+        "CRHG-11 (Chhattisgarh)"
+      ],
+      "uses": [
+        "Kulthi dal for traditional curries (horse gram rasam)",
+        "Ayurvedic medicine for kidney stones and urinary disorders",
+        "Horse feed and livestock supplement",
+        "Green manure and soil improvement",
+        "Sprouted kulthi as a health food"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "peas-dry",
+      "name": "Dry Peas (Matar)",
+      "hindi": "मटर (सूखी)",
+      "icon": "🫛",
+      "category": "Pulses",
+      "price": 9200,
+      "min": 3330,
+      "max": 21000,
+      "unit": "quintal",
+      "change": 550,
+      "trend": "up",
+      "major_states": [
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Bihar",
+        "Maharashtra"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Feb-Mar)",
+      "description": "Dry field peas are a key rabi pulse of Uttar Pradesh, Madhya Pradesh and Bihar, growing in the same season as wheat and requiring minimal irrigation. The processing industry converts dry peas into matar dal, matar flour for namkeen snacks, and pea protein isolate for plant-based food manufacturing.",
+      "varieties": [
+        "Rachna (UP high-yield)",
+        "Shikha (disease resistant)",
+        "HFP-715 (Haryana)",
+        "JP-885 (Madhya Pradesh)",
+        "Pusa Pragati (early duration)"
+      ],
+      "uses": [
+        "Matar dal (split yellow pea) for everyday cooking",
+        "Matar namkeen snacks (matar ki bhujiya)",
+        "Pea flour for pakoras and savoury snacks",
+        "Plant-based protein isolate manufacturing",
+        "Green pea processing (canning and freezing)"
+      ],
+      "mkts": 130,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "rajma",
+      "name": "Rajma (Kidney Bean)",
+      "hindi": "राजमा",
+      "icon": "🫘",
+      "category": "Pulses",
+      "price": 3500,
+      "min": 2200,
+      "max": 3500,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Jammu & Kashmir",
+        "Maharashtra",
+        "Karnataka"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Oct-Nov); Rabi in hills",
+      "description": "Rajma (kidney bean) is a premium pulse commanding ₹80-130/kg retail and is an essential ingredient in Punjabi cuisine's iconic rajma-chawal dish consumed across north India. India's best rajma comes from Jammu & Kashmir and Himachal Pradesh hill farms, with Chitra rajma (speckled variety) from Kullu-Manali fetching the highest prices.",
+      "varieties": [
+        "Chitra (Kullu-Manali premium)",
+        "Lal rajma (common red)",
+        "PDR-14 (Himachal Pradesh)",
+        "HUR-15 (UP plains)",
+        "VL Rajma-125 (Uttarakhand hills)"
+      ],
+      "uses": [
+        "Rajma-chawal - north India's most popular one-dish meal",
+        "Rajma curry and gravies",
+        "Kidney bean salads (health food)",
+        "Canned kidney beans for export",
+        "Animal feed from dried haulm (plant residue)"
+      ],
+      "mkts": 4,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "linseed",
+      "name": "Linseed (Alsi)",
+      "hindi": "अलसी",
+      "icon": "🌾",
+      "category": "Oilseeds",
+      "price": 9000,
+      "min": 8800,
+      "max": 9576,
+      "unit": "quintal",
+      "change": -51,
+      "trend": "down",
+      "major_states": [
+        "Madhya Pradesh",
+        "Uttar Pradesh",
+        "Chhattisgarh",
+        "Maharashtra",
+        "Bihar"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Mar-Apr)",
+      "description": "Linseed (flaxseed) is a dual-purpose crop where the seed is pressed for oil used in paints and varnishes (linseed oil dries and polymerises - invaluable for wood preservation and artist oil paints) while the milled seed is a high-omega-3 health food. India's linseed export market is growing rapidly with rising global demand for omega-3 health supplements.",
+      "varieties": [
+        "Gaurav (Madhya Pradesh)",
+        "Shekhar (early duration)",
+        "T-397 (Uttar Pradesh)",
+        "RLC-6 (wilt resistant)",
+        "Padmini (high oil content)"
+      ],
+      "uses": [
+        "Linseed oil for paints, varnishes and wood preservative",
+        "Flaxseed meal as high-omega-3 health supplement",
+        "Cattle feed (flaxseed cake boosts milk fat)",
+        "Linen fibre from flax stalks (Assam handloom)",
+        "Alsi ladoo and chutney in Madhya Pradesh"
+      ],
+      "mkts": 16,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "niger",
+      "name": "Niger Seed",
+      "hindi": "रामतिल",
+      "icon": "🌾",
+      "category": "Oilseeds",
+      "price": 7600,
+      "min": 5735,
+      "max": 19050,
+      "unit": "quintal",
+      "change": 100,
+      "trend": "up",
+      "major_states": [
+        "Odisha",
+        "Madhya Pradesh",
+        "Chhattisgarh",
+        "Maharashtra",
+        "Karnataka"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Oct-Nov)",
+      "description": "Niger seed (ramtil) is India's exclusive tribal oilseed crop, grown almost entirely by adivasi communities in Odisha, Madhya Pradesh and Chhattisgarh on marginal rainfed land without any fertilisers. Its oil has a distinctive nutty flavour used in traditional cooking and the seed is a premium birdseed ingredient exported to the USA and Europe at ₹80-120/kg.",
+      "varieties": [
+        "Dibyasinha (Odisha)",
+        "Ootacamund-1 (Karnataka)",
+        "IGP-76 (Chhattisgarh)",
+        "Na-2 (tribal selection)",
+        "Pushan Suraj (improved)"
+      ],
+      "uses": [
+        "Niger oil for traditional cooking in tribal areas",
+        "Premium birdseed export to USA and Europe",
+        "Ramtil chutney (local food use in Odisha)",
+        "Hair oil in tribal communities",
+        "Crop residue for cattle feed"
+      ],
+      "mkts": 87,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "safflower",
+      "name": "Safflower (Kusum)",
+      "hindi": "कुसुम",
+      "icon": "🌼",
+      "category": "Oilseeds",
+      "price": 5278,
+      "min": 4500,
+      "max": 5500,
+      "unit": "quintal",
+      "change": 278,
+      "trend": "up",
+      "major_states": [
+        "Maharashtra",
+        "Karnataka",
+        "Telangana",
+        "Andhra Pradesh"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Feb-Mar)",
+      "description": "Safflower is a dual-purpose oilseed with both a high-oleic oil (better for frying than sunflower oil) and a dye industry using the red and yellow petals for natural fabric colouring. Maharashtra is the dominant producer but cultivation is declining as imported oils undercut it; the crop survives primarily due to MSP procurement.",
+      "varieties": [
+        "PBNS-12 (Maharashtra spineless)",
+        "A-1 (Andhra Pradesh)",
+        "HUS-305 (Karnataka)",
+        "K-1 (Rajasthan)",
+        "CO-1 (Tamil Nadu)"
+      ],
+      "uses": [
+        "Safflower oil for cooking and salad oil",
+        "Natural dye (keshar substitute) from petals",
+        "Safflower tea and herbal health products",
+        "Carthamin natural food colourant for export",
+        "Safflower cake for cattle and poultry feed"
+      ],
+      "mkts": 6,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "ragi",
+      "name": "Ragi (Finger Millet)",
+      "hindi": "रागी",
+      "icon": "🌾",
+      "category": "Cereals",
+      "price": 2635,
+      "min": 1350,
+      "max": 4249,
+      "unit": "quintal",
+      "change": -65,
+      "trend": "down",
+      "major_states": [
+        "Karnataka",
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Odisha"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Oct-Nov)",
+      "description": "Ragi (finger millet) has the highest calcium content of any cereal (344 mg/100g) and is a nutritional powerhouse increasingly popular in health food markets. Karnataka grows 60% of India's ragi, and ragi-based processed products (cookies, malt, noodles) now sell for ₹80-200/kg in urban retail - 20× the farm gate price.",
+      "varieties": [
+        "GPU-28 (Karnataka high-yield)",
+        "MR-6 (disease resistant)",
+        "Indaf-5 (Andhra Pradesh)",
+        "VR-708 (Tamil Nadu)",
+        "Pragati (early duration)"
+      ],
+      "uses": [
+        "Ragi mudde and roti - staple in Karnataka",
+        "Ragi malt (porridge) for infants and elders",
+        "Health food products: cookies, noodles, bread",
+        "Ragi malt flour (₹150-200/kg retail)",
+        "Animal feed and poultry ingredient"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "foxtail-millet",
+      "name": "Foxtail Millet (Kangni)",
+      "hindi": "कंगनी",
+      "icon": "🌾",
+      "category": "Cereals",
+      "price": 2425,
+      "min": 2050,
+      "max": 3650,
+      "unit": "quintal",
+      "change": -25,
+      "trend": "down",
+      "major_states": [
+        "Andhra Pradesh",
+        "Karnataka",
+        "Telangana",
+        "Rajasthan",
+        "Maharashtra"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Aug-Oct)",
+      "description": "Foxtail millet is one of India's oldest cultivated crops and a key component of India's Shree Anna (nutri-cereal) mission promoting millets globally. With a 45-day crop cycle, it is one of the fastest-maturing cereals and ideal for short-duration intercropping in dryland farming systems of Andhra Pradesh and Karnataka.",
+      "varieties": [
+        "SiA-3085 (Andhra Pradesh)",
+        "GPU-67 (Karnataka)",
+        "TNAU-167 (Tamil Nadu)",
+        "HMT-100-5 (early duration)",
+        "Co-7 (South India short duration)"
+      ],
+      "uses": [
+        "Cooked like rice as a staple grain",
+        "Foxtail millet flour for health breads and cookies",
+        "Baby food and weaning food formulations",
+        "Poultry and small livestock feed",
+        "Export as health grain (Shree Anna)"
+      ],
+      "mkts": 115,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "kodo-millet",
+      "name": "Kodo Millet",
+      "hindi": "कोदो",
+      "icon": "🌾",
+      "category": "Cereals",
+      "price": 2425,
+      "min": 2050,
+      "max": 3650,
+      "unit": "quintal",
+      "change": -25,
+      "trend": "down",
+      "major_states": [
+        "Madhya Pradesh",
+        "Chhattisgarh",
+        "Uttar Pradesh",
+        "Karnataka"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Oct-Nov)",
+      "description": "Kodo millet is a drought-tolerant tribal food crop of central India, especially Madhya Pradesh and Chhattisgarh, where it is grown on marginal soils without irrigation or chemical inputs. It is gaining commercial importance as a certified organic grain exported to health markets in Europe and Japan.",
+      "varieties": [
+        "JK-62 (Madhya Pradesh)",
+        "Indore-1 (high yield)",
+        "RBK-155 (Chhattisgarh)",
+        "JNK-23 (tribal belt)",
+        "GPK-3 (Karnataka)"
+      ],
+      "uses": [
+        "Kodo rice (cooked grain) - tribal staple food",
+        "Kodo flour for rotis and porridge",
+        "Organic health food export to Europe and Japan",
+        "Poultry and small animal feed",
+        "Fermented drink (mahuli) in tribal communities"
+      ],
+      "mkts": 115,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "little-millet",
+      "name": "Little Millet (Kutki)",
+      "hindi": "कुटकी",
+      "icon": "🌾",
+      "category": "Cereals",
+      "price": 2500,
+      "min": 2050,
+      "max": 4600,
+      "unit": "quintal",
+      "change": -100,
+      "trend": "down",
+      "major_states": [
+        "Madhya Pradesh",
+        "Chhattisgarh",
+        "Odisha",
+        "Karnataka"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Sep-Oct)",
+      "description": "Little millet is the most versatile minor millet, suited to both rainfed uplands and waterlogged conditions, and is a dietary staple for tribal communities in Madhya Pradesh and Odisha. Its rapid 75-day crop cycle and zero-input organic certification potential make it attractive for small and marginal farmers.",
+      "varieties": [
+        "Sagar Local",
+        "TNAU CO-3 (Tamil Nadu)",
+        "Dindori-1 (MP tribal belt)",
+        "GPUM-3 (Odisha)",
+        "CO-5 (Karnataka)"
+      ],
+      "uses": [
+        "Cooked little millet as a rice substitute",
+        "Little millet flour for health rotis",
+        "Organic certified export",
+        "Bird feed and small animal fodder",
+        "Traditional beer (hadia) in Jharkhand and Odisha"
+      ],
+      "mkts": 155,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "pearl-millet",
+      "name": "Sorghum Fodder",
+      "hindi": "चारा ज्वार",
+      "icon": "🌾",
+      "category": "Cereals",
+      "price": 2900,
+      "min": 2251,
+      "max": 4800,
+      "unit": "quintal",
+      "change": -73,
+      "trend": "down",
+      "major_states": [
+        "Rajasthan",
+        "Gujarat",
+        "Maharashtra",
+        "Haryana"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Sep-Oct)",
+      "description": "Sorghum fodder is the highest-yielding green fodder crop in India's arid and semi-arid zones, providing 40-60 tonnes/hectare of green biomass per year with 3-4 cuttings. It is the backbone of dairy farming in Rajasthan, Gujarat and Maharashtra and commands steady prices from dairies and livestock farmers throughout the year.",
+      "varieties": [
+        "CSV-33 (fodder type)",
+        "MFSH-3 (multi-cut)",
+        "SSG-59-3 (Sudan grass hybrid)",
+        "PC-6 (Rajasthan)",
+        "IGFRI-1010 (perennial type)"
+      ],
+      "uses": [
+        "Green fodder for dairy cattle (primary use)",
+        "Silage making for dry-season feed reserves",
+        "Hay and dry fodder (chara)",
+        "Seed grain for poultry feed",
+        "Bio-ethanol feedstock (emerging)"
+      ],
+      "mkts": 77,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "arecanut",
+      "name": "Arecanut (Supari)",
+      "hindi": "सुपारी",
+      "icon": "🌰",
+      "category": "Cash Crops",
+      "price": 38000,
+      "min": 24799,
+      "max": 49899,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Karnataka",
+        "Kerala",
+        "Assam",
+        "Meghalaya",
+        "Tamil Nadu"
+      ],
+      "season": "Winter harvest",
+      "description": "Arecanut (supari) is India's most cash-intensive plantation crop per unit area, with Karnataka's Shimoga district earning ₹3-5 lakh/acre/year for growers. Chewing betel nut is deeply embedded in Indian culture and the ₹60,000+ crore branded pan masala industry ensures perennial high demand despite health advisories.",
+      "varieties": [
+        "Mangala (high-yield, CPCRI)",
+        "Sumangala (drought tolerant)",
+        "Sree Mangala (Goa type)",
+        "Mohitnagar (North Bengal tall)",
+        "Hirehalli Dwarf (early bearing)"
+      ],
+      "uses": [
+        "Fresh/tender supari for direct consumption",
+        "Dried and processed supari for pan and paan masala",
+        "Supari in puja/religious rituals",
+        "Betel nut extract for pharmaceutical preparations",
+        "Arecanut husk for particle board and mulching"
+      ],
+      "mkts": 34,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "cashew",
+      "name": "Cashew Nut",
+      "hindi": "काजू",
+      "icon": "🌰",
+      "category": "Cash Crops",
+      "price": 12100,
+      "min": 7900,
+      "max": 13300,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Odisha",
+        "Kerala",
+        "Karnataka"
+      ],
+      "season": "Mar-May",
+      "description": "India is the world's largest cashew processor, importing raw cashew nuts (RCN) from Africa and re-exporting processed kernels earning over ₹7,000 crore annually. Goa and Kerala cashews have GI tags and command premium prices, while Maharashtra's Sindhudurg district and Odisha are growing processing hubs.",
+      "varieties": [
+        "Vengurla-4 (Maharashtra high-yield)",
+        "Ullal-3 (Karnataka)",
+        "H-753 (Goa premium quality)",
+        "BPP-6 (Andhra Pradesh)",
+        "Priyanka (Goa high-bearing)"
+      ],
+      "uses": [
+        "Processed cashew kernels for export and domestic snacking",
+        "Cashew apple juice (feni in Goa)",
+        "Cashew feni - Goa's famous spirit (GI product)",
+        "Cashew nut shell liquid (CNSL) - industrial chemical",
+        "Cashew cake for cattle feed"
+      ],
+      "mkts": 6,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "rubber",
+      "name": "Natural Rubber",
+      "hindi": "रबर",
+      "icon": "⚫",
+      "category": "Cash Crops",
+      "price": 29600,
+      "min": 29600,
+      "max": 29600,
+      "unit": "quintal",
+      "change": 3100,
+      "trend": "up",
+      "major_states": [
+        "Kerala",
+        "Tamil Nadu",
+        "Tripura",
+        "Karnataka"
+      ],
+      "season": "Year-round tapping",
+      "description": "Natural rubber from India's Kerala plantations is prized in global tyre and industrial rubber markets for its superior quality. India is the world's 4th-largest rubber producer and consumer - the entire production is consumed domestically by the automotive tyre industry, making India a net importer despite significant production.",
+      "varieties": [
+        "RRII-105 (most planted in Kerala)",
+        "GT-1 (older high-yielding clone)",
+        "RRII-118 (disease tolerant)",
+        "RRIM-600 (imported clone)",
+        "PB-260 (wind tolerant)"
+      ],
+      "uses": [
+        "Automotive tyres (60% of rubber use)",
+        "Latex gloves and medical rubber products",
+        "Industrial rubber products (belts, hoses)",
+        "Foam and mattresses",
+        "Adhesives and sealants"
+      ],
+      "mkts": 1,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "tea",
+      "name": "Tea (Green Leaf)",
+      "hindi": "चाय",
+      "icon": "🍵",
+      "category": "Cash Crops",
+      "price": 5100,
+      "min": 2250,
+      "max": 15000,
+      "unit": "quintal",
+      "change": 100,
+      "trend": "up",
+      "major_states": [
+        "Assam",
+        "West Bengal",
+        "Tamil Nadu",
+        "Kerala"
+      ],
+      "season": "Mar-Nov",
+      "description": "Assam tea has a GI (Geographical Indication) tag and is among the world's most recognised tea origins - its malty, robust character powers India's iconic 'cutting chai' culture. India is the world's second-largest tea producer and consumer, with over 1.3 billion kg consumed domestically, making India a net importer of certain grades despite massive production.",
+      "varieties": [
+        "Assam hybrid clones (TV1, TV21)",
+        "Darjeeling China variety (Camellia sinensis sinensis)",
+        "Nilgiri clones (CN3, P126)",
+        "UPASI-9 (South India high-yield)",
+        "Tocklai clones (T.4, T.78, T.82)"
+      ],
+      "uses": [
+        "CTC tea (crush-tear-curl) for mass-market chai",
+        "Orthodox loose leaf for premium export",
+        "Green tea for health market",
+        "Tea extract for RTD (ready-to-drink) beverages",
+        "Tea waste as compost and cattle feed supplement"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee",
+      "hindi": "कॉफी",
+      "icon": "☕",
+      "category": "Cash Crops",
+      "price": 21500,
+      "min": 21500,
+      "max": 21500,
+      "unit": "quintal",
+      "change": -300,
+      "trend": "down",
+      "major_states": [
+        "Karnataka",
+        "Kerala",
+        "Tamil Nadu"
+      ],
+      "season": "Nov-Feb",
+      "description": "Karnataka's Coorg (Kodagu) and Chikkamagaluru districts produce 70% of India's coffee and are home to the world-famous Monsooned Malabar - a unique Indian coffee deliberately exposed to monsoon winds, creating a distinct earthy flavour prized by European specialty roasters at €10-20/kg. India exports 70-75% of its coffee production.",
+      "varieties": [
+        "Arabica S.795 (shade-grown premium)",
+        "Robusta CxR (high-yield)",
+        "Cauvery (Catimor hybrid)",
+        "Selection-9 (high-density planting)",
+        "Kent (disease-resistant Arabica)"
+      ],
+      "uses": [
+        "Filter coffee for Indian domestic market",
+        "Specialty and single-origin export (Monsooned Malabar)",
+        "Instant coffee powder manufacturing",
+        "Green coffee beans for direct export",
+        "Coffee husk as fuel and organic fertiliser"
+      ],
+      "mkts": 1,
+      "updated": "2026-09-01"
+    },
+    {
+      "id": "tobacco",
+      "name": "Tobacco",
+      "hindi": "तंबाकू",
+      "icon": "🍂",
+      "category": "Cash Crops",
+      "price": 3600,
+      "min": 1140,
+      "max": 6400,
+      "unit": "quintal",
+      "change": 438,
+      "trend": "up",
+      "major_states": [
+        "Gujarat",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Uttar Pradesh"
+      ],
+      "season": "Rabi (Sow: Sep-Oct, Transplant: Nov-Dec, Harvest: Feb-Apr)",
+      "description": "India is the world's third-largest tobacco producer and second-largest exporter, earning ₹5,000-6,000 crore annually from tobacco leaf exports to Belgium, Germany and Russia. Andhra Pradesh's Guntur district produces 'flue-cured Virginia' (FCV) tobacco that sets global benchmark prices at the Guntur auction platform - Asia's largest tobacco auction.",
+      "varieties": [
+        "FCV Coker-371 (Andhra Pradesh - most grown)",
+        "K-326 (Karnataka FCV)",
+        "Burley tobacco (Maharashtra/Karnataka)",
+        "Bidi tobacco (Gujarat/Rajasthan)",
+        "NLS-6 (low alkaloid variety)"
+      ],
+      "uses": [
+        "Cigarettes and bidis (primary use)",
+        "Chewing tobacco and gutkha",
+        "Hookah tobacco (shisha)",
+        "Snuff and smokeless tobacco products",
+        "Tobacco leaf export (raw leaf to Belgium, Germany)"
+      ],
+      "mkts": 8,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "isabgol",
+      "name": "Isabgol (Psyllium)",
+      "hindi": "इसबगोल",
+      "icon": "🌿",
+      "category": "Spices",
+      "price": 11200,
+      "min": 8900,
+      "max": 11985,
+      "unit": "quintal",
+      "change": -127,
+      "trend": "down",
+      "major_states": [
+        "Rajasthan",
+        "Gujarat",
+        "Madhya Pradesh"
+      ],
+      "season": "Rabi (Sow: Nov-Dec, Harvest: Feb-Mar)",
+      "description": "India produces and exports 85% of the world's isabgol (psyllium husk) - one of India's most dominant global agri-exports. Rajasthan's Jalor, Barmer and Pali districts are the world's isabgol capital. The pharmaceutical-grade husk is exported to the USA, Germany and UK as a bulk laxative and cholesterol-lowering supplement at ₹500-800/kg, making it India's highest-value oilseed-equivalent crop.",
+      "varieties": [
+        "GI-2 (Gujarat high-husk recovery)",
+        "HI-5 (Jalor type - most popular)",
+        "RI-89 (Rajasthan rust resistant)",
+        "Niharika (NRCSS Ajmer)",
+        "Jalor-1 (local selection)"
+      ],
+      "uses": [
+        "Psyllium husk supplement (Metamucil, Sat Isabgol)",
+        "Cholesterol-lowering pharmaceutical (FDA-approved health claim)",
+        "Binding agent in tablet manufacturing",
+        "Food-grade thickener and stabiliser",
+        "Export to USA, Germany, UK in bulk"
+      ],
+      "mkts": 4,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "onion-seed",
+      "name": "Onion Seed",
+      "hindi": "प्याज बीज",
+      "icon": "🧅",
+      "category": "Vegetables",
+      "price": 4750,
+      "min": 2800,
+      "max": 7200,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Maharashtra",
+        "Gujarat",
+        "Rajasthan",
+        "Karnataka"
+      ],
+      "season": "Rabi (Sow: Sep-Oct, Harvest: Jan-Mar)",
+      "description": "Onion seed (kanda beej) is one of India's highest-value agricultural commodities - a single kg of hybrid onion seed can cost ₹3,000-5,000 and represents the most important input cost in onion cultivation. Maharashtra's Nashik and Gujarat's Bhavnagar are the primary onion seed production centres, with farmers dedicating specific plots to mother plants for seed harvest.",
+      "varieties": [
+        "Bhima Shakti (NHRDF - leading hybrid seed)",
+        "Bhima Kiran (red rabi type)",
+        "Arka Niketan (IIHR variety)",
+        "Punjab Selection-787",
+        "N-53 (Maharashtra local)"
+      ],
+      "uses": [
+        "Planting material for onion cultivation",
+        "Export of onion seeds to Bangladesh, Malaysia, Myanmar",
+        "Foundation and certified seed production",
+        "Hybrid seed production for seed companies",
+        "Onion seed oil (minor cosmetic use)"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "ridge-gourd",
+      "name": "Ridge Gourd (Turai)",
+      "hindi": "तुरई / तोरी",
+      "icon": "🥒",
+      "category": "Vegetables",
+      "price": 2500,
+      "min": 1000,
+      "max": 5900,
+      "unit": "quintal",
+      "change": -200,
+      "trend": "down",
+      "major_states": [
+        "West Bengal",
+        "Uttar Pradesh",
+        "Bihar",
+        "Odisha",
+        "Maharashtra"
+      ],
+      "season": "Summer & Kharif (Sow: Feb-Jun, Harvest: Apr-Oct)",
+      "description": "Ridge gourd (turai) is a staple summer vegetable of eastern India - West Bengal alone accounts for 35% of national production - and the dry loofah (sponge) made from its fibrous skeleton is a significant cottage industry export product. The crop is a reliable income earner for small farmers in Bihar and UP because it matures in 50-55 days and produces continuously for 60-70 days.",
+      "varieties": [
+        "Pusa Nasdar (most popular)",
+        "Arka Sumeet (IIHR)",
+        "CO-2 (Tamil Nadu)",
+        "Punjab Sadabahar (Punjab summer)",
+        "NDBG-68 (Varanasi)"
+      ],
+      "uses": [
+        "Fresh vegetable (turai ki sabji)",
+        "Ridge gourd chutney (South India)",
+        "Loofah sponge for bathing (dry fibre export to Europe)",
+        "Ayurvedic use for skin conditions",
+        "Juice for liver health in Ayurveda"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "pointed-gourd",
+      "name": "Pointed Gourd (Parwal)",
+      "hindi": "परवल",
+      "icon": "🥒",
+      "category": "Vegetables",
+      "price": 2700,
+      "min": 1000,
+      "max": 5750,
+      "unit": "quintal",
+      "change": -50,
+      "trend": "down",
+      "major_states": [
+        "Uttar Pradesh",
+        "West Bengal",
+        "Bihar",
+        "Odisha",
+        "Chhattisgarh"
+      ],
+      "season": "Summer & Kharif (Sow: Jan-Mar, Harvest: Apr-Sep)",
+      "description": "Pointed gourd (parwal) is one of the most expensive vegetables in North India, commanding ₹40-80/kg retail in Delhi and UP during peak season, and is the only Cucurbit grown from vegetative cuttings rather than seeds. It is deeply embedded in Bengali and Odia cuisine and the 'parwal ki mithai' (pointed gourd sweet) is a signature Bengal festival delicacy.",
+      "varieties": [
+        "Rajendra Parwal-1 (Bihar high-yield)",
+        "Swarna Rekha (RPCAU variety)",
+        "Local Varanasi type (UP)",
+        "Dun (Bengal round type)",
+        "Swarna Sufia (CPRI dwarf)"
+      ],
+      "uses": [
+        "Parwal ki sabji and curry (North-East staple)",
+        "Parwal ki mithai - Bengali sweet (unique dessert)",
+        "Stuffed parwal (bharwa parwal)",
+        "Dried parwal for off-season use",
+        "Ayurvedic use for fever and diabetes management"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "tinda",
+      "name": "Round Gourd (Tinda)",
+      "hindi": "टिंडा",
+      "icon": "🥒",
+      "category": "Vegetables",
+      "price": 2500,
+      "min": 1000,
+      "max": 5750,
+      "unit": "quintal",
+      "change": -100,
+      "trend": "down",
+      "major_states": [
+        "Uttar Pradesh",
+        "Punjab",
+        "Rajasthan",
+        "Gujarat",
+        "Haryana"
+      ],
+      "season": "Summer (Sow: Mar-Apr, Harvest: Jun-Aug)",
+      "description": "Round gourd (tinda) is a quintessential summer vegetable of North India - particularly Punjab, Haryana and UP - consumed daily during peak summer months when it provides hydration and heat relief. It is rarely found outside North India's markets despite being one of the most productive cucurbits, with 3-4 fruits per plant daily during the peak harvest period.",
+      "varieties": [
+        "HT-10 (Punjab most grown)",
+        "Pusa Tinda (national variety)",
+        "Arka Tinda (IIHR)",
+        "Local Delhi Round (landraces)",
+        "BSS-93 (early duration)"
+      ],
+      "uses": [
+        "Tinda sabji (North India summer staple)",
+        "Stuffed tinda (bharwa tinda)",
+        "Tinda raita (cooling summer dish)",
+        "Dehydrated tinda for off-season (local)",
+        "Traditional remedy for stomach cooling"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "ash-gourd",
+      "name": "Ash Gourd (Petha)",
+      "hindi": "पेठा / कुम्हड़ा",
+      "icon": "🟢",
+      "category": "Vegetables",
+      "price": 2500,
+      "min": 1000,
+      "max": 5900,
+      "unit": "quintal",
+      "change": -200,
+      "trend": "down",
+      "major_states": [
+        "Uttar Pradesh",
+        "Rajasthan",
+        "Maharashtra",
+        "Odisha",
+        "Karnataka"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Oct-Jan)",
+      "description": "Ash gourd (petha/safed kaddu) is the raw material for Agra's world-famous petha sweet - a ₹500+ crore confectionery industry using over 5 lakh tonnes of ash gourd annually. The vegetable is also deeply revered in Vastu Shastra and religious traditions, commanding premium prices during festivals and temple festivals across India.",
+      "varieties": [
+        "CO-1 (Tamil Nadu high-yield)",
+        "Pusa Ujwal (national variety)",
+        "NBG-1 (Varanasi - petha quality)",
+        "Indu (Karnataka)",
+        "HS-1 (Haryana early)"
+      ],
+      "uses": [
+        "Agra petha sweet manufacturing (₹500 crore industry)",
+        "Ash gourd halwa and sabji",
+        "Juice for Ayurvedic detox and mental health (vallarai juice)",
+        "Seeds as dry fruit snack (roasted)",
+        "Vastu/religious crop for doorways (protection belief)"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "suran",
+      "name": "Elephant Yam (Suran)",
+      "hindi": "जिमीकंद / सूरन",
+      "icon": "🟤",
+      "category": "Vegetables",
+      "price": 5000,
+      "min": 3400,
+      "max": 7750,
+      "unit": "quintal",
+      "change": 200,
+      "trend": "up",
+      "major_states": [
+        "Odisha",
+        "Maharashtra",
+        "Karnataka",
+        "Uttar Pradesh",
+        "West Bengal"
+      ],
+      "season": "Kharif (Sow: May-Jun, Harvest: Oct-Jan)",
+      "description": "Elephant yam (suran/jimikand) is the most starchy tropical tuber crop of India and a primary food security crop in eastern India's tribal and rural communities. Odisha's Koraput region grows the finest quality suran with the highest dry matter content, and suran chips and dehydrated suran are emerging export products for health food markets in Japan and Europe.",
+      "varieties": [
+        "Gajendra (Odisha high-yield)",
+        "Sree Padma (Kerala)",
+        "CTCRI-1 (Kerala improved)",
+        "Local Odisha (tribal selection)",
+        "H-42 (Maharashtra hybrid)"
+      ],
+      "uses": [
+        "Suran sabji and curry (eastern India staple)",
+        "Suran chips and crisps (health snack)",
+        "Dehydrated suran powder for export",
+        "Ayurvedic medicine for piles treatment (a prescribed vegetable)",
+        "Sweets and halwa from suran (Maharashtra)"
+      ],
+      "mkts": 220,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "ivy-gourd",
+      "name": "Ivy Gourd (Tindora)",
+      "hindi": "कुंदरू / तिंदोरा",
+      "icon": "🥒",
+      "category": "Vegetables",
+      "price": 2500,
+      "min": 1000,
+      "max": 5900,
+      "unit": "quintal",
+      "change": -200,
+      "trend": "down",
+      "major_states": [
+        "Gujarat",
+        "Maharashtra",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Tamil Nadu"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Aug-Nov)",
+      "description": "Ivy gourd (tindora/kundru) is a perennial climbing cucurbit that, once established, produces prolifically for 10-12 years from a single planting - making it one of the most cost-effective vegetables for small farmers. Gujarat's Surat and Anand districts are the main commercial production centres and the vegetable is increasingly marketed for its blood-sugar-lowering properties.",
+      "varieties": [
+        "Pusa Ivy Gourd-1",
+        "CO-1 (Tamil Nadu)",
+        "Laxmi (Gujarat high-yield)",
+        "Arka Neelachal Kunkhi (IIHR)",
+        "Local Gujarat selection"
+      ],
+      "uses": [
+        "Tindora sabji (Gujarat, Maharashtra daily vegetable)",
+        "Stuffed tindora (bharwa kundru)",
+        "Blood sugar management - Ayurvedic prescription vegetable",
+        "Pickle and sun-dried tindora (achaar)",
+        "Perennial fence/boundary crop (dual agricultural use)"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "sponge-gourd",
+      "name": "Sponge Gourd (Ghia Tori)",
+      "hindi": "घिया तोरी / नेनुआ",
+      "icon": "🥒",
+      "category": "Vegetables",
+      "price": 3500,
+      "min": 1350,
+      "max": 5750,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "West Bengal",
+        "Uttar Pradesh",
+        "Bihar",
+        "Odisha",
+        "Andhra Pradesh"
+      ],
+      "season": "Summer & Kharif (Sow: Feb-May, Harvest: Apr-Sep)",
+      "description": "Sponge gourd (ghia tori/dodka) is extensively grown across humid eastern and western India and its fibrous interior - dried and sold as a natural loofah sponge - is a growing export product replacing synthetic bath sponges in eco-conscious European and US markets. The global natural loofah market is expanding at 8-10% annually.",
+      "varieties": [
+        "CO-1 (Tamil Nadu)",
+        "Pusa Chikni (smooth type)",
+        "RHR-8 (Rajasthan)",
+        "BSS-180 (Varanasi)",
+        "Local WB selection (fibrous type for loofah)"
+      ],
+      "uses": [
+        "Fresh vegetable for turai-like curries",
+        "Natural loofah sponge production (export to EU/USA)",
+        "Loofah mats and bathroom accessories",
+        "Seeds as oil and food ingredient",
+        "Ayurvedic topical application for skin"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "cluster-beans",
+      "name": "Cluster Beans (Guar Phali)",
+      "hindi": "ग्वार फली",
+      "icon": "🫛",
+      "category": "Vegetables",
+      "price": 4400,
+      "min": 2776,
+      "max": 8800,
+      "unit": "quintal",
+      "change": -350,
+      "trend": "down",
+      "major_states": [
+        "Rajasthan",
+        "Haryana",
+        "Gujarat",
+        "Uttar Pradesh",
+        "Punjab"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Aug-Oct)",
+      "description": "Cluster bean (guar phali) vegetable and guar seed are two distinct markets - the fresh green pod is a vegetable while the dry seed (guar) is a globally strategic industrial crop because guar gum is the primary fracking fluid thickener used in the US and Canadian oil and gas industry. Rajasthan produces 80% of India's guar, making it a crop with both rural food security and global industrial significance.",
+      "varieties": [
+        "Pusa Sadabahar (vegetable type)",
+        "RGC-1038 (dual-purpose)",
+        "FS-277 (fodder type)",
+        "HG-2-20 (Haryana)",
+        "AGR-1 (Rajasthan grain)"
+      ],
+      "uses": [
+        "Fresh cluster beans sabji (vegetable use)",
+        "Guar gum for food thickener (E412 - ice cream, sauce)",
+        "Guar gum for oil drilling fracking fluid (industrial)",
+        "Guar protein meal for animal feed",
+        "Guar gum for textile sizing and paper manufacturing"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "amaranthus",
+      "name": "Amaranthus (Chaulai)",
+      "hindi": "चौलाई",
+      "icon": "🌿",
+      "category": "Vegetables",
+      "price": 2750,
+      "min": 1750,
+      "max": 4500,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Maharashtra",
+        "Karnataka",
+        "Tamil Nadu",
+        "Uttar Pradesh",
+        "Andhra Pradesh"
+      ],
+      "season": "Kharif & Summer (Year-round in warm climates)",
+      "description": "Amaranthus (chaulai) is a dual-purpose crop - the green leaves are a nutritious leafy vegetable while the grain type (rajgira) is a gluten-free superfood with the highest protein content of any grain cereal (14-18%). Maharashtra's nashik and UP grow most of India's grain amaranth, which sells at ₹150-400/kg retail in health food markets.",
+      "varieties": [
+        "Pusa Kiran (leaf vegetable type)",
+        "CO-1 (Tamil Nadu leaf type)",
+        "Annapoorna (grain type, Maharashtra)",
+        "Golden Giant (grain amaranth)",
+        "H-4 (Uttarakhand grain type)"
+      ],
+      "uses": [
+        "Chaulai saag (leafy vegetable)",
+        "Rajgira ladoo (festival sweet, Navratri fasting food)",
+        "Rajgira flour for gluten-free health products",
+        "Amaranth grain for protein bars and cereals",
+        "Natural red dye from amaranth pigment"
+      ],
+      "mkts": 209,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "tapioca",
+      "name": "Tapioca (Cassava)",
+      "hindi": "कसावा / टेपियोका",
+      "icon": "🟤",
+      "category": "Vegetables",
+      "price": 3250,
+      "min": 2700,
+      "max": 4400,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Kerala",
+        "Tamil Nadu",
+        "Andhra Pradesh",
+        "Maharashtra",
+        "Odisha"
+      ],
+      "season": "Year-round (8-12 months to harvest)",
+      "description": "India is one of the world's largest tapioca producers and Kerala and Tamil Nadu are the dominant growing states, where cassava (tapioca) is a primary food security crop. India is also the world's second-largest producer of tapioca starch - an industrial raw material for glucose syrups, monosodium glutamate (MSG), textile sizing, paper and biodegradable plastic manufacturing.",
+      "varieties": [
+        "H-226 (Kerala most grown)",
+        "Sree Vijaya (Bhavnagar type)",
+        "MH-4 (Tamil Nadu)",
+        "Sree Prakash (disease resistant)",
+        "Sree Jaya (long shelf-life tuber)"
+      ],
+      "uses": [
+        "Tapioca chips (kappa chips - Kerala snack)",
+        "Kappa (boiled tapioca with coconut chutney - Kerala staple)",
+        "Industrial tapioca starch for glucose, MSG, textiles",
+        "Sabudana (sago pearls from tapioca starch)",
+        "Bio-degradable plastic and ethanol production"
+      ],
+      "mkts": 94,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "snake-gourd",
+      "name": "Snake Gourd (Chichinda)",
+      "hindi": "चिचिंडा / पड़वल",
+      "icon": "🥒",
+      "category": "Vegetables",
+      "price": 2500,
+      "min": 1000,
+      "max": 5900,
+      "unit": "quintal",
+      "change": -200,
+      "trend": "down",
+      "major_states": [
+        "Andhra Pradesh",
+        "Tamil Nadu",
+        "Karnataka",
+        "Kerala",
+        "West Bengal"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Aug-Nov)",
+      "description": "Snake gourd (chichinda) is a distinctive tropical vegetable growing up to 150 cm in length and is particularly popular in Tamil Nadu, Andhra Pradesh and Kerala, where it is a primary rainy-season vegetable. Its watery, bitter-free flesh makes it one of the most cooling and digestible vegetables - widely prescribed in Ayurveda for heat-related ailments.",
+      "varieties": [
+        "CO-1 (Tamil Nadu high-yield)",
+        "MDU-1 (Tamil Nadu early variety)",
+        "TA-19 (Andhra Pradesh)",
+        "IISR local (Kerala)",
+        "Local WB round type"
+      ],
+      "uses": [
+        "Snake gourd sabji (South India daily vegetable)",
+        "Stuffed snake gourd (bharwa chichinda, Andhra style)",
+        "Snake gourd chutney (Kerala)",
+        "Ayurvedic fever and inflammation remedy",
+        "Seeds as edible seed snack"
+      ],
+      "mkts": 400,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "amla",
+      "name": "Amla (Indian Gooseberry)",
+      "hindi": "आंवला",
+      "icon": "🟢",
+      "category": "Fruits",
+      "price": 7500,
+      "min": 4800,
+      "max": 10000,
+      "unit": "quintal",
+      "change": 250,
+      "trend": "up",
+      "major_states": [
+        "Uttar Pradesh",
+        "Himachal Pradesh",
+        "Rajasthan",
+        "Gujarat",
+        "Tamil Nadu"
+      ],
+      "season": "Winter (Harvest: Nov-Feb)",
+      "description": "Amla (Indian gooseberry) is the richest natural source of vitamin C on earth - one small 100g amla contains 600-800 mg vitamin C, 20× the content of an orange - and is the foundational ingredient in Chyawanprash, India's most consumed Ayurvedic health supplement (₹2,000+ crore market). UP's Pratapgarh district is the amla capital of India and processes over 60% of national production.",
+      "varieties": [
+        "Krishna (UP dominant commercial)",
+        "NA-6 (CISH Lucknow high-yield)",
+        "NA-7 (large fruit - best quality)",
+        "Chakaiya (UP early bearing)",
+        "Kanchan (south India type)"
+      ],
+      "uses": [
+        "Amla powder for Chyawanprash and health supplements",
+        "Amla murabba (preserved amla in sugar)",
+        "Amla oil for hair strengthening (major cosmetics use)",
+        "Fresh amla juice (health tonic - vitamin C supplement)",
+        "Triphala churna (Ayurvedic digestive - amla is one of three fruits)"
+      ],
+      "mkts": 133,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "jackfruit",
+      "name": "Jackfruit",
+      "hindi": "कटहल",
+      "icon": "🟡",
+      "category": "Fruits",
+      "price": 1200,
+      "min": 1200,
+      "max": 1200,
+      "unit": "quintal",
+      "change": 600,
+      "trend": "up",
+      "major_states": [
+        "Kerala",
+        "West Bengal",
+        "Bihar",
+        "Tamil Nadu",
+        "Odisha"
+      ],
+      "season": "Summer (Mar-Jun)",
+      "description": "India is the world's largest jackfruit producer and Kerala's Varikka and Koozha jackfruit varieties can weigh 35-50 kg per fruit, making jackfruit the world's largest tree-borne fruit. Raw jackfruit (kathal) is India's most popular meat substitute, and the ₹500+ crore packaged jackfruit product market (curries, vegan pulled-jack, chips) is growing at 25% annually as plant-based diets gain traction.",
+      "varieties": [
+        "Muttom Varikka (Kerala sweet - premium)",
+        "Sindur (sweet variety)",
+        "Singapore Jack (early bearing hybrid)",
+        "Bali (Odisha local)",
+        "J33 (TNAU high-yield)"
+      ],
+      "uses": [
+        "Raw jackfruit curry (kathal sabzi - meat substitute)",
+        "Ripe jackfruit eating and pulp",
+        "Jackfruit chips (crispy snack - Kerala cottage industry)",
+        "Vegan pulled jackfruit export to USA, UK, Europe",
+        "Jackfruit seed curry and dal (tribal nutrition)"
+      ],
+      "mkts": 1,
+      "updated": "2026-07-18"
+    },
+    {
+      "id": "custard-apple",
+      "name": "Custard Apple (Sitaphal)",
+      "hindi": "सीताफल / शरीफा",
+      "icon": "🟢",
+      "category": "Fruits",
+      "price": 9000,
+      "min": 4600,
+      "max": 22000,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Maharashtra",
+        "Gujarat",
+        "Andhra Pradesh",
+        "Karnataka",
+        "Madhya Pradesh"
+      ],
+      "season": "Autumn (Sep-Nov)",
+      "description": "Custard apple (sitaphal/sharifa) is India's most distinct tropical fruit and Maharashtra's Nashik, Dhule and Nanded districts have developed commercial cultivation earning farmers ₹1.5-3 lakh/acre. The cherimoya (hybrid custard apple) commands ₹150-300/kg retail in urban India and the processed pulp is used in ice cream, shakes and health drinks.",
+      "varieties": [
+        "Balanagar (Andhra Pradesh - red sitaphal)",
+        "Arka Sahan (IIHR hybrid)",
+        "Washington (Maharashtra local)",
+        "NMK-1 (MPKV Maharashtra)",
+        "Local Nanded red (small seeded)"
+      ],
+      "uses": [
+        "Fresh eating (dessert fruit)",
+        "Custard apple ice cream and milkshake (commercial use)",
+        "Pulp extraction for health drinks",
+        "Seed oil for herbal cosmetics (hair oil)",
+        "Pest-control spray from seed extract (natural pesticide)"
+      ],
+      "mkts": 184,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "peach",
+      "name": "Peach (Aadoo)",
+      "hindi": "आड़ू",
+      "icon": "🍑",
+      "category": "Fruits",
+      "price": 20000,
+      "min": 7000,
+      "max": 20000,
+      "unit": "quintal",
+      "change": 12750,
+      "trend": "up",
+      "major_states": [
+        "Himachal Pradesh",
+        "Jammu & Kashmir",
+        "Uttarakhand",
+        "Punjab"
+      ],
+      "season": "Summer (May-Aug)",
+      "description": "India's Himalayan peach belt in Himachal Pradesh (Shimla, Kullu, Kinnaur), Uttarakhand and J&K produces the finest stone fruits in Asia but suffers from extreme post-harvest losses due to peach's 3-5 day shelf life. Peach jam, squash and juice processing units in HP are rapidly scaling up to convert this into shelf-stable products, and Kinnaur's organically grown peaches are premium-priced at ₹150-300/kg.",
+      "varieties": [
+        "July Elberta (most popular HP variety)",
+        "Flordasun (early, subtropical)",
+        "Prabhant (hills variety)",
+        "Shan-e-Punjab (J&K)",
+        "Flordaprince (low-chill, plains)"
+      ],
+      "uses": [
+        "Fresh eating (primary - very short shelf life)",
+        "Peach jam and preserve export",
+        "Dried peaches (Himachal cottage industry)",
+        "Peach juice and nectar manufacturing",
+        "Canned peach halves for export"
+      ],
+      "mkts": 2,
+      "updated": "2026-08-29"
+    },
+    {
+      "id": "pear",
+      "name": "Pear (Nashpati)",
+      "hindi": "नाशपाती",
+      "icon": "🍐",
+      "category": "Fruits",
+      "price": 7000,
+      "min": 3000,
+      "max": 11000,
+      "unit": "quintal",
+      "change": 1500,
+      "trend": "up",
+      "major_states": [
+        "Himachal Pradesh",
+        "Jammu & Kashmir",
+        "Uttarakhand",
+        "Uttar Pradesh"
+      ],
+      "season": "Autumn (Aug-Oct)",
+      "description": "Himachal Pradesh produces 70% of India's pear (nashpati) and the Pathankot-Baijnath valley in Kangra district and Kinnaur are prime production zones. India imports significant quantities of pear from China and South Africa to meet demand during off-season, creating an opportunity for Indian growers willing to invest in cold-chain infrastructure to command higher prices.",
+      "varieties": [
+        "Bartlett/Williams (export grade)",
+        "Conference (European variety)",
+        "Patharnakh (Punjab, HP hardiest)",
+        "Baggugosha (North India cold store variety)",
+        "Early Dehem (Bihar/UP early crop)"
+      ],
+      "uses": [
+        "Fresh eating (primary use)",
+        "Pear jam and pickle export (HP cottage industry)",
+        "Canned pear in syrup for export",
+        "Pear juice for beverages",
+        "Dried pear slices for health snacks"
+      ],
+      "mkts": 27,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "plum",
+      "name": "Plum (Aloo Bukhara)",
+      "hindi": "आलू बुखारा",
+      "icon": "🟣",
+      "category": "Fruits",
+      "price": 7500,
+      "min": 4000,
+      "max": 11000,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Himachal Pradesh",
+        "Jammu & Kashmir",
+        "Uttarakhand",
+        "Punjab"
+      ],
+      "season": "Summer (Jun-Aug)",
+      "description": "Himachal Pradesh's Shimla and Kullu valleys and J&K's Srinagar produce India's finest plums and prunes, with the Aloo Bukhara (Damson-type purple plum) being the most traded variety. Indian plums are increasingly being processed into prunes (dried plums) - with Kinnaur emerging as a prune-drying hub - for the growing prune export market in the UAE and Saudi Arabia.",
+      "varieties": [
+        "Kala Amritsari (J&K - deep purple)",
+        "Santa Rosa (HP most planted)",
+        "Satluj Purple (HP commercial)",
+        "Methley (early bearing)",
+        "Beauty (low-chill, plains use)"
+      ],
+      "uses": [
+        "Fresh eating and seasonal fruit market",
+        "Aloo Bukhara (dried prune) export to Middle East",
+        "Plum jam and preserve",
+        "Plum wine and distilled arak (J&K)",
+        "Traditional remedy for constipation (prune)"
+      ],
+      "mkts": 4,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "fig",
+      "name": "Fig (Anjeer)",
+      "hindi": "अंजीर",
+      "icon": "🟣",
+      "category": "Fruits",
+      "price": 8000,
+      "min": 5500,
+      "max": 16000,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Maharashtra",
+        "Gujarat",
+        "Karnataka",
+        "Uttar Pradesh",
+        "Andhra Pradesh"
+      ],
+      "season": "Two crops: Feb-Apr & Oct-Dec",
+      "description": "India's fig (anjeer) belt is concentrated in Maharashtra's Pune, Nasik and Solapur districts, where the BAIF-developed hybrid variety Poona Fig has become nationally popular. Fresh anjeer sells at ₹80-150/kg retail while dried anjeer commands ₹400-1,200/kg, and Iran's competition in the dried fig export market is a persistent challenge for Indian exporters.",
+      "varieties": [
+        "Poona Fig (Maharashtra BAIF hybrid - most popular)",
+        "Dinkar (high-yield Maharashtra)",
+        "Bellary Brown (Karnataka local)",
+        "Brown Turkey (North India type)",
+        "Conadria (export grade - white fig)"
+      ],
+      "uses": [
+        "Fresh fig eating (seasonal, high-value)",
+        "Dried anjeer for export and health food",
+        "Anjeer milk and sweetened fig paste (health tonic)",
+        "Fig jam and preserve",
+        "Pharmaceutical: natural laxative and digestive supplement"
+      ],
+      "mkts": 5,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "jamun",
+      "name": "Jamun (Java Plum)",
+      "hindi": "जामुन",
+      "icon": "🟣",
+      "category": "Fruits",
+      "price": 7500,
+      "min": 4000,
+      "max": 17500,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Uttar Pradesh",
+        "Maharashtra",
+        "Karnataka",
+        "Tamil Nadu",
+        "Andhra Pradesh"
+      ],
+      "season": "Summer (May-Jul)",
+      "description": "Jamun (java plum/black plum) is a uniquely Indian fruit with deep Ayurvedic significance - its seed powder is a widely prescribed remedy for type-2 diabetes management and jamun vinegar is one of India's oldest home medicines. Despite being a traditional backyard tree, commercial jamun cultivation in UP and Maharashtra is growing, with fresh jamun selling at ₹60-120/kg retail during May-July.",
+      "varieties": [
+        "Ra Jamun (UP seedless type)",
+        "CISH-J-45 (CISH Lucknow high-yield)",
+        "Konkan Bahadoli (Maharashtra)",
+        "Local WB purple (large fruited)",
+        "RJ-4 (commercial Rajasthan)"
+      ],
+      "uses": [
+        "Fresh eating (summer fruit)",
+        "Jamun juice for diabetes management (huge demand)",
+        "Jamun seed powder (pharmaceutical - anti-diabetic)",
+        "Jamun vinegar (Ayurvedic medicine)",
+        "Wine and fermented jamun sherbet (cottage industry)"
+      ],
+      "mkts": 5,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "mulberry",
+      "name": "Mulberry (Shahtoot)",
+      "hindi": "शहतूत",
+      "icon": "🟣",
+      "category": "Fruits",
+      "price": 3000,
+      "min": 1500,
+      "max": 6000,
+      "unit": "quintal",
+      "change": 45,
+      "trend": "up",
+      "major_states": [
+        "Karnataka",
+        "West Bengal",
+        "Uttar Pradesh",
+        "Jammu & Kashmir",
+        "Himachal Pradesh"
+      ],
+      "season": "Spring (Mar-May)",
+      "description": "India is the world's second-largest silk producer and Karnataka's Ramanagara district (formerly Silk City) processes 70% of India's mulberry silk cocoon production. Mulberry (shahtoot) cultivation is inseparable from sericulture - 9 million silkworm-rearing farmers across Karnataka, West Bengal and J&K depend on mulberry orchards for their primary income.",
+      "varieties": [
+        "S-36 (most planted sericulture variety)",
+        "V-1 (Karnataka silkworm preferred)",
+        "Goshoerami (J&K white mulberry)",
+        "S-1635 (high-yield WB)",
+        "Victory-1 (silkworm feed quality)"
+      ],
+      "uses": [
+        "Silkworm feed (primary commercial use)",
+        "Fresh mulberry fruit eating and jam",
+        "Mulberry leaf tea (health and Ayurveda)",
+        "Mulberry leaf extract for blood sugar management",
+        "Mulberry wood for sports goods and tools"
+      ]
+    },
+    {
+      "id": "walnut",
+      "name": "Walnut (Akhrot)",
+      "hindi": "अखरोट",
+      "icon": "🟤",
+      "category": "Fruits",
+      "price": 40000,
+      "min": 20000,
+      "max": 70000,
+      "unit": "quintal",
+      "change": 18000,
+      "trend": "up",
+      "major_states": [
+        "Jammu & Kashmir",
+        "Himachal Pradesh",
+        "Uttarakhand",
+        "Arunachal Pradesh"
+      ],
+      "season": "Autumn (Sep-Nov)",
+      "description": "Jammu & Kashmir produces 96% of India's walnuts and the Wular lake belt of Sopore-Baramulla and Shopian is the walnut epicentre - over 3 lakh farming families depend on walnut trees, many of which are 100+ years old. Kashmiri walnut commands a ₹30-80% premium over Iranian and US walnuts in Indian markets due to its paper-thin shell and buttery taste.",
+      "varieties": [
+        "Eureka (most planted commercial variety)",
+        "Hartley (HP type)",
+        "Wilson (high-yield plains adapted)",
+        "Pedro (early bearing)",
+        "Opex Meylan (graft variety, early crop)"
+      ],
+      "uses": [
+        "Edible kernel - health snack and cooking ingredient",
+        "Walnut oil for food and cosmetics (premium)",
+        "Walnut wood for furniture and carvings (very high value)",
+        "Confectionery (walnut fudge, barfi)",
+        "Export of walnuts-in-shell to USA, Germany, UAE"
+      ],
+      "mkts": 3,
+      "updated": "2026-09-01"
+    },
+    {
+      "id": "almond",
+      "name": "Almond (Badam)",
+      "hindi": "बादाम",
+      "icon": "🟤",
+      "category": "Fruits",
+      "price": 95000,
+      "min": 95000,
+      "max": 95000,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Jammu & Kashmir",
+        "Himachal Pradesh",
+        "Uttarakhand"
+      ],
+      "season": "Summer harvest (May-Jul)",
+      "description": "J&K's Budgam, Pulwama and Anantnag districts produce India's indigenous Mamra almond - a soft-shell variety richer in oil than California almonds - and these sell at ₹3,000-5,000/kg retail compared to ₹700-1,200/kg for imported Californian almonds. India imports 90% of its almond requirement from the USA (primarily), making domestic Mamra almond one of the most valuable tree crops per hectare.",
+      "varieties": [
+        "Mamra (J&K indigenous - premium variety)",
+        "Waris (J&K local hard shell)",
+        "Non Pareil (California type, trial in HP)",
+        "Ne Plus Ultra (HP hills)",
+        "IXL (trial variety)"
+      ],
+      "uses": [
+        "Edible kernel - premium snack and health food",
+        "Almond oil for cooking and cosmetics",
+        "Almond milk and almond flour (health food trend)",
+        "Confectionery (kalakand, barfi, halwa)",
+        "Skin care and hair oil (almond oil massage)"
+      ],
+      "mkts": 1,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "marigold",
+      "name": "Marigold (Genda Phool)",
+      "hindi": "गेंदा",
+      "icon": "🌼",
+      "category": "Flowers",
+      "price": 15500,
+      "min": 7000,
+      "max": 32500,
+      "unit": "quintal",
+      "change": 2000,
+      "trend": "up",
+      "major_states": [
+        "Karnataka",
+        "Tamil Nadu",
+        "West Bengal",
+        "Uttar Pradesh",
+        "Andhra Pradesh"
+      ],
+      "season": "Year-round (peak: Oct-Feb for festivals)",
+      "description": "Marigold (genda phool) is India's most commercially grown flower crop - the vibrant orange garlands are essential in virtually every Hindu wedding, puja and festival, creating year-round demand. Karnataka is the top producer and India exports marigold extract (lutein and zeaxanthin from dried petals) to the USA and Europe for eye-health supplements at ₹1,500-3,000/kg.",
+      "varieties": [
+        "Pusa Narangi Gainda (IARI orange)",
+        "Inca Series (hybrid African marigold)",
+        "Pusa Basanti Gainda (yellow)",
+        "MDU-1 (Tamil Nadu double petal)",
+        "Crackerjack (American tall hybrid)"
+      ],
+      "uses": [
+        "Wedding and puja decoration garlands",
+        "Loose flower sale for temple offerings",
+        "Lutein and zeaxanthin extraction for eye health supplements",
+        "Natural yellow/orange food and textile dye",
+        "Dried marigold petals for herbal tea and pot-pourri"
+      ],
+      "mkts": 27,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "mentha",
+      "name": "Mentha (Pudina / Mint)",
+      "hindi": "पुदीना",
+      "icon": "🌿",
+      "category": "Cash Crops",
+      "price": 4750,
+      "min": 3000,
+      "max": 6000,
+      "unit": "kg",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Uttar Pradesh",
+        "Punjab",
+        "Haryana",
+        "Madhya Pradesh",
+        "Rajasthan"
+      ],
+      "season": "Summer (Sow: Jan-Feb, Harvest: May-Jun; 3 cuts/year)",
+      "description": "Uttar Pradesh produces 85-90% of India's mentha (mint) crop and India is the world's largest mentha oil producer, supplying 80% of global demand for natural menthol used in toothpastes, mouthwashes, confectionery, pharmaceutical throat lozenges and pan masala. UP's Barabanki, Badaun and Rampur districts are the world's mentha oil hub, with steam distillation units processing millions of tonnes annually.",
+      "varieties": [
+        "Himalayan Mentha (MAS-1 - most popular)",
+        "Kosi (UP high oil content)",
+        "Shivalik (CIMAP hybrid)",
+        "CIM-Madhuras (spearmint type)",
+        "MSS-5 (double harvest type)"
+      ],
+      "uses": [
+        "Menthol crystals for pharma (cough drops, balms)",
+        "Peppermint oil for toothpaste and mouthwash",
+        "Flavouring for confectionery (mint candy)",
+        "Pan masala and gutkha flavour ingredient",
+        "Aromatherapy and skincare products"
+      ],
+      "mkts": 172,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "guar-seed",
+      "name": "Guar Seed (Cluster Bean Seed)",
+      "hindi": "ग्वार दाना",
+      "icon": "🌿",
+      "category": "Cash Crops",
+      "price": 4000,
+      "min": 2750,
+      "max": 9000,
+      "unit": "quintal",
+      "change": -200,
+      "trend": "down",
+      "major_states": [
+        "Rajasthan",
+        "Haryana",
+        "Gujarat",
+        "Punjab",
+        "Uttar Pradesh"
+      ],
+      "season": "Kharif (Sow: Jun-Jul, Harvest: Sep-Oct)",
+      "msp": 5887,
+      "msp_season": "Kharif 2025-26",
+      "description": "Guar seed is India's most strategically valuable industrial crop because guar gum controls 85% of the global fracking fluid thickener market - every oil well drilled in the USA and Canada requires guar gum. Rajasthan produces 70% of India's guar and the commodity price oscillates wildly with US shale oil drilling activity, making guar one of the most volatile commodity markets in India.",
+      "varieties": [
+        "RGC-1066 (Rajasthan most grown)",
+        "HG-2-20 (Haryana high-yield)",
+        "GNGH-1 (Gujarat)",
+        "FS-277 (dual-purpose fodder+grain)",
+        "RGC-1031 (drought tolerant Rajasthan)"
+      ],
+      "uses": [
+        "Guar gum for oil drilling fracking fluid (US shale oil - biggest use)",
+        "Food-grade guar gum (E412) for ice cream, sauces, bakery",
+        "Textile sizing and paper manufacturing",
+        "Guar meal for cattle and poultry feed",
+        "Pharmaceutical tablet binder and stabiliser"
+      ],
+      "mkts": 327,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "ashwagandha",
+      "name": "Ashwagandha (Withania)",
+      "hindi": "अश्वगंधा",
+      "icon": "🌿",
+      "category": "Medicinal Crops",
+      "price": 14500,
+      "min": 14500,
+      "max": 14500,
+      "unit": "quintal",
+      "change": -2400,
+      "trend": "down",
+      "major_states": [
+        "Madhya Pradesh",
+        "Rajasthan",
+        "Gujarat",
+        "Haryana",
+        "Uttar Pradesh"
+      ],
+      "season": "Kharif-Rabi (Sow: Sep-Oct, Harvest: Jan-Mar)",
+      "description": "Ashwagandha (Indian ginseng) is India's fastest-growing medicinal crop and the global adaptogen supplement market for ashwagandha root extract (withanolide standardised) is growing at 15% annually, reaching ₹8,000+ crore. India exports 90% of global ashwagandha requirement, with Madhya Pradesh's Mandsaur and Neemuch - already India's opium trading hubs - now becoming major ashwagandha processing centres.",
+      "varieties": [
+        "Poshita (CIMAP, Lucknow - commercial standard)",
+        "JA-20 (Jabalpur MP high withanolide)",
+        "WS-20 (Rajasthan selected)",
+        "NMK (MPKV Maharashtra)",
+        "Local Rajasthan wild type (high potency but low yield)"
+      ],
+      "uses": [
+        "Withanolide extract for stress and anxiety supplements",
+        "Ashwagandha root powder for KSM-66 and Sensoril extracts (export)",
+        "Classical Ayurvedic rasayana (rejuvenator)",
+        "Fitness supplement - testosterone and recovery support",
+        "Animal tonic preparation in veterinary Ayurveda"
+      ],
+      "mkts": 1,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "lemongrass",
+      "name": "Lemongrass (Cymbopogon)",
+      "hindi": "नींबू घास",
+      "icon": "🌿",
+      "category": "Medicinal Crops",
+      "price": 1400,
+      "min": 700,
+      "max": 2500,
+      "unit": "quintal",
+      "change": 22,
+      "trend": "up",
+      "major_states": [
+        "Kerala",
+        "Uttar Pradesh",
+        "Odisha",
+        "Uttarakhand",
+        "Arunachal Pradesh"
+      ],
+      "season": "Year-round (3-4 cuts/year; perennial)",
+      "description": "India is the world's largest lemongrass oil producer and the Nilgiri foothills of Kerala and Odisha's Ganjam district supply most of India's high-quality citral-rich lemongrass oil to the global flavour, fragrance and pharmaceutical industries. Lemongrass oil (citral content 70-85%) is the primary raw material for synthesising ionone (violet perfume) and Vitamin A precursors in the chemical industry.",
+      "varieties": [
+        "OD-19 (Odisha - high citral)",
+        "Pragati (CIMAP Lucknow - most planted)",
+        "CKP-25 (Kerala type)",
+        "Krishna (CIMAP high-yield)",
+        "OD-440 (Odisha drought tolerant)"
+      ],
+      "uses": [
+        "Lemongrass essential oil for perfumery and cosmetics",
+        "Citral extraction for ionone (violet fragrance synthesis)",
+        "Vitamin A precursor manufacturing (pharmaceutical)",
+        "Lemongrass tea (health beverage)",
+        "Natural insect repellent and aromatherapy"
+      ]
+    },
+    {
+      "id": "poppy-seed",
+      "name": "Poppy Seed (Khus Khus)",
+      "hindi": "खसखस / पोस्ता",
+      "icon": "⚪",
+      "category": "Spices",
+      "price": 7800,
+      "min": 5760,
+      "max": 19500,
+      "unit": "quintal",
+      "change": 200,
+      "trend": "up",
+      "major_states": [
+        "Madhya Pradesh",
+        "Himachal Pradesh",
+        "Rajasthan",
+        "Uttar Pradesh"
+      ],
+      "season": "Rabi (Sow: Oct-Nov, Harvest: Feb-Mar) - licensed crop",
+      "description": "India is the world's only legal large-scale opium producer under International Narcotics Control Board (INCB) licence, cultivated in MP, HP and Rajasthan on strictly licensed plots. The poppy seed (khus khus) is the legal culinary byproduct and is a premium spice (zero alkaloid content in the seed) used in Mughal-origin gravies, bread and halwa, selling at ₹700-1,500/kg retail.",
+      "varieties": [
+        "Kirtiman (CSIR licensed variety)",
+        "NOP-4 (NBPGR variety)",
+        "Sujata (licensed MP variety)",
+        "Local Rajasthan (licensed landrace)",
+        "T-1 (high-yield licensed trial)"
+      ],
+      "uses": [
+        "Khus khus in cooking (creamy gravies, curries, halwa)",
+        "Poppy seed bread topping (export bakery)",
+        "Opium latex for pharmaceutical morphine and codeine (licensed)",
+        "Cold-pressed poppy seed oil for salads (Europe)",
+        "Bird feed ingredient (small quantity)"
+      ],
+      "mkts": 90,
+      "updated": "2026-09-02"
+    },
+    {
+      "id": "bay-leaf",
+      "name": "Bay Leaf (Tej Patta)",
+      "hindi": "तेज पत्ता",
+      "icon": "🍂",
+      "category": "Spices",
+      "price": 3000,
+      "min": 3000,
+      "max": 3000,
+      "unit": "quintal",
+      "change": 600,
+      "trend": "up",
+      "major_states": [
+        "Uttarakhand",
+        "Himachal Pradesh",
+        "Meghalaya",
+        "Assam",
+        "Sikkim"
+      ],
+      "season": "Year-round harvest (leaves dried Nov-Mar)",
+      "description": "Indian bay leaf (tej patta) is the leaf of the Cinnamomum tamala tree - botanically distinct from European bay laurel (Laurus nobilis) - and gives a unique cinnamon-clove flavour that is irreplaceable in Indian biryani and garam masala. Uttarakhand's Tehri Garhwal and Chamoli districts supply most of India's tej patta from wild-harvested trees, and the leaves are exported to the USA and the UK at ₹8,000-15,000/quintal.",
+      "varieties": [
+        "Cinnamomum tamala (Indian type - tej patta)",
+        "Laurus nobilis (European bay - limited India)",
+        "Malabar leaf (South India semi-wild)",
+        "Himalayan wild harvest (Uttarakhand)",
+        "CSIR-NBRI selected clone"
+      ],
+      "uses": [
+        "Biryani and pulao flavouring (essential spice)",
+        "Garam masala blend ingredient",
+        "Bay leaf essential oil for perfumery",
+        "Export to USA, UK as whole dried spice",
+        "Traditional remedy for diabetes (research-backed)"
+      ],
+      "mkts": 1,
+      "updated": "2026-08-31"
+    },
+    {
+      "id": "long-pepper",
+      "name": "Long Pepper (Pipali)",
+      "hindi": "पिपली",
+      "icon": "⚫",
+      "category": "Spices",
+      "price": 65000,
+      "min": 1750,
+      "max": 75000,
+      "unit": "quintal",
+      "change": 0,
+      "trend": "same",
+      "major_states": [
+        "Karnataka",
+        "Kerala",
+        "Andhra Pradesh",
+        "Odisha",
+        "Tamil Nadu"
+      ],
+      "season": "Year-round (main harvest: Oct-Mar)",
+      "description": "Long pepper (pipali) was the original pepper of the ancient world - more widely traded than black pepper in classical India and Rome - and is experiencing a revival as a premium Ayurvedic ingredient. It contains piperine at 4-5% (versus 2-4% in black pepper) and the bioavailability-enhancing property of piperine is driving pharmaceutical demand for pipali extract in nutraceutical formulations globally.",
+      "varieties": [
+        "Arjun (IISR Kerala - high-yield)",
+        "Local Andhra type",
+        "Odisha local wild type",
+        "IISR Mahima (improved Karnataka)",
+        "Panchami (Kerala perennial vine)"
+      ],
+      "uses": [
+        "Traditional Ayurvedic medicine for respiratory disorders",
+        "Trikatu formulation (pipali, black pepper, ginger)",
+        "Piperine extraction for pharmaceutical bioavailability",
+        "Export to USA, Germany for supplement manufacturing",
+        "Spice in pickles and traditional cooking"
+      ],
+      "mkts": 19,
+      "updated": "2026-09-02"
+    }
+  ]
+}

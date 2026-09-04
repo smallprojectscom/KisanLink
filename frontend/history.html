@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KisanLink - Transaction History</title>
+
+    <link rel="stylesheet" href="css/history.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+    <a href="farmer-dashboard.html" id="backButton" class="back-btn">
+        ← Dashboard
+    </a>
+
+    <div class="brand">
+        🌾 KisanLink
+    </div>
+
+    <div class="user-name" id="userName">
+        Loading...
+    </div>
+
+</header>
+
+
+<main class="container">
+
+    <section class="heading">
+
+        <div>
+            <p class="eyebrow">KISANLINK MARKETPLACE</p>
+
+            <h1 id="pageTitle">
+                Transaction History
+            </h1>
+
+            <p id="pageSubtitle">
+                Track your agricultural deals
+            </p>
+        </div>
+
+        <div class="stats">
+            <strong id="dealCount">0</strong>
+            <span>Total Deals</span>
+        </div>
+
+    </section>
+
+
+    <section id="historyFeed">
+
+        <div class="loading">
+            <div class="loader"></div>
+            <p>Loading transaction history...</p>
+        </div>
+
+    </section>
+
+</main>
+
+
+<script src="js/history.js"></script>
+
+</body>
+</html>
+

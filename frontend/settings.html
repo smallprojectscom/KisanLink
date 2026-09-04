@@ -1,0 +1,222 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KisanLink - Settings</title>
+
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/settings.css">
+</head>
+
+<body>
+
+<div class="settings-layout">
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+            <div class="logo-mark">K</div>
+
+            <div class="sidebar-brand-text">
+                <strong>KisanLink</strong>
+                <small id="panelLabel">Panel</small>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+
+            <a href="farmer-dashboard.html" class="nav-item dashboard-link">
+                <span class="nav-icon">⌂</span>
+                <span>Dashboard</span>
+            </a>
+
+            <a href="sell-crop.html" class="nav-item farmer-only">
+                <span class="nav-icon">＋</span>
+                <span>Sell Crop</span>
+            </a>
+
+            <a href="market.html" class="nav-item">
+                <span class="nav-icon">🛒</span>
+                <span>Buy / Market</span>
+            </a>
+
+            <a href="requests.html" class="nav-item">
+                <span class="nav-icon">💬</span>
+                <span>Requests</span>
+            </a>
+
+            <a href="price-discovery.html" class="nav-item">
+                <span class="nav-icon">₹</span>
+                <span>Market Prices</span>
+            </a>
+
+            <a href="history.html" class="nav-item">
+                <span class="nav-icon">▣</span>
+                <span>History</span>
+            </a>
+
+            <a href="settings.html" class="nav-item active">
+                <span class="nav-icon">⚙</span>
+                <span>Settings</span>
+            </a>
+
+        </nav>
+
+        <a href="auth.html"
+           class="nav-item logout-item"
+           onclick="sessionStorage.clear();">
+            <span class="nav-icon">↪</span>
+            <span>Logout</span>
+        </a>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="settings-main">
+
+        <div class="settings-header">
+            <div>
+                <p class="eyebrow">ACCOUNT</p>
+                <h1>Settings</h1>
+                <p>Manage your KisanLink account and preferences.</p>
+            </div>
+        </div>
+
+
+        <!-- PROFILE -->
+        <section class="settings-card">
+
+            <div class="card-title">
+                <div class="settings-icon">👤</div>
+
+                <div>
+                    <h2>Profile</h2>
+                    <p>Your KisanLink account information</p>
+                </div>
+            </div>
+
+            <div class="profile-box">
+
+                <div class="profile-avatar" id="profileAvatar">
+                    K
+                </div>
+
+                <div class="profile-info">
+
+                    <h3 id="profileName">
+                        KisanLink User
+                    </h3>
+
+                    <p id="profileRole">
+                        Account
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACCOUNT -->
+        <section class="settings-card">
+
+            <div class="card-title">
+                <div class="settings-icon">🔐</div>
+
+                <div>
+                    <h2>Account</h2>
+                    <p>Account and login information</p>
+                </div>
+            </div>
+
+            <div class="setting-row">
+
+                <div>
+                    <strong>Account Status</strong>
+                    <span>Your KisanLink account is active.</span>
+                </div>
+
+                <span class="status-active">
+                    Active
+                </span>
+
+            </div>
+
+            <div class="setting-row">
+
+                <div>
+                    <strong>Role</strong>
+                    <span id="accountRole">
+                        —
+                    </span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PREFERENCES -->
+        <section class="settings-card">
+
+            <div class="card-title">
+                <div class="settings-icon">⚙</div>
+
+                <div>
+                    <h2>Preferences</h2>
+                    <p>Customize your KisanLink experience</p>
+                </div>
+            </div>
+
+            <div class="setting-row">
+
+                <div>
+                    <strong>Notifications</strong>
+                    <span>Receive updates about requests and deals.</span>
+                </div>
+
+                <label class="switch">
+                    <input type="checkbox" id="notificationToggle" checked>
+                    <span class="slider"></span>
+                </label>
+
+            </div>
+
+        </section>
+
+
+        <!-- ACTIONS -->
+        <section class="settings-card danger-card">
+
+            <div class="card-title">
+
+                <div class="settings-icon">↪</div>
+
+                <div>
+                    <h2>Session</h2>
+                    <p>Leave your KisanLink account</p>
+                </div>
+
+            </div>
+
+            <button class="logout-button" id="logoutButton">
+                Logout
+            </button>
+
+        </section>
+
+    </main>
+
+</div>
+
+
+<script src="js/role-guard.js"></script>
+<script src="js/dashboard-role.js"></script>
+<script src="js/settings.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Crop | KisanLink</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <style>
+        .sell-page {
+            padding: 30px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .sell-header {
+            margin-bottom: 25px;
+        }
+
+        .sell-header h1 {
+            margin-bottom: 6px;
+        }
+
+        .sell-header p {
+            color: #6d7d72;
+        }
+
+        .crop-form-card {
+            background: #fffdf7;
+            border-radius: 18px;
+            padding: 30px;
+            box-shadow: 0 8px 30px rgba(32, 51, 40, 0.08);
+            border: 1px solid #dcebd8;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .form-group.full {
+            grid-column: 1 / -1;
+        }
+
+        .form-group label {
+            font-weight: 600;
+            color: #203328;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            padding: 13px 15px;
+            border: 1px solid #cbd8ce;
+            border-radius: 10px;
+            font-size: 15px;
+            font-family: inherit;
+            background: white;
+            outline: none;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: #2f7d4a;
+        }
+
+        .form-group textarea {
+            min-height: 110px;
+            resize: vertical;
+        }
+
+        .submit-btn {
+            margin-top: 25px;
+            width: 100%;
+            padding: 15px;
+            border: none;
+            border-radius: 11px;
+            background: #2f7d4a;
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background: #17452d;
+        }
+
+        .message {
+            margin-top: 15px;
+            padding: 12px;
+            border-radius: 10px;
+            display: none;
+        }
+
+        @media (max-width: 700px) {
+            .sell-page {
+                padding: 20px;
+            }
+
+            .form-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .form-group.full {
+                grid-column: auto;
+            }
+        }
+    </style>
+</head>
+
+<body><a href="farmer-dashboard.html" style="display:inline-block;margin:20px;padding:11px 17px;background:#174d32;color:white;text-decoration:none;border-radius:12px;font-weight:bold;">← Back to Dashboard</a>
+
+<div class="sell-page">
+
+    <div class="sell-header">
+        <h1>?? Sell Your Crop</h1>
+        <p>List your crop and connect directly with suitable buyers.</p>
+    </div>
+
+    <div class="crop-form-card">
+
+        <form id="sellCropForm">
+
+            <div class="form-grid">
+
+                <div class="form-group">
+                    <label for="cropName">Crop Name</label>
+                    <input
+                        type="text"
+                        id="cropName"
+                        placeholder="e.g. Wheat"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="quantity">Quantity</label>
+                    <input
+                        type="number"
+                        id="quantity"
+                        placeholder="e.g. 500"
+                        min="1"
+                        step="0.01"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="unit">Unit</label>
+                    <select id="unit" required>
+                        <option value="">Select unit</option>
+                        <option value="kg">Kilogram (kg)</option>
+                        <option value="quintal">Quintal</option>
+                        <option value="ton">Ton</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="price">Expected Price (?)</label>
+                    <input
+                        type="number"
+                        id="price"
+                        placeholder="e.g. 28"
+                        min="1"
+                        step="0.01"
+                        required
+                    >
+                </div>
+
+                <div class="form-group full">
+                    <label for="location">Location</label>
+                    <input
+                        type="text"
+                        id="location"
+                        placeholder="e.g. Gaya, Bihar"
+                        required
+                    >
+                </div>
+
+                <div class="form-group full">
+                    <label for="description">Description</label>
+                    <textarea
+                        id="description"
+                        placeholder="Describe your crop quality, harvesting date, etc."
+                    ></textarea>
+                </div>
+
+            </div>
+
+            <button type="submit" class="submit-btn">
+                List Crop for Sale
+            </button>
+
+            <div id="message" class="message"></div>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+
+<script src="js/sell-crop.js?v=2"></script>`r`n</body>
+</html>
+
+
+
+
+

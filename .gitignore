@@ -1,0 +1,48 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# SQLite / local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups
+*_backup*
+*backup*
+*.bak
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Local project backups
+SIH26132_PYTHON_BACKUP_FINAL/

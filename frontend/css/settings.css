@@ -1,0 +1,278 @@
+﻿/* ==========================================
+   KISANLINK SETTINGS
+   ========================================== */
+
+.settings-layout {
+    min-height: 100vh;
+    display: flex;
+}
+
+.settings-main {
+    flex: 1;
+    padding: 42px 48px;
+    background: #f7f8f3;
+    min-height: 100vh;
+}
+
+.settings-header {
+    margin-bottom: 30px;
+}
+
+.settings-header .eyebrow {
+    color: #2d8a4e;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin: 0 0 8px;
+}
+
+.settings-header h1 {
+    margin: 0;
+    color: #173d29;
+    font-size: 32px;
+}
+
+.settings-header p:not(.eyebrow) {
+    color: #718078;
+    margin-top: 8px;
+}
+
+.settings-card {
+    background: #ffffff;
+    border: 1px solid #e2e9e3;
+    border-radius: 18px;
+    padding: 25px;
+    margin-bottom: 20px;
+    max-width: 850px;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 22px;
+}
+
+.settings-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background: #e8f4eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.card-title h2 {
+    margin: 0;
+    color: #183e29;
+    font-size: 18px;
+}
+
+.card-title p {
+    margin: 4px 0 0;
+    color: #7a887f;
+    font-size: 13px;
+}
+
+.profile-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px;
+    background: #f6faf6;
+    border-radius: 14px;
+}
+
+.profile-avatar {
+    width: 58px;
+    height: 58px;
+    border-radius: 16px;
+    background: #f0c54f;
+    color: #17452d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.profile-info h3 {
+    margin: 0;
+    color: #183e29;
+    font-size: 18px;
+}
+
+.profile-info p {
+    margin: 5px 0 0;
+    color: #718078;
+    font-size: 13px;
+}
+
+.setting-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 17px 0;
+    border-top: 1px solid #edf1ed;
+}
+
+.setting-row strong {
+    display: block;
+    color: #244432;
+    font-size: 14px;
+}
+
+.setting-row span:not(.slider):not(.status-active) {
+    display: block;
+    margin-top: 5px;
+    color: #7a887f;
+    font-size: 12px;
+}
+
+.status-active {
+    background: #e5f5e9;
+    color: #218047;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+
+/* Toggle */
+
+.switch {
+    position: relative;
+    width: 46px;
+    height: 25px;
+    flex-shrink: 0;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    background: #ccd5ce;
+    border-radius: 30px;
+    transition: 0.2s;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    left: 3px;
+    top: 3px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+
+.switch input:checked + .slider {
+    background: #2e8750;
+}
+
+.switch input:checked + .slider:before {
+    transform: translateX(21px);
+}
+
+
+/* Logout */
+
+.danger-card {
+    border-color: #f0dddd;
+}
+
+.logout-button {
+    border: none;
+    background: #b83c3c;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background: #a63131;
+}
+
+
+/* Responsive */
+
+@media (max-width: 800px) {
+
+    .settings-main {
+        padding: 28px 20px;
+    }
+
+    .settings-card {
+        padding: 20px;
+    }
+
+}
+
+/* ==========================================
+   SETTINGS PAGE - CONTENT POSITION FIX
+   ========================================== */
+
+.settings-layout {
+    min-height: 100vh !important;
+    width: 100% !important;
+}
+
+/* Dashboard sidebar is fixed, so reserve its space */
+.settings-main {
+    margin-left: 260px !important;
+    width: calc(100% - 260px) !important;
+    min-height: 100vh !important;
+    box-sizing: border-box !important;
+
+    padding: 42px 48px !important;
+    background: #f7f8f3 !important;
+}
+
+/* Keep settings content comfortably readable */
+.settings-header,
+.settings-card {
+    width: 100% !important;
+    max-width: 900px !important;
+    box-sizing: border-box !important;
+}
+
+.settings-header {
+    margin-bottom: 30px !important;
+}
+
+.settings-header h1 {
+    font-size: 32px !important;
+    margin: 0 !important;
+}
+
+@media (max-width: 900px) {
+
+    .settings-main {
+        margin-left: 260px !important;
+        width: calc(100% - 260px) !important;
+        padding: 30px !important;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .settings-main {
+        margin-left: 0 !important;
+        width: 100% !important;
+        padding: 25px 18px !important;
+    }
+
+}

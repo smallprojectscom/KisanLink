@@ -1,0 +1,1128 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --forest: #17452d;
+    --green: #2f7d4a;
+    --leaf: #63a35c;
+    --sage: #dcebd8;
+    --cream: #f8f3e5;
+    --earth: #8b6848;
+    --sun: #e9bd55;
+    --text: #203328;
+    --muted: #6d7d72;
+    --white: #fffdf7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--cream);
+    overflow-x: hidden;
+}
+
+/* =========================
+   BACKGROUND
+========================= */
+
+.garden-bg {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: -1;
+    background:
+        radial-gradient(circle at 85% 12%, rgba(99,163,92,.20), transparent 24%),
+        radial-gradient(circle at 8% 55%, rgba(233,189,85,.13), transparent 22%),
+        linear-gradient(135deg, #f8f3e5, #edf4e7);
+}
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {`r`n    position: relative;`r`n    z-index: 1000;
+    width: min(1180px, 92%);
+    margin: 18px auto 0;
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255,253,247,.82);
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(23,69,45,.10);
+    border-radius: 20px;
+    box-shadow: 0 10px 35px rgba(23,69,45,.08);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.brand-icon {
+    width: 45px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    font-size: 25px;
+    border-radius: 14px;
+    background: var(--sage);
+}
+
+.brand h1 {
+    font-size: 21px;
+    color: var(--forest);
+}
+
+.brand h1 span {
+    color: var(--green);
+}
+
+.brand p {
+    margin-top: 3px;
+    font-size: 10px;
+    color: var(--muted);
+}
+
+.navbar nav {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #506157;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.navbar nav a:hover {
+    color: var(--green);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.theme-btn {
+    width: 38px;
+    height: 38px;
+    border-radius: 12px;
+    background: var(--sage);
+}
+
+.login-btn,
+.signup-btn {
+    position: relative;
+    z-index: 1001;
+    cursor: pointer;
+    padding: 11px 17px;
+    border-radius: 12px;
+    font-weight: 700;
+}
+
+.login-btn {
+    background: transparent;
+    color: var(--forest);
+}
+
+.signup-btn {
+    background: var(--forest);
+    color: white;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    width: min(1180px, 92%);
+    margin: 70px auto 90px;
+    min-height: 560px;
+    display: grid;
+    grid-template-columns: 1.05fr .95fr;
+    align-items: center;
+    gap: 50px;
+}
+
+.eyebrow,
+.section-heading > span,
+.market-heading > div > span,
+.cta > span {
+    color: var(--green);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.8px;
+}
+
+.hero h2 {
+    margin-top: 18px;
+    font-size: clamp(45px, 5vw, 70px);
+    line-height: .98;
+    letter-spacing: -3px;
+    color: var(--forest);
+}
+
+.hero h2 span {
+    color: var(--green);
+}
+
+.hero-content > p {
+    max-width: 540px;
+    margin: 24px 0;
+    color: var(--muted);
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.primary-btn,
+.secondary-btn {
+    padding: 14px 22px;
+    border-radius: 14px;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.primary-btn {
+    background: var(--forest);
+    color: white;
+    box-shadow: 0 10px 25px rgba(23,69,45,.22);
+}
+
+.secondary-btn {
+    background: var(--white);
+    color: var(--forest);
+    border: 1px solid rgba(23,69,45,.13);
+}
+
+.trust-row {
+    display: flex;
+    gap: 35px;
+    margin-top: 45px;
+}
+
+.trust-row div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.trust-row strong {
+    color: var(--forest);
+    font-size: 20px;
+}
+
+.trust-row span {
+    color: var(--muted);
+    font-size: 11px;
+}
+
+/* =========================
+   FARM CARD
+========================= */
+
+.hero-visual {
+    position: relative;
+    min-height: 470px;
+    display: grid;
+    place-items: center;
+}
+
+.sun {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    background: rgba(233,189,85,.55);
+    filter: blur(1px);
+}
+
+.farm-card {
+    position: relative;
+    width: min(390px, 100%);
+    padding: 27px;
+    border-radius: 30px;
+    background: var(--white);
+    border: 1px solid rgba(23,69,45,.10);
+    box-shadow: 0 25px 60px rgba(23,69,45,.15);
+    z-index: 2;
+}
+
+.farm-top {
+    display: flex;
+    justify-content: space-between;
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.live {
+    color: var(--green);
+    font-weight: 800;
+}
+
+.farm-card h3 {
+    margin-top: 38px;
+    font-size: 25px;
+    color: var(--forest);
+}
+
+.price {
+    margin-top: 7px;
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--forest);
+}
+
+.price small {
+    font-size: 14px;
+    color: var(--muted);
+}
+
+.price-change {
+    display: inline-block;
+    margin: 5px 0 25px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    background: var(--sage);
+    color: var(--green);
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.market-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-top: 1px solid #e8ece5;
+    font-size: 12px;
+}
+
+.market-row strong {
+    color: var(--forest);
+}
+
+.market-btn {
+    width: 100%;
+    margin-top: 15px;
+    padding: 13px;
+    border-radius: 12px;
+    background: var(--green);
+    color: white;
+    font-weight: 800;
+}
+
+.leaf {
+    position: absolute;
+    font-size: 42px;
+}
+
+.leaf-one {
+    left: 5%;
+    bottom: 8%;
+    transform: rotate(-25deg);
+}
+
+.leaf-two {
+    right: 0;
+    bottom: 18%;
+    transform: rotate(30deg);
+}
+
+.leaf-three {
+    top: 15%;
+    left: 2%;
+    font-size: 30px;
+}
+
+/* =========================
+   FEATURES
+========================= */
+
+.features {
+    width: min(1180px, 92%);
+    margin: 0 auto 100px;
+}
+
+.section-heading {
+    text-align: center;
+    max-width: 650px;
+    margin: auto;
+}
+
+.section-heading h2 {
+    margin: 13px 0;
+    font-size: 40px;
+    color: var(--forest);
+}
+
+.section-heading h2 em {
+    color: var(--green);
+    font-style: normal;
+}
+
+.section-heading p {
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+.feature-grid {
+    margin-top: 42px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.feature-card {
+    padding: 25px;
+    min-height: 260px;
+    border-radius: 22px;
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 18px 40px rgba(23,69,45,.10);
+}
+
+.feature-card.green {
+    background: #d9ead5;
+}
+
+.feature-card.cream {
+    background: #fff8e8;
+}
+
+.feature-card.yellow {
+    background: #f5e6b9;
+}
+
+.feature-card.sage {
+    background: #dce7dd;
+}
+
+.feature-icon {
+    font-size: 31px;
+}
+
+.feature-card h3 {
+    margin: 25px 0 10px;
+    color: var(--forest);
+    font-size: 18px;
+}
+
+.feature-card p {
+    color: #66756a;
+    font-size: 13px;
+    line-height: 1.65;
+}
+
+.feature-card a {
+    display: inline-block;
+    margin-top: 18px;
+    color: var(--forest);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+/* =========================
+   MARKET
+========================= */
+
+.market-section {
+    width: min(1180px, 92%);
+    margin: 0 auto 100px;
+}
+
+.market-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.market-heading h2 {
+    margin-top: 9px;
+    font-size: 34px;
+    color: var(--forest);
+}
+
+.view-btn {
+    padding: 11px 15px;
+    border-radius: 12px;
+    background: var(--sage);
+    color: var(--forest);
+    font-weight: 800;
+}
+
+.crop-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.crop-card {
+    display: grid;
+    grid-template-columns: 52px 1fr auto;
+    align-items: center;
+    gap: 13px;
+    padding: 18px;
+    border-radius: 19px;
+    background: var(--white);
+    border: 1px solid rgba(23,69,45,.08);
+}
+
+.crop-icon {
+    width: 52px;
+    height: 52px;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    font-size: 26px;
+}
+
+.tomato {
+    background: #f5d8cf;
+}
+
+.wheat {
+    background: #f4e5b8;
+}
+
+.potato {
+    background: #e3d5c2;
+}
+
+.crop-card h3 {
+    color: var(--forest);
+    font-size: 15px;
+}
+
+.crop-card p {
+    margin-top: 4px;
+    color: var(--muted);
+    font-size: 11px;
+}
+
+.crop-card > strong {
+    color: var(--forest);
+}
+
+.crop-card small {
+    grid-column: 2 / 4;
+    margin-top: -5px;
+}
+
+.up {
+    color: var(--green);
+}
+
+.down {
+    color: var(--earth);
+}
+
+/* =========================
+   CTA
+========================= */
+
+.cta {
+    position: relative;
+    width: min(1180px, 92%);
+    margin: 0 auto 70px;
+    padding: 80px 30px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 35px;
+    background: var(--forest);
+    color: white;
+}
+
+.cta > span {
+    color: #a8d19e;
+}
+
+.cta h2 {
+    margin: 15px 0;
+    font-size: 46px;
+    line-height: 1.05;
+}
+
+.cta p {
+    max-width: 520px;
+    margin: 0 auto 25px;
+    color: #c8d8cb;
+    line-height: 1.6;
+}
+
+.cta-btn {
+    padding: 14px 22px;
+    border-radius: 13px;
+    background: var(--sun);
+    color: var(--forest);
+    font-weight: 900;
+}
+
+.cta-leaves {
+    position: absolute;
+    right: 35px;
+    top: 20px;
+    font-size: 80px;
+    opacity: .15;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    width: min(1180px, 92%);
+    margin: auto;
+    padding: 25px 0 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgba(23,69,45,.10);
+    color: var(--muted);
+    font-size: 12px;
+}
+
+.footer-brand {
+    color: var(--forest);
+    font-size: 16px;
+}
+
+footer > span {
+    color: var(--green);
+    font-weight: 800;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    .navbar nav {
+        display: none;
+    }
+
+    .hero {
+        grid-template-columns: 1fr;
+        margin-top: 45px;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero-content > p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons,
+    .trust-row {
+        justify-content: center;
+    }
+
+    .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .crop-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .navbar {`r`n    position: relative;`r`n    z-index: 1000;
+        padding: 10px;
+    }
+
+    .login-btn {
+        display: none;
+    }
+
+    .hero h2 {
+        font-size: 43px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .market-heading {
+        align-items: start;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .cta h2 {
+        font-size: 35px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+svg {
+    width: 1em;
+    height: 1em;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.brand-icon {
+    color: #17452d;
+}
+
+.brand-icon svg {
+    width: 28px;
+    height: 28px;
+    stroke-width: 2.2;
+}
+
+.theme-btn {
+    display: grid;
+    place-items: center;
+}
+
+.theme-btn svg {
+    width: 18px;
+    height: 18px;
+}
+
+.primary-btn,
+.secondary-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+}
+
+.primary-btn svg,
+.secondary-btn svg {
+    width: 19px;
+    height: 19px;
+}
+
+.eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.eyebrow-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #63a35c;
+}
+
+.opportunity-icon {
+    display: inline-flex;
+    color: #2f7d4a;
+    margin-right: 5px;
+}
+
+.opportunity-icon svg {
+    width: 18px;
+    height: 18px;
+}
+
+.farm-top {
+    align-items: center;
+}
+
+.live {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.live i {
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #63a35c;
+}
+
+.price-change {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.price-change svg {
+    width: 15px;
+    height: 15px;
+}
+
+.market-row span {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.market-row svg {
+    width: 15px;
+    height: 15px;
+    color: #2f7d4a;
+}
+
+.market-btn,
+.view-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.market-btn svg,
+.view-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+.feature-icon {
+    display: grid;
+    place-items: center;
+}
+
+.feature-icon svg {
+    width: 29px;
+    height: 29px;
+    stroke-width: 2.1;
+}
+
+.crop-icon {
+    display: grid;
+    place-items: center;
+}
+
+.crop-icon svg {
+    width: 32px;
+    height: 32px;
+    stroke-width: 1.8;
+}
+
+.tomato-icon {
+    background: #f5d8cf;
+    color: #a34f3c;
+}
+
+.wheat-icon {
+    background: #f4e5b8;
+    color: #94712b;
+}
+
+.potato-icon {
+    background: #e3d5c2;
+    color: #806247;
+}
+
+.cta-leaves svg {
+    width: 120px;
+    height: 120px;
+    stroke: #9fc79a;
+    stroke-width: 3;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.footer-brand svg {
+    width: 23px;
+    height: 23px;
+    stroke: #2f7d4a;
+    stroke-width: 2.3;
+}
+
+
+
+/* ===== LANDING PAGE BUTTON FIXES ===== */
+
+.nav-actions .login-btn,
+.nav-actions .signup-btn {
+    text-decoration: none !important;
+}
+
+.nav-actions .login-btn:hover,
+.nav-actions .signup-btn:hover,
+.nav-actions .login-btn:focus,
+.nav-actions .signup-btn:focus {
+    text-decoration: none !important;
+}
+
+.hero-buttons .primary-btn,
+.hero-buttons .secondary-btn {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.hero-buttons .primary-btn:hover,
+.hero-buttons .secondary-btn:hover {
+    transform: translateY(-2px);
+}
+
+/* ===== KISANLINK CROSS-BROWSER FIX ===== */
+
+/* Remove browser/default anchor underline everywhere in navbar */
+.nav-actions a.login-btn,
+.nav-actions a.signup-btn,
+.nav-actions .login-btn,
+.nav-actions .signup-btn {
+    text-decoration: none !important;
+    -webkit-text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+.nav-actions a.login-btn::before,
+.nav-actions a.login-btn::after,
+.nav-actions a.signup-btn::before,
+.nav-actions a.signup-btn::after {
+    text-decoration: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Keep navbar buttons clickable */
+.nav-actions .login-btn,
+.nav-actions .signup-btn {
+    cursor: pointer;
+}
+
+/* Theme button */
+.theme-btn {
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/* =========================================================
+   KISANLINK FINAL LANDING PAGE FIX
+   ========================================================= */
+
+/* ---------- LOGIN / GET STARTED ---------- */
+
+.nav-actions a.login-btn,
+.nav-actions a.signup-btn,
+.nav-actions a.login-btn:link,
+.nav-actions a.signup-btn:link,
+.nav-actions a.login-btn:visited,
+.nav-actions a.signup-btn:visited,
+.nav-actions a.login-btn:hover,
+.nav-actions a.signup-btn:hover,
+.nav-actions a.login-btn:active,
+.nav-actions a.signup-btn:active,
+.nav-actions a.login-btn:focus,
+.nav-actions a.signup-btn:focus {
+    text-decoration: none !important;
+    -webkit-text-decoration: none !important;
+    border-bottom: 0 !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Remove possible browser/pseudo-element underline */
+.nav-actions .login-btn::before,
+.nav-actions .login-btn::after,
+.nav-actions .signup-btn::before,
+.nav-actions .signup-btn::after {
+    content: none !important;
+    display: none !important;
+    border: 0 !important;
+    text-decoration: none !important;
+}
+
+/* ---------- THEME BUTTON ---------- */
+
+.theme-btn {
+    cursor: pointer !important;
+    border: none;
+    outline: none;
+}
+
+/* ---------- DARK MODE ---------- */
+
+html.dark-mode body,
+body.dark-mode {
+    background: #101814 !important;
+    color: #edf5ef !important;
+}
+
+html.dark-mode .navbar,
+body.dark-mode .navbar {
+    background: rgba(16, 24, 20, 0.95) !important;
+}
+
+html.dark-mode .navbar nav a {
+    color: #cbd8cf !important;
+}
+
+html.dark-mode .nav-actions,
+body.dark-mode .nav-actions {
+    color: #edf5ef;
+}
+
+html.dark-mode .login-btn,
+body.dark-mode .login-btn {
+    color: #dcebe1 !important;
+}
+
+html.dark-mode .signup-btn,
+body.dark-mode .signup-btn {
+    color: #ffffff !important;
+}
+
+html.dark-mode .hero,
+body.dark-mode .hero {
+    background: #101814 !important;
+}
+
+html.dark-mode .hero h1,
+body.dark-mode .hero h1 {
+    color: #f1f7f2 !important;
+}
+
+html.dark-mode .hero p,
+body.dark-mode .hero p {
+    color: #b9c8be !important;
+}
+
+html.dark-mode .farm-card,
+body.dark-mode .farm-card {
+    background: #18231d !important;
+    color: #edf5ef !important;
+    border-color: #2c3b31 !important;
+}
+
+html.dark-mode .farm-card h3,
+body.dark-mode .farm-card h3 {
+    color: #f1f7f2 !important;
+}
+
+html.dark-mode .farm-card .price,
+body.dark-mode .farm-card .price {
+    color: #ffffff !important;
+}
+
+html.dark-mode .farm-card .price-change,
+body.dark-mode .farm-card .price-change {
+    color: #79c98f !important;
+}
+
+html.dark-mode .market-row,
+body.dark-mode .market-row {
+    color: #cbd8cf !important;
+}
+
+html.dark-mode .market-row strong,
+body.dark-mode .market-row strong {
+    color: #f1f7f2 !important;
+}
+
+html.dark-mode .theme-btn,
+body.dark-mode .theme-btn {
+    background: #26382c !important;
+    color: #ffffff !important;
+}
+
+html.dark-mode .hero-buttons .secondary-btn,
+body.dark-mode .hero-buttons .secondary-btn {
+    color: #eaf4ed !important;
+    border-color: #45624e !important;
+}
+
+html.dark-mode .sun {
+    opacity: 0.12;
+}
+
+html.dark-mode .hero::before,
+body.dark-mode .hero::before {
+    opacity: 0.08;
+}
+
+/* ---------- SMOOTH THEME CHANGE ---------- */
+
+body,
+.navbar,
+.farm-card,
+.theme-btn,
+.hero,
+.hero h1,
+.hero p,
+.market-row {
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease;
+}
+
+/* ===== FINAL NAV LINK FIX ===== */
+
+.nav-actions .login-btn,
+.nav-actions .signup-btn,
+.nav-actions .login-btn:link,
+.nav-actions .signup-btn:link,
+.nav-actions .login-btn:visited,
+.nav-actions .signup-btn:visited,
+.nav-actions .login-btn:hover,
+.nav-actions .signup-btn:hover,
+.nav-actions .login-btn:active,
+.nav-actions .signup-btn:active,
+.nav-actions .login-btn:focus,
+.nav-actions .signup-btn:focus {
+    text-decoration: none !important;
+    -webkit-text-decoration: none !important;
+    text-decoration-line: none !important;
+    text-decoration-style: none !important;
+    text-decoration-thickness: 0 !important;
+    border-bottom: none !important;
+}
+
+.nav-actions .login-btn::before,
+.nav-actions .login-btn::after,
+.nav-actions .signup-btn::before,
+.nav-actions .signup-btn::after {
+    display: none !important;
+    content: none !important;
+}
+
+/* Dark button removed */
+.theme-btn {
+    display: none !important;
+}

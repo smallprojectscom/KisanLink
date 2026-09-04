@@ -1,0 +1,451 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>KisanLink - Farmer Dashboard</title>
+
+    <link rel="stylesheet" href="css/dashboard.css?v=20260903">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+    <div class="sidebar-logo">
+    <div class="logo-mark">K</div>
+
+    <div class="sidebar-brand-text">
+        <strong>KisanLink</strong>
+        <small id="panelLabel">Panel</small>
+    </div>
+</div>
+
+<nav class="sidebar-nav">
+
+        <a href="farmer-dashboard.html" class="nav-item">
+            <span class="nav-icon">⌂</span>
+            <span>Dashboard</span>
+        </a>
+
+        <a href="sell-crop.html" class="nav-item farmer-only">
+            <span class="nav-icon">＋</span>
+            <span>Sell Crop</span>
+        </a>
+
+        <a href="market.html" class="nav-item">
+            <span class="nav-icon">🛒</span>
+            <span>Buy / Market</span>
+        </a>
+
+        <a href="requests.html" class="nav-item">
+            <span class="nav-icon">💬</span>
+            <span>Requests</span>
+        </a>
+
+        <a href="price-discovery.html" class="nav-item"><span class="nav-icon">₹</span><span>Market Prices</span></a>
+
+        <a href="history.html" class="nav-item">
+            <span class="nav-icon">▣</span>
+            <span>History</span>
+        </a>
+
+        <a href="settings.html" class="nav-item"><span class="nav-icon">⚙</span><span>Settings</span></a>
+
+    </nav>
+
+    <a href="auth.html" class="nav-item logout-item"
+       onclick="sessionStorage.clear();">
+        <span class="nav-icon">↪</span>
+        <span>Logout</span>
+    </a>
+
+</aside>
+
+
+    <!-- MAIN -->
+    <main class="main-content">
+
+        <!-- TOP BAR -->
+        <header class="topbar">
+
+            <div>
+                <h1 id="dashboardTitle">Dashboard</h1>
+            </div>
+
+            <div class="top-actions">
+
+                <button class="icon-button" title="Notifications" onclick="showNotifications()">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9"></path>
+                        <path d="M13.7 21a2 2 0 0 1-3.4 0"></path>
+                    </svg>
+                    <span class="notification-dot"></span>
+                </button>
+
+                <div class="profile-mini">
+
+                    <div class="avatar" id="userAvatar">KL</div>
+
+                    <div>
+                        <strong id="userName">Loading...</strong>
+                        <span id="userRole">User</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- DASHBOARD CONTENT -->
+        <section class="dashboard">
+
+            <!-- HERO -->
+            <div class="dashboard-hero">
+
+                <div class="hero-content">
+
+                    <span class="hero-label">YOUR FARM MARKET</span>
+
+                    <h2>Grow your market.<br>Grow your future.</h2>
+
+                    <p>
+                        Sell your crops directly to buyers and get
+                        better market opportunities.
+                    </p>
+
+                    <button class="primary-button">
+                        + List a Crop
+                    </button>
+
+                </div>
+
+                <div class="hero-illustration">
+                    🌾
+                </div>
+
+            </div>
+
+
+            <!-- STAT CARDS -->
+            <div class="stats-grid">
+
+    <div class="stat-card">
+        <div class="stat-icon green">₹</div>
+        <div>
+            <span>Today's Sales</span>
+            <h3 id="todaySales">₹0</h3>
+            <small id="salesInfo">Real transactions</small>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-icon yellow">▣</div>
+        <div>
+            <span>Active Listings</span>
+            <h3 id="activeListings">0</h3>
+            <small id="listingInfo">Available crops</small>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-icon blue">💬</div>
+        <div>
+            <span>Buyer Requests</span>
+            <h3 id="buyerRequests">0</h3>
+            <small id="requestInfo">Pending requests</small>
+        </div>
+    </div>
+
+    <div class="stat-card">
+        <div class="stat-icon orange">👥</div>
+        <div>
+            <span>Market Reach</span>
+            <h3 id="marketReach">0</h3>
+            <small id="reachInfo">Interested buyers</small>
+        </div>
+    </div>
+
+</div>
+
+<!-- TWO COLUMN AREA -->
+            <div class="content-grid">
+
+                <!-- MY CROPS -->
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <div>
+                            <h3>My Crop Listings</h3>
+                            <p>Your currently listed products</p>
+                        </div>
+
+                        <a href="#">View all &#8594;</a>
+
+                    </div>
+
+
+                    <div class="crop-list">
+                    <div id="realCropListings"></div>
+                </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MARKET PRICES -->
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <div>
+                            <h3>Today's Market Prices</h3>
+                            <p>Nearby market comparison</p>
+                        </div>
+
+                        <a href="#">See market &#8594;</a>
+
+                    </div>
+
+
+                    <div class="price-list">
+
+                        <div class="price-row">
+
+                            <div class="crop-name">
+                                <span class="crop-dot"></span>
+                                Wheat
+                            </div>
+
+                            <strong>&#8377;2,800/q</strong>
+
+                            <span class="price-up">&#8593; 4.2%</span>
+
+                        </div>
+
+
+                        <div class="price-row">
+
+                            <div class="crop-name">
+                                <span class="crop-dot"></span>
+                                Rice
+                            </div>
+
+                            <strong>&#8377;4,200/q</strong>
+
+                            <span class="price-up">&#8593; 2.8%</span>
+
+                        </div>
+
+
+                        <div class="price-row">
+
+                            <div class="crop-name">
+                                <span class="crop-dot"></span>
+                                Potato
+                            </div>
+
+                            <strong>&#8377;2,400/q</strong>
+
+                            <span class="price-down">&#8595; 1.4%</span>
+
+                        </div>
+
+
+                        <div class="price-row">
+
+                            <div class="crop-name">
+                                <span class="crop-dot"></span>
+                                Maize
+                            </div>
+
+                            <strong>&#8377;2,100/q</strong>
+
+                            <span class="price-up">&#8593; 3.1%</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- REQUESTS + RECOMMENDATION -->
+            <div class="content-grid">
+
+                <div class="panel">
+
+                    <div class="panel-header">
+
+                        <div>
+                            <h3>Recent Buyer Requests</h3>
+                            <p>Buyers looking for your crops</p>
+                        </div>
+
+                        <a href="#">View requests &#8594;</a>
+
+                    </div>
+
+
+                    <div class="request-list">
+                    <div id="realBuyerRequests"></div>
+                </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="recommendation">
+
+                    <span class="recommendation-label">
+                        MARKET OPPORTUNITY
+                    </span>
+
+                    <h3>
+                        Wheat prices are rising
+                    </h3>
+
+                    <p>
+                        Current nearby market price is
+                        <strong>&#8377;2,800/q</strong>.
+                        Your listed price is competitive.
+                    </p>
+
+                    <button>
+                        View price insights &#8594;
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script>
+
+        function logoutUser() {
+
+            sessionStorage.removeItem("kisanlink_user_id");
+            sessionStorage.removeItem("kisanlink_role");
+            sessionStorage.removeItem("kisanlink_logged_in");
+
+            window.location.href = "auth.html";
+        }
+
+    </script>
+
+<script>
+
+function setupRoleBasedDashboard() {
+
+    const role = (sessionStorage.getItem("kisanlink_role") || "").toLowerCase();
+    const userName = sessionStorage.getItem("kisanlink_user_name");
+
+    if (role !== "farmer" && role !== "buyer") {
+        window.location.href = "./auth.html";
+        return;
+    }
+
+    const dashboardTitle = document.getElementById("dashboardTitle");
+    const panelLabel = document.getElementById("panelLabel");
+    const userRole = document.getElementById("userRole");
+    const userNameElement = document.getElementById("userName");
+    const avatar = document.getElementById("userAvatar");
+
+    const farmerOnly = document.querySelectorAll(".farmer-only");
+
+    if (role === "farmer") {
+
+        dashboardTitle.textContent = "Farmer Dashboard";
+        panelLabel.textContent = "Farmer Panel";
+        userRole.textContent = "Farmer";
+
+        farmerOnly.forEach(function(item) {
+            item.style.display = "flex";
+        });
+
+    } else {
+
+        dashboardTitle.textContent = "Buyer Dashboard";
+        panelLabel.textContent = "Buyer Panel";
+        userRole.textContent = "Buyer";
+
+        farmerOnly.forEach(function(item) {
+            item.style.display = "none";
+        });
+    }
+
+    if (userName) {
+
+        userNameElement.textContent = userName;
+
+        const words = userName.trim().split(/\s+/);
+
+        let initials =
+            words[0].charAt(0).toUpperCase();
+
+        if (words.length > 1) {
+            initials +=
+                words[words.length - 1].charAt(0).toUpperCase();
+        }
+
+        avatar.textContent = initials;
+
+    } else {
+
+        userNameElement.textContent =
+            role === "farmer" ? "Farmer" : "Buyer";
+
+        avatar.textContent =
+            role === "farmer" ? "F" : "B";
+    }
+}
+
+function showNotifications() {
+    alert("No new notifications.");
+}
+setupRoleBasedDashboard();
+
+</script>
+<script src="js/role-guard.js"></script><script src="js/dashboard-role.js?v=20260903"></script><script src="js/dashboard-data.js?v=20260904-1050"></script>`r`n</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,118 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KisanLink - Market</title>
+    <link rel="stylesheet" href="css/market.css">
+</head>
+<body>
+
+<header class="market-header">
+    <div class="brand">
+        <div class="brand-logo">🌾</div>
+        <div>
+            <h2>KisanLink</h2>
+            <span>Farmer Market</span>
+        </div>
+    </div>
+
+    <div class="header-actions">
+        <a href="farmer-dashboard.html" class="back-btn">← Dashboard</a>
+    </div>
+</header>
+
+<main class="market-container">
+
+    <section class="market-intro">
+        <div>
+            <h1>🌾 Farmer Market</h1>
+            <p>Discover fresh crops directly from farmers.</p>
+        </div>
+    </section>
+
+    <div class="search-box">
+        <span>🔎</span>
+        <input
+            type="text"
+            id="marketSearch"
+            placeholder="Search crop, farmer or location..."
+        >
+    </div>
+
+    <div class="market-filters">
+
+        <input
+            type="text"
+            id="marketLocation"
+            placeholder="📍 Location / District"
+        >
+
+        <input
+            type="number"
+            id="marketMinPrice"
+            placeholder="₹ Min Price"
+        >
+
+        <input
+            type="number"
+            id="marketMaxPrice"
+            placeholder="₹ Max Price"
+        >
+
+        <button onclick="applyMarketFilters()">
+            🔎 Search
+        </button>
+
+        <button onclick="resetMarketFilters()" class="reset-filter">
+            ↺ Reset
+        </button>
+
+    </div>
+
+    <div class="market-stats">
+        <div>
+            <strong id="productCount">0</strong>
+            <span>Available Crops</span>
+        </div>
+        <div>
+            <strong id="farmerCount">0</strong>
+            <span>Farmers</span>
+        </div>
+        <div>
+            <strong>Direct</strong>
+            <span>Farmer → Buyer</span>
+        </div>
+    </div>
+
+    <div id="marketFeed" class="market-feed">
+        <div class="loading">Loading farmer posts...</div>
+    </div>
+
+</main>
+
+<div id="requestModal" class="modal">
+    <div class="modal-card">
+        <button class="close-modal" onclick="closeRequest()">×</button>
+
+        <h2>Send Buy Request</h2>
+        <p id="requestCropName"></p>
+
+        <label>Quantity</label>
+        <input type="number" id="requestQuantity" placeholder="Quantity">
+
+        <label>Message</label>
+        <textarea id="requestMessage"
+            placeholder="Write your message to the farmer..."></textarea>
+
+        <button class="send-request" onclick="sendRequest()">
+            Send Request
+        </button>
+    </div>
+</div>
+
+<script src="js/market.js?v=4"></script>
+</body>
+</html>
+
+
