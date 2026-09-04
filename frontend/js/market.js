@@ -1,4 +1,4 @@
-﻿const API_BASE = "http://127.0.0.1:8081";
+﻿const API_BASE = "https://kisanlink-35wr.onrender.com";
 
 document.addEventListener("DOMContentLoaded", function () {
 
@@ -428,3 +428,4 @@ document.addEventListener("DOMContentLoaded", function () {
     loadProducts();
 
 });
+
