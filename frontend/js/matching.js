@@ -1,4 +1,16 @@
-﻿document.addEventListener("DOMContentLoaded", () => {
+﻿/* =========================================================
+   KISANLINK API CONFIGURATION
+   Localhost -> Local Python backend
+   Online    -> Render production backend
+   ========================================================= */
+
+window.KL_API = window.KL_API || (
+    ["localhost", "127.0.0.1"].includes(window.location.hostname)
+        ? "http://127.0.0.1:8081"
+        : "https://kisanlink-35wr.onrender.com"
+);
+
+document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("matchForm");
 
     if (form) {
@@ -87,7 +99,7 @@ async function findMatches() {
     try {
 
         const response = await fetch(
-            "http://127.0.0.1:8081/api/match",
+            "window.KL_API/api/match",
             {
                 method: "POST",
 
@@ -376,6 +388,9 @@ function escapeHtml(value) {
 
 window.findMatches = findMatches;
 window.contactFarmer = contactFarmer;
+
+
+
 
 
 

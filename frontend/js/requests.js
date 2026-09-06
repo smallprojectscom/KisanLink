@@ -1,4 +1,16 @@
-﻿document.addEventListener("DOMContentLoaded", function () {
+﻿/* =========================================================
+   KISANLINK API CONFIGURATION
+   Localhost -> Local Python backend
+   Online    -> Render production backend
+   ========================================================= */
+
+window.KL_API = window.KL_API || (
+    ["localhost", "127.0.0.1"].includes(window.location.hostname)
+        ? "http://127.0.0.1:8081"
+        : "https://kisanlink-35wr.onrender.com"
+);
+
+document.addEventListener("DOMContentLoaded", function () {
 
     const role =
         (sessionStorage.getItem("kisanlink_role") || "").toLowerCase();
@@ -72,7 +84,7 @@
 
             const response =
                 await fetch(
-                    "http://127.0.0.1:8081/api/requests?user_id=" +
+                    "window.KL_API/api/requests?user_id=" +
                     encodeURIComponent(userId) +
                     "&role=" +
                     encodeURIComponent(role)
@@ -365,7 +377,7 @@
 
             const response =
                 await fetch(
-                    "http://127.0.0.1:8081/api/requests/status",
+                    "window.KL_API/api/requests/status",
                     {
                         method: "POST",
 
@@ -445,6 +457,9 @@
                 }
 
 });
+
+
+
 
 
 

@@ -1,6 +1,18 @@
-﻿document.addEventListener("DOMContentLoaded", function () {
+﻿/* =========================================================
+   KISANLINK API CONFIGURATION
+   Localhost -> Local Python backend
+   Online    -> Render production backend
+   ========================================================= */
 
-    const API = "http://127.0.0.1:8081";
+window.KL_API = window.KL_API || (
+    ["localhost", "127.0.0.1"].includes(window.location.hostname)
+        ? "http://127.0.0.1:8081"
+        : "https://kisanlink-35wr.onrender.com"
+);
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    
 
     const loginForm = document.getElementById("loginFormElement");
     const registerForm = document.getElementById("registerFormElement");
@@ -404,6 +416,9 @@
     }
 
 });
+
+
+
 
 
 

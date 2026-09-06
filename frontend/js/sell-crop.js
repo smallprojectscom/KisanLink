@@ -1,4 +1,16 @@
-﻿document.addEventListener("DOMContentLoaded", function () {
+﻿/* =========================================================
+   KISANLINK API CONFIGURATION
+   Localhost -> Local Python backend
+   Online    -> Render production backend
+   ========================================================= */
+
+window.KL_API = window.KL_API || (
+    ["localhost", "127.0.0.1"].includes(window.location.hostname)
+        ? "http://127.0.0.1:8081"
+        : "https://kisanlink-35wr.onrender.com"
+);
+
+document.addEventListener("DOMContentLoaded", function () {
 
     const form = document.getElementById("sellCropForm");
 
@@ -37,7 +49,7 @@
         try {
 
             const response = await fetch(
-                "http://127.0.0.1:8081/api/products",
+                "window.KL_API/api/products",
                 {
                     method: "POST",
                     headers: {
@@ -77,6 +89,9 @@
     });
 
 });
+
+
+
 
 
 

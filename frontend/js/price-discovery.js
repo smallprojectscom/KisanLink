@@ -1,5 +1,17 @@
-﻿const PRICE_API = "https://farmer.in/api/open/prices.json";
-const KISANLINK_PRICE_API = "http://127.0.0.1:8081/api/prices";
+﻿/* =========================================================
+   KISANLINK API CONFIGURATION
+   Localhost -> Local Python backend
+   Online    -> Render production backend
+   ========================================================= */
+
+window.KL_API = window.KL_API || (
+    ["localhost", "127.0.0.1"].includes(window.location.hostname)
+        ? "http://127.0.0.1:8081"
+        : "https://kisanlink-35wr.onrender.com"
+);
+
+const PRICE_API = "https://farmer.in/api/open/prices.json";
+const KISANLINK_PRICE_API = "window.KL_API/api/prices";
 
 let allPrices = [];
 
@@ -405,6 +417,9 @@ document.addEventListener(
         loadPrices();
     }
 );
+
+
+
 
 
 

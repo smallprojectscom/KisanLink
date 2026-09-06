@@ -1,9 +1,21 @@
 ﻿/* =========================================================
+   KISANLINK API CONFIGURATION
+   Localhost -> Local Python backend
+   Online    -> Render production backend
+   ========================================================= */
+
+window.KL_API = window.KL_API || (
+    ["localhost", "127.0.0.1"].includes(window.location.hostname)
+        ? "http://127.0.0.1:8081"
+        : "https://kisanlink-35wr.onrender.com"
+);
+
+/* =========================================================
    KISANLINK - REAL DASHBOARD DATA
    SQLite -> C Backend -> Dashboard
    ========================================================= */
 
-const KL_API = "http://127.0.0.1:8081";
+
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -1084,6 +1096,9 @@ function escapeDashboard(value) {
         .replace(/'/g, "&#039;");
 
 }
+
+
+
 
 
 
