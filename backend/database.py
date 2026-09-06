@@ -25,9 +25,8 @@ class CompatCursor:
 
 
 class PostgresConnection:
-    def __init__(self, connection, pool):
+    def __init__(self, connection):
         self._connection = connection
-        self._pool = pool
         self._closed = False
 
     def execute(self, query, params=None):
@@ -57,7 +56,7 @@ class PostgresConnection:
         except Exception:
             pass
 
-        self._pool.putconn(self._connection)
+        self._connection.close()
 
 
 def using_postgres():
@@ -224,13 +223,16 @@ def initialize_database():
 
 def get_connection():
     if using_postgres():
-        pool = get_postgres_pool()
-        connection = pool.getconn()
+        import psycopg
+        from psycopg.rows import dict_row
 
-        return PostgresConnection(
-            connection,
-            pool
+        connection = psycopg.connect(
+            os.environ["DATABASE_URL"],
+            connect_timeout=15,
+            row_factory=dict_row
         )
+
+        return PostgresConnection(connection)
 
     initialize_sqlite_database()
 
@@ -242,11 +244,7 @@ def get_connection():
 
 
 def close_postgres_pool():
-    global _pg_pool
-
-    if _pg_pool is not None:
-        _pg_pool.close()
-        _pg_pool = None
+    pass
 
 
 def test_database():
