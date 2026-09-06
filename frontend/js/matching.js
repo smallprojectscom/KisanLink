@@ -1,4 +1,4 @@
-﻿/* =========================================================
+/* =========================================================
    KISANLINK API CONFIGURATION
    Localhost -> Local Python backend
    Online    -> Render production backend
@@ -99,7 +99,7 @@ async function findMatches() {
     try {
 
         const response = await fetch(
-            "window.KL_API/api/match",
+            window.KL_API + "/api/match",
             {
                 method: "POST",
 

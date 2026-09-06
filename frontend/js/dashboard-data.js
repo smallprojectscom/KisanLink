@@ -1,4 +1,4 @@
-﻿/* =========================================================
+/* =========================================================
    KISANLINK API CONFIGURATION
    Localhost -> Local Python backend
    Online    -> Render production backend

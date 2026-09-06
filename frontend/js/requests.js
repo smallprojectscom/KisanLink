@@ -1,4 +1,4 @@
-﻿/* =========================================================
+/* =========================================================
    KISANLINK API CONFIGURATION
    Localhost -> Local Python backend
    Online    -> Render production backend
@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const response =
                 await fetch(
-                    "window.KL_API/api/requests?user_id=" +
+                    window.KL_API + "/api/requests?user_id=" +
                     encodeURIComponent(userId) +
                     "&role=" +
                     encodeURIComponent(role)
@@ -377,7 +377,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const response =
                 await fetch(
-                    "window.KL_API/api/requests/status",
+                    window.KL_API + "/api/requests/status",
                     {
                         method: "POST",
 
@@ -450,11 +450,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-    if (status === "accepted") {
-                    window.location.href = "history.html";
-                } else {
-                    loadRequests();
-                }
+    loadRequests();
 
 });
 

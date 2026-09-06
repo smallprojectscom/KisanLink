@@ -1,4 +1,4 @@
-﻿/* =========================================================
+/* =========================================================
    KISANLINK API CONFIGURATION
    Localhost -> Local Python backend
    Online    -> Render production backend
@@ -11,7 +11,7 @@ window.KL_API = window.KL_API || (
 );
 
 const PRICE_API = "https://farmer.in/api/open/prices.json";
-const KISANLINK_PRICE_API = "window.KL_API/api/prices";
+const KISANLINK_PRICE_API = window.KL_API + "/api/prices";
 
 let allPrices = [];
 

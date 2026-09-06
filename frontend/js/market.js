@@ -1,4 +1,4 @@
-﻿/* =========================================================
+/* =========================================================
    KISANLINK API CONFIGURATION
    Localhost -> Local Python backend
    Online    -> Render production backend
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const query = params.toString();
 
             const response = await fetch(
-                API_BASE + "/api/products" + (query ? "?" + query : ""),
+                window.KL_API + "/api/products" + (query ? "?" + query : ""),
                 {
                     method: "GET",
                     cache: "no-store"
@@ -327,7 +327,7 @@ document.addEventListener("DOMContentLoaded", function () {
         try {
 
             const response = await fetch(
-                API_BASE + "/api/requests",
+                window.KL_API + "/api/requests",
                 {
                     method: "POST",
                     headers: {
