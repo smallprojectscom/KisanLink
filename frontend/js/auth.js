@@ -148,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
             try {
 
                 const response = await fetch(
-                    API + "/api/login",
+                    window.KL_API + "/api/login",
                     {
                         method: "POST",
 
@@ -287,7 +287,7 @@ document.addEventListener("DOMContentLoaded", function () {
             try {
 
                 const response = await fetch(
-                    API + "/api/register",
+                    window.KL_API + "/api/register",
                     {
                         method: "POST",
 
@@ -416,6 +416,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 });
+
 
 
 
