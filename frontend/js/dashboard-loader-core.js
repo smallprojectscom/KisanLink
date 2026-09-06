@@ -2,7 +2,7 @@
    REAL DASHBOARD DATA LOADER
    ========================================================= */
 
-const KL_API = "https://kisanlink-35wr.onrender.com";
+const KL_API = "http://127.0.0.1:8081";
 
 async function loadRealDashboardData() {
 
@@ -106,6 +106,7 @@ async function loadRealDashboardData() {
 
     }
 }
+
 
 
 

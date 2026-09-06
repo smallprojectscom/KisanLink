@@ -46,3 +46,12 @@ dist/
 
 # Local project backups
 SIH26132_PYTHON_BACKUP_FINAL/
+
+# Local test/reset scripts
+backend/reset_db.py
+
+# Database.py backup files
+backend/*.before_pool_fix
+
+# Accidental local files
+"hjdgysgduikbj ;sadvf.bat"

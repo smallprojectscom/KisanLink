@@ -72,7 +72,7 @@
 
             const response =
                 await fetch(
-                    "https://kisanlink-35wr.onrender.com/api/requests?user_id=" +
+                    "http://127.0.0.1:8081/api/requests?user_id=" +
                     encodeURIComponent(userId) +
                     "&role=" +
                     encodeURIComponent(role)
@@ -365,7 +365,7 @@
 
             const response =
                 await fetch(
-                    "https://kisanlink-35wr.onrender.com/api/requests/status",
+                    "http://127.0.0.1:8081/api/requests/status",
                     {
                         method: "POST",
 
@@ -445,6 +445,7 @@
                 }
 
 });
+
 
 
 

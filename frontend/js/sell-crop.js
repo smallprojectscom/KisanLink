@@ -37,7 +37,7 @@
         try {
 
             const response = await fetch(
-                "https://kisanlink-35wr.onrender.com/api/products",
+                "http://127.0.0.1:8081/api/products",
                 {
                     method: "POST",
                     headers: {
@@ -77,6 +77,7 @@
     });
 
 });
+
 
 
 

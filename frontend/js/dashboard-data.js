@@ -3,7 +3,7 @@
    SQLite -> C Backend -> Dashboard
    ========================================================= */
 
-const KL_API = "https://kisanlink-35wr.onrender.com";
+const KL_API = "http://127.0.0.1:8081";
 
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -199,32 +199,38 @@ function loadFarmerRealData(
 
     let todaySales = 0;
 
-    const now = new Date();
-
-    const todayString =
-        now.getFullYear() +
-        "-" +
-        String(now.getMonth() + 1).padStart(2, "0") +
-        "-" +
-        String(now.getDate()).padStart(2, "0");
+    const todayIST =
+        new Intl.DateTimeFormat(
+            "en-CA",
+            {
+                timeZone: "Asia/Kolkata",
+                year: "numeric",
+                month: "2-digit",
+                day: "2-digit"
+            }
+        ).format(new Date());
 
     completedDeals.forEach(function (deal) {
 
         if (!deal.created_at) return;
 
-        const dealDateString =
-            String(deal.created_at).slice(0, 10);
+        const dealIST =
+            new Intl.DateTimeFormat(
+                "en-CA",
+                {
+                    timeZone: "Asia/Kolkata",
+                    year: "numeric",
+                    month: "2-digit",
+                    day: "2-digit"
+                }
+            ).format(new Date(deal.created_at));
 
-        if (dealDateString === todayString) {
+        if (dealIST === todayIST) {
 
-            const quantity =
-                Number(deal.quantity) || 0;
-
-            const price =
-                Number(deal.agreed_price) || 0;
+            const quantity = Number(deal.quantity) || 0;
+            const price = Number(deal.agreed_price) || 0;
 
             todaySales += quantity * price;
-
         }
 
     });
@@ -1078,6 +1084,11 @@ function escapeDashboard(value) {
         .replace(/'/g, "&#039;");
 
 }
+
+
+
+
+
 
 
 

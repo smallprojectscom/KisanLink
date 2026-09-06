@@ -1,5 +1,5 @@
 ﻿const PRICE_API = "https://farmer.in/api/open/prices.json";
-const KISANLINK_PRICE_API = "https://kisanlink-35wr.onrender.com/api/prices";
+const KISANLINK_PRICE_API = "http://127.0.0.1:8081/api/prices";
 
 let allPrices = [];
 
@@ -405,5 +405,6 @@ document.addEventListener(
         loadPrices();
     }
 );
+
 
 

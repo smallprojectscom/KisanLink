@@ -1,6 +1,6 @@
 ﻿document.addEventListener("DOMContentLoaded", function () {
 
-    const API = "https://kisanlink-35wr.onrender.com";
+    const API = "http://127.0.0.1:8081";
 
     const loginForm = document.getElementById("loginFormElement");
     const registerForm = document.getElementById("registerFormElement");
@@ -404,6 +404,7 @@
     }
 
 });
+
 
 
 
